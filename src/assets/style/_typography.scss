@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400, 600');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Julius+Sans+One&display=swap');
 
 html {
   font-size: var(--base-font-size);
@@ -8,6 +9,8 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.45;
+
+  // font-family: "Archivo Narrow", sans-serif;
 }
 
 p {
@@ -18,9 +21,9 @@ h1, h2, h3, h4, h5 {
   transition: color .6s;
   color: var(--title-color);
   margin: 2.75rem 0 1rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  line-height: 1.15;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 400;
+  // line-height: 1.15;
 }
 
 
