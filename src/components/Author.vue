@@ -1,22 +1,27 @@
 <template>
-	<div class="author">
+  <div class="author">
+    <g-image
+      alt="Author image"
+      class="author__image"
+      src="~/assets/images/author.jpg"
+      width="180"
+      height="180"
+      blur="5"
+    />
 
-		<g-image alt="Author image" class="author__image" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
+    <h1 v-if="showTitle" class="author__site-title">{{ $static.metadata.siteName }}</h1>
 
-		<h1 v-if="showTitle" class="author__site-title">
-			{{ $static.metadata.siteName }}
-		</h1>
+    <p class="author__intro">{{ $static.metadata.siteDescription }}</p>
 
-		<p class="author__intro">
-			{{ $static.metadata.siteDescription }}
-		</p>
-
-		<p class="author__links">
-			<a href="//twitter.com/gridsome">Follow on Twitter</a>
-			<a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
-		</p>
-
-	</div>
+    <div class="navigation_bar">
+      <p class="author__links">
+        <g-link to="/about">About</g-link>
+        <g-link to="/posts">Posts</g-link>
+        <a href="//twitter.com/_raygervais">Twitter</a>
+        <a href="//github.com/raygervais">GitHub</a>
+      </p>
+    </div>
+  </div>
 </template>
 
 <static-query>
@@ -30,37 +35,51 @@ query {
 
 <script>
 export default {
-	props: ['showTitle']
-}
+  props: ["showTitle"]
+};
 </script>
 
 <style lang="scss">
 .author {
-	margin: 0 auto;
-	max-width: 500px;
-	text-align: center;
-	padding: calc(var(--space) / 2) 0;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  padding: calc(var(--space) / 2) 0;
 
-	&__image {
-		border-radius: 100%;
-		width: 90px;
-		height: 90px;
-		margin-bottom: 1em;
-	}
+  &__image {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 1em;
+  }
 
-	&__intro {
-		opacity: .8;
-	}
+  &__intro {
+    opacity: 0.8;
+  }
 
-	&__site-title {
-		font-size: 1.5em;
-	}
+  &__site-title {
+    font-size: 1.5em;
+  }
 
-	&__links {
-		margin-top: -.5em;
-		a {
-			margin: 0 .5em;
-		}
-	}
+  &__links {
+    padding: 1rem;
+
+    a {
+      transition: all linear 250ms;
+      text-decoration: none;
+      border-bottom: none;
+      border-radius: 5px;
+
+      margin: 0 0.5em;
+
+      padding: 1rem;
+
+      &:hover {
+        color: var(--bg-color);
+        background: var(--title-color);
+        padding: 1rem;
+      }
+    }
+  }
 }
 </style>
