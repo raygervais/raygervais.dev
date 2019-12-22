@@ -1,9 +1,11 @@
 ---
 title: "Trying New Things, at the Cost of Old"
-date: "2018-06-19"
+date: 2018-06-19
+published: true
+tags: ["Opinions", "Life Update", "Experiments"]
+cover_image: https://images.unsplash.com/photo-1521062034775-0116a839cf19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=865b97f1c893dc372572bed1c628fab1&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb
+description: "A few weeks ago, I went with my friend Svitlana to view [Frame by Frame](https://national.ballet.ca/Productions/2017-18-Season/Frame-by-Frame), a ballet which paid homage to filmmaker and animator Norman McLaren. It was the first time either of us had gone to see a show based around the expression of dance. Instead of citing her opinions, I thought I'd focus on mine and opt for anyone curious of hers to ask or encourage her to post an article on it. But, that's not the point of this writing either. Put brief, the show is a fantastical mix of the digital modern aesthetic, classic analog grime, and contemporary fluidity used to depths which I never thought possible. Absolutely amazing. But, what is the point of this article?"
 ---
-
-[![](https://images.unsplash.com/photo-1521062034775-0116a839cf19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=865b97f1c893dc372572bed1c628fab1&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb)](https://unsplash.com/@bernardogs)
 
 A few weeks ago, I went with my friend Svitlana to view [Frame by Frame](https://national.ballet.ca/Productions/2017-18-Season/Frame-by-Frame), a ballet which paid homage to filmmaker and animator Norman McLaren. It was the first time either of us had gone to see a show based around the expression of dance. Instead of citing her opinions, I thought I'd focus on mine and opt for anyone curious of hers to ask or encourage her to post an article on it. But, that's not the point of this writing either. Put brief, the show is a fantastical mix of the digital modern aesthetic, classic analog grime, and contemporary fluidity used to depths which I never thought possible. Absolutely amazing. But, what is the point of this article?
 

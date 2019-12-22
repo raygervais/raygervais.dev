@@ -1,6 +1,9 @@
 ---
 title: "Brackets Enhancement Proposal"
-date: "2017-02-18"
+date: 2017-02-18
+published: true
+tags: ["Open Source", "Seneca", "OSD600", "Thimble", "Mozilla"]
+description: "When we were given the instructions to search, locate and eventually implement fixes or upgrades to Mozilla’s Thimble or Brackets, I found what perhaps was the most challenging enhancement I could possible implement."
 ---
 
 OSD600 Week Six Deliverable
@@ -31,12 +34,12 @@ Following similar to XCode’s UI Creator, this area could house drag-drop templ
 
 ### Xcode
 
-![xcode 8 Interface Builder](images/interface-builder.png) Source: [https://developer.apple.com/xcode/interface-builder](https://developer.apple.com/xcode/interface-builder)
+<!-- ![xcode 8 Interface Builder](./images/interface-builder.png) Source: [https://developer.apple.com/xcode/interface-builder](https://developer.apple.com/xcode/interface-builder) -->
 
 ### Bootstrap Studio
 
-![Bootstrap Studio Application](images/app_2.jpg) Source: https://bootstrapstudio.io/
+![Bootstrap Studio Application](./images/app_2.jpg) Source: https://bootstrapstudio.io/
 
 ### Weebly
 
-![Weebly Interface Builder](images/wpid-image161.jpg) Source: http://www.getspokal.com/
+![Weebly Interface Builder](./images/wpid-image161.jpg) Source: http://www.getspokal.com/

@@ -1,6 +1,10 @@
 ---
 title: "When Tweaking Doesn't Fit Anymore"
-date: "2017-12-01"
+date: 2017-12-01
+published: true
+cover_image: ./images/Screenshot_20171130-223756-e1512102616116-1024x998.png
+tags: ["Opinions", "Android"]
+description: "When I was in Highschool, I remember spending every moment I could on XDA, Reddit, and various other Android tweak-centric mediums; emulating such tweaks and 'optimizations' on my device during breaks."
 ---
 
 When I was in Highschool, I remember spending every moment I could on XDA, Reddit, and various other Android tweak-centric mediums; emulating such tweaks and 'optimizations' on my device during breaks.
@@ -35,9 +39,7 @@ I have an unhealthy obsession with those whom oppose the norm; BB10's / WebOS ge
 
 So this one is completely and utterly blown out of proportion I admit, but it is also one which means dearly to me and, is found throughout the other examples listed above (in theme). I found in my experience from using Android Oreo for a week, I had already tried out multiple SMS applications because I noticed that the text field on Google's Android Messages lacked the same padding and height as the font should have for that application.
 
- 
-
-[![](images/Screenshot_20171130-223756-e1512102616116-1024x998.png)](http://raygervais.ca/wp-content/uploads/2017/11/Screenshot_20171130-223756-e1512102616116.png)
+[![](./images/Screenshot_20171130-223756-e1512102616116-1024x998.png)](http://raygervais.ca/wp-content/uploads/2017/11/Screenshot_20171130-223756-e1512102616116.png)
 
 This, plus having noticed that also making me notice the lazy approach Google had taken on the right side with the condensed SMS 'send' button which to me, is more of an eyesore than anything else. Not to make this sound like the end of the world, but realizing that by having all the choice in the world when it comes to applications and devices, I will forever be trapped in a spiral of 'try', 'enjoy' and finally 'annoyed' with a multitude of applications.
 

@@ -1,6 +1,10 @@
 ---
 title: "Django Python Framework & OptiKey Keyboard Project Analysis"
-date: "2017-01-13"
+date: 2017-01-13
+published: true
+cover_image: "./images/Thimble_Local.png"
+tags: ["Open Source", "Seneca", "SPO600"]
+description: "A quick look into the Django and OptiKey project Licenses."
 ---
 
 SPO600 Week 1 Deliverables
@@ -13,7 +17,7 @@ SPO600 Week 1 Deliverables
 
 ## Patch Review
 
-This [pull request](https://github.com/django/django/commit/32265361279b3316f5bce8efa71f2049409461e3) was created by contributor timgrahm, who made 19 additions and 10 deletions to the tests/auth\_tests/test\_templates.py file.
+This [pull request](https://github.com/django/django/commit/32265361279b3316f5bce8efa71f2049409461e3) was created by contributor timgrahm, who made 19 additions and 10 deletions to the tests/auth_tests/test_templates.py file.
 
 Django uses Trac for managing the code base. This is a ticketing system which allows for open tickets to be reviewed, accepted and then checked into the code base assuming it passes inspection. If the ticket fails for a variety of common reasons such as duplicate, wontfix, invalid, needsinfo, worksforme or other, then the open ticket is closed and rejected. This is a good system for code review, but entirely relies on the developer community (which largely are volunteers) to keep up to date with many of the changes from multiple patches at once to ensure that updates do not break recently approved updates.
 

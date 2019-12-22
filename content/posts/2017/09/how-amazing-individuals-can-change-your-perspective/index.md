@@ -1,6 +1,9 @@
 ---
 title: "How Amazing Individuals can Change Your Perspective"
-date: "2017-09-24"
+date: 2017-09-24
+published: true
+tags: ["Music", "Recording", "Opinions"]
+description: "This little article has the minimal amount of relevance relating back to software development, but instead a recounting of how I've had the an opportunity to become friends with two individuals who are utterly changing my world from a musical perspective. This article describes simply my own amazement to hidden talents, and learning an interesting technique while producing & recording a cover with these talented individuals."
 ---
 
 This little article has the minimal amount of relevance relating back to software development, but instead a recounting of how I've had the an opportunity to become friends with two individuals who are utterly changing my world from a musical perspective. This article describes simply my own amazement to hidden talents, and learning an interesting technique while producing & recording a cover with these talented individuals.
@@ -33,7 +36,7 @@ With the minimal amount of hesitation or concern, I recorded two talented musici
 
 # Changing the Perspective
 
-This experience is one which really did grant me a new perspective in contrast to previous projects. In this cover, is the energy & excitement of three individuals who did not know that morning what the final product would sound like; let alone the song that we'd choose to cover! One change to my thought process is the literal idea to let things 'flow', meaning to let ideas come and go, instead of trying to confine them to a pre-set rhythm, harmony, or style that I \*MUST\* have. Instead, these experiments and reinterpretation of the song resulted in a track that encompasses the sound that we wanted, but also allowed for natural growth of the track itself.
+This experience is one which really did grant me a new perspective in contrast to previous projects. In this cover, is the energy & excitement of three individuals who did not know that morning what the final product would sound like; let alone the song that we'd choose to cover! One change to my thought process is the literal idea to let things 'flow', meaning to let ideas come and go, instead of trying to confine them to a pre-set rhythm, harmony, or style that I _MUST_ have. Instead, these experiments and reinterpretation of the song resulted in a track that encompasses the sound that we wanted, but also allowed for natural growth of the track itself.
 
 Coming from a programming background, I'm a very rigid individual who enjoys schedules, slotted appointments, and routine. This change in perspective was one that I would never accepted had it not been presented in the way that song had done so. Those two individuals, both of which admitted that they had never recorded before, truly did shine through rigid structure and hesitant ideas to create a truly interesting experience. It translates too into the actual song, which I've had a close friend describe as 'a slower, grooved version full of modern nuances' and another comparing the track to 'schizophrenic thoughts'. Quite the impressions!
 

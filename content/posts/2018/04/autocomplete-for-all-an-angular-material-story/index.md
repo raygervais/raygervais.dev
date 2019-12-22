@@ -1,11 +1,13 @@
 ---
 title: "Autocomplete for All, An Angular Material Story"
-date: "2018-04-01"
+date: 2018-04-01
+published: true
+tags: ["Open Source", "Seneca", "OSD700", "Angular"]
+description: " this day and age, you live in one of two camps, you either love or hate autocomplete. Autocomplete (which differs from autocorrect due to contextual opposites of operation) is the answer to the mundane long dropdown lists, providing a means to both filter and evaluate a value without scrolling through the entire component _(and then some!)_."
+cover_image: https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=3578&q=80
 ---
 
-**An OSD700 Contribution Update Part 1**
-
-[![](https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=3578&q=80)](https://unsplash.com/@emilep)
+_An OSD700 Contribution Update Part 1_
 
 In this day and age, you live in one of two camps, you either love or hate autocomplete. Autocomplete (which differs from autocorrect due to contextual opposites of operation) is the answer to the mundane long dropdown lists, providing a means to both filter and evaluate a value without scrolling through the entire component _(and then some!)_. For my second foray into Angular Material, I decided I wanted to go further with the documentation while also browsing for enhancements or usability fixes. This led me to the an issue request for [documentation explaining](https://github.com/angular/material2/issues/10196) how to incorporate option groups, which revolves around a far more complex observable pattern and design pattern _(yay!)_, I'm guessing.
 
@@ -21,57 +23,51 @@ In the StackBlitz example, we see the following hierarchy of components below. I
 
 ## Components
 
-\- mat-form-field
-	- mat-input
-	- mat-autocomplete
-		- mat-optgroup
-			- mat-option
+\- mat-form-field - mat-input - mat-autocomplete - mat-optgroup - mat-option
 
 ### Material Input
 
 [Documentation](https://material.angular.io/components/input/overview) The mat-input is a custom directive which allows for standard html `input` and `textarea` elements to work with the material form field container. The easiest way to think of this directive is to describe it as a upgrade to the original input element. Let's go from 1.0, to 2.0 which includes form validation, error message styling, and responsive modern design. This is the component that we'd input our text into _(duh)_, and also manipulate the autocomplete / filter.
 
-   
-
-   
-
 ### Material Autocomplete
 
 [Documentation](https://material.angular.io/components/autocomplete/overview) Extending the material input even further, the autocomplete component provides a list component which can be filtered. This component acts as the container and main driving functionality when extended with coupling mat-option components for each list item.
 
-  
-
- {{ option }} 
+`{{ option }}`
 
 ### Material Option Group
 
 [Documentation](https://material.angular.io/components/select/overview) [Older](https://material.angularjs.org/latest/demo/select) This component acts as a container for an array of mat-option components, allowing one to group multiple under a single heading / text.
 
- \-- None --
-    {{ pokemon.viewValue }} 
+```
+-- None --
+{{ pokemon.viewValue }}
+```
 
 ### Material Option & Material Select
 
 [Documentation](https://material.angular.io/components/select/overview) The list component used by mat-autocomplete, these act as the list item 2.0 of the HTML semantic world. Used in both the mat-autocomplete and mat-select components as display items, the material option is a very powerful component.
 
- None
-    Option 1
-    Option 2
-    Option 3 
+None
+Option 1
+Option 2
+Option 3
 
 ## Updating the StackBlitz Example
 
 When I first discovered the bug and the corresponding StackBlitz example, I thought that the component itself was broken and that I had a lot more work than what the issue had described. I was relieved while looking into the code (for the above analysis) to see this code snippet which implied that completion would show true progress and remaining work.
 
+```js
 // NEED HELP !!!
-filterGroup(val: string): SpeciesGroup\[\] {
-// TODO
-return this.speciesGroup;
+filterGroup(val: string): SpeciesGroup[] {
+    // TODO
+    return this.speciesGroup;
 }
+```
 
 I [corrected](https://stackblitz.com/edit/angular-smg2xm?file=app/app.component.ts) the issue using common sense with option groups, meaning my logic (which is below and in the link) focuses on filtering the option groups themselves, instead of the individual options (following what the issuer's logic described). I love functional programming, and even small traces such as these makes me so happy to come up with since I think they are where many languages are heading; utilizing powerful paradigms sans the verbose 100+ lines of code to achieve such.
 
-filterGroup(val: string): SpeciesGroup\[\] {
+filterGroup(val: string): SpeciesGroup[] {
 return this.speciesGroup.filter(item =>
 item.letter.toLowerCase().indexOf(val.toLowerCase()) === 0 );
 }

@@ -1,11 +1,13 @@
 ---
 title: "How I'm Getting Ready for New Things"
-date: "2018-05-29"
+date: 2018-05-29
+published: true
+tags: ["Opinions", "Life Update", "Experiments"]
+cover_image: https://images.unsplash.com/photo-1420802320972-ac173d873ed2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cffbdbe486939a289de0f97a87b04558&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb
+description: "If you hadn't followed my Twitter account (which you should, this shameless plug advocates for not any thought provoking posts or new insights, but more-less the mediocrity of the everyday developer such as yours truly @GervaisRay), then you wouldn't have seen my ongoing battle for the past year with my move from Toronto to Mississauga. Mississauga is a beautiful, growing city; so why the battle? Well simply put, because I could not put down or give away my habits, friends, and favorite activities which spawned out of Downtown Toronto. I was the kid who didn't want to say goodbye to his friends as he went home from summer camp."
 ---
 
-## Moving both Physically, and Mentally to New Places
-
-[![](https://images.unsplash.com/photo-1420802320972-ac173d873ed2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cffbdbe486939a289de0f97a87b04558&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb)](https://unsplash.com/@beataratuszniak)
+_Moving both Physically, and Mentally to New Places_
 
 If you hadn't followed my Twitter account (which you should, this shameless plug advocates for not any thought provoking posts or new insights, but more-less the mediocrity of the everyday developer such as yours truly @GervaisRay), then you wouldn't have seen my ongoing battle for the past year with my move from Toronto to Mississauga. Mississauga is a beautiful, growing city; so why the battle? Well simply put, because I could not put down or give away my habits, friends, and favorite activities which spawned out of Downtown Toronto. I was the kid who didn't want to say goodbye to his friends as he went home from summer camp.
 

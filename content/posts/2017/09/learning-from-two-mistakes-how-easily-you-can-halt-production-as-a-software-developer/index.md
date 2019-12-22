@@ -1,6 +1,9 @@
 ---
 title: "Learning From Two Mistakes How Easily You Can Halt Production as a Software Developer"
-date: "2017-09-17"
+date: 2017-09-17
+published: true
+tags: ["Lessons", "Software Development", "NodeJS"]
+description: "Wow. That is quite the mouthful of a title; a title appropriate for one who's position is described between an intern and full-stack developer with less than two years under his belt."
 ---
 
 Wow. That is quite the mouthful of a title; a title appropriate for one who's position is described between an intern and full-stack developer with less than two years under his belt.
@@ -10,7 +13,7 @@ First, some background context symbols which will be found throughout the articl
 - ${SD}: Senior Developer
 - ${UD}: UI Developer
 - ${BD}: Backend Developer
-- ${IFUG}: ME. \*I Forked Up Guy\*
+- ${IFUG}: ME. _I Forked Up Guy_
 
 # Mistake #1: Return Promise<A, B, C, D>().then(DeliverDemCodes());
 
@@ -36,6 +39,6 @@ ${SD} was not overly pleased with my actions the next day, for it turns out it w
 
 # Conclusion
 
-It's very easy to get caught up in the development of a project, even more so when you're given the keys to build the \*arguably\* most important layer. In the past few months, I've taken on more leadership roles & positions which resulted in my judgement also becoming a questionable state of mind at times. In that state, it's very easy for flaws to burst through and expose themselves in your decision making skills. Ego, confidence, recklessness, these are the flaws which I had exposed in the later half of summer, and just a few of the lessons that I had to experience to truly understand.
+It's very easy to get caught up in the development of a project, even more so when you're given the keys to build the _arguably_ most important layer. In the past few months, I've taken on more leadership roles & positions which resulted in my judgement also becoming a questionable state of mind at times. In that state, it's very easy for flaws to burst through and expose themselves in your decision making skills. Ego, confidence, recklessness, these are the flaws which I had exposed in the later half of summer, and just a few of the lessons that I had to experience to truly understand.
 
 Are ${SD} and I on good standing you may ask? Of course! Only after we established some rules which were settled on with fresh peaches.

@@ -1,11 +1,13 @@
 ---
 title: "An Introduction to The 100 Days of Code"
-date: "2018-04-30"
+date: 2018-04-30
+published: true
+tags: ["Open Source", "Experiments", "Opinions", "100 Days of Code"]
+description: "The day has finally come, the start of the much discussed 100 days of code! The official website can be found here: 100daysofcode.com, which explains the methodologies and why(s) of the challenge. I decided that it would be the best way to start learning new languages and concepts that I've always wanted to have experience in, such as `Python`, `Swift`, `Rust`, and `GoLang`. The first and primary scope is to learn Python, and have a comfort with the language similar to how I do with C and C++."
+cover_image: https://images.unsplash.com/photo-1481926843113-ac9cb3fb9c8f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7d4cbe6845ddba7e4ddcd8fa84abc0d8&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb
 ---
 
-[![](https://images.unsplash.com/photo-1481926843113-ac9cb3fb9c8f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7d4cbe6845ddba7e4ddcd8fa84abc0d8&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb)](https://unsplash.com/@aows)
-
-The day has finally come, the start of the much discussed 100 days of code! The official website can be found here: 100daysofcode.com, which explains the methodologies and why(s) of the challenge. I decided that it would be the best way to start learning new languages and concepts that I've always wanted to have experience in, such as \`Python\`, \`Swift\`, \`Rust\`, and \`GoLang\`. The first and primary scope is to learn Python, and have a comfort with the language similar to how I do with C and C++.
+The day has finally come, the start of the much discussed 100 days of code! The official website can be found here: 100daysofcode.com, which explains the methodologies and why(s) of the challenge. I decided that it would be the best way to start learning new languages and concepts that I've always wanted to have experience in, such as `Python`, `Swift`, `Rust`, and `GoLang`. The first and primary scope is to learn Python, and have a comfort with the language similar to how I do with C and C++.
 
 ## Expectations & Challenges
 

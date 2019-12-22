@@ -1,9 +1,11 @@
 ---
 title: "A Second Semester of Open Source Contributions Completed"
-date: "2018-04-15"
+date: 2018-04-15
+published: true
+tags: ["Open Source", "Seneca", "OSD700", "Opinions"]
+description: "It's hard to believe how quickly this semester has come to a close. Some of us including me even had countdown calendars, and yet the days escaped even quicker than we could count. It feels like just last week I started my second dedicated foray into Open Source technologies, and yet in the next two weeks it'll be the end of such adventure (for now, that is). Similar to what I did when I completed OSD600, I thought I'd recap and share my thoughts as I complete OSD700, and perhaps also allude to the progression and experiences between the two which is only possible through fantastic instructors such as David."
+cover_image: https://images.unsplash.com/photo-1512810730836-1a7cde39c455?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca6597a7de9397ed66d9af53cc659017&dpr=1&auto=format&
 ---
-
-[![](https://images.unsplash.com/photo-1512810730836-1a7cde39c455?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca6597a7de9397ed66d9af53cc659017&dpr=1&auto=format&)](https://unsplash.com/@arashasghari)
 
 It's hard to believe how quickly this semester has come to a close. Some of us including me even had countdown calendars, and yet the days escaped even quicker than we could count. It feels like just last week I started my second dedicated foray into Open Source technologies, and yet in the next two weeks it'll be the end of such adventure (for now, that is). Similar to what I did when I completed OSD600, I thought I'd recap and share my thoughts as I complete OSD700, and perhaps also allude to the progression and experiences between the two which is only possible through fantastic instructors such as David.
 
@@ -27,7 +29,7 @@ I don't think a single day goes by where OSD600 hasn't had an impact on my curre
 
 The same can be said for many who took David's OSD600, and for those who in OSD700 are also finding their callings. With 700, instead of being shown around the nest and how various communities work we were thrown directly into the sky, told to choose a place to land and from there build our own nests alongside the given communities we chose. Here, some chose Visual Studio Code, Brave, Chart.JS, Angular.Material, ngx-bootstrap, Python even!
 
-The experiences differ per person, but I don't \*think\* any of us walked out with less than when we walked in. Instead, we walk into the last few classes with contributions and pull requests to our name, a steady stream of work relating to us showing up on most search engines at the very top (talk about good publicity for a developer!), and a confidence and skill set which isn't easily obtained that will push our careers further than ever before.
+The experiences differ per person, but I don't *think* any of us walked out with less than when we walked in. Instead, we walk into the last few classes with contributions and pull requests to our name, a steady stream of work relating to us showing up on most search engines at the very top (talk about good publicity for a developer!), and a confidence and skill set which isn't easily obtained that will push our careers further than ever before.
 
 ## Lessons and Thoughts Which Stood Out This Semester
 
@@ -35,7 +37,7 @@ The experiences differ per person, but I don't \*think\* any of us walked out wi
 
 I've written about some of the debugging methods I've painstakingly learned over the past four years, a post which was directly inspired by David's lessons and articles on the topic. Being the ever-learning, humbly experienced developer that he is, David shared with us his strategies for debugging applications built on top of the Electron framework; a lesson which the very next day even affected the nature of my tasks at SOTI in the best possible way.
 
-Whereas I discussed in my post a lot of the common debugging issues and or missed areas which younger students that I tutored or myself often struggle with, David went straight into explaining how to bend Chrome and modern technologies to our will. He explained \`Dogfooding\`, Dependency Injection concepts, and navigating your way around a huge code base looking for a single event listener using modern day tools. Never before had I looked at the Chrome DevTools specifically with such admiration of what was possible through a web browser. It's amazing how much effort and work is put into such tools and applications that the everyday person will never think about nor discover.
+Whereas I discussed in my post a lot of the common debugging issues and or missed areas which younger students that I tutored or myself often struggle with, David went straight into explaining how to bend Chrome and modern technologies to our will. He explained `Dogfooding`, Dependency Injection concepts, and navigating your way around a huge code base looking for a single event listener using modern day tools. Never before had I looked at the Chrome DevTools specifically with such admiration of what was possible through a web browser. It's amazing how much effort and work is put into such tools and applications that the everyday person will never think about nor discover.
 
 I took some of the tricks that David had displayed and applied it next day while debugging an item at SOTI. To my disbelief, no one else on the development team (which at that time was comprised of 4 senior JavaScript developers, 6 software developers) had heard of the debugging-on-DOM-Node-event trick, or even conditional breakpoints accessible through Chrome's DevTools. Yet, it was exactly these two tricks (plus a few others) which finally allowed me to discover the flaw in the code; the line which broke the business logic.
 

@@ -1,10 +1,10 @@
 ---
 title: Introducing My JAMstack Site!
-date: 2019-12-03
-published: true
+date: 2020-01-07
+published: false
 tags: ["Markdown", "VueJS", "Apollo", "2020"]
 series: false
-cover_image: ../../images/takahiro-sakamoto-qW2F8rZGEWw-unsplash.jpg
+cover_image: ./images/takahiro-sakamoto-qW2F8rZGEWw-unsplash.jpg
 canonical_url: false
 description: "Introducing my new site, powered by JAMstack (Gridsome, VueJS, Apollo, Markdown) goodness!"
 ---

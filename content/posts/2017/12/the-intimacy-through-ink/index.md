@@ -1,6 +1,9 @@
 ---
 title: "The Intimacy Through Ink"
-date: "2017-12-10"
+date: 2017-12-10
+published: true
+tags: ["Opinions"]
+description: "I'm still a fan of the pen and ink; the older communicative and storage mediums which fueled yesterday's greatest histories and paved the way to 99% of the populace flocking to word processors. Gone are the years spent cursive writing, practicing how to do proper curvature between letters and earning what would be known as the 'pen privilege' which in grade 5, was all the rage. I hadn't touched a pencil for years, and it felt great."
 ---
 
 I'm still a fan of the pen and ink; the older communicative and storage mediums which fueled yesterday's greatest histories and paved the way to 99% of the populace flocking to word processors. Gone are the years spent cursive writing, practicing how to do proper curvature between letters and earning what would be known as the 'pen privilege' which in grade 5, was all the rage. I hadn't touched a pencil for years, and it felt great.

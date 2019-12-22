@@ -1,6 +1,9 @@
 ---
 title: "Becoming a Maintainer of BulmaPress"
-date: "2018-02-03"
+date: 2018-02-03
+published: true
+tags: ["Open Source", "CSS", "WordPress", "Theme"]
+description: "I love Bulma, I love contributing to projects instead of spinning up my shoddy implementation of a need, and I love when the two come together in such harmony it's as if fate meant it. I discovered BulmaPress while looking for Bulma / Non-Bootstrap WordPress themes for a CMS project I'm working on. It looked to be relatively abandoned, sporting an old version of Bulma 0.2.1 and last being updated half a year ago."
 ---
 
 I love Bulma, I love contributing to projects instead of spinning up my shoddy implementation of a need, and I love when the two come together in such harmony it's as if fate meant it. I discovered BulmaPress while looking for Bulma / Non-Bootstrap WordPress themes for a CMS project I'm working on. It looked to be relatively abandoned, sporting an old version of Bulma 0.2.1 and last being updated half a year ago.

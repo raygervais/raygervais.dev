@@ -1,6 +1,9 @@
 ---
 title: "Writing Good Contribution Messages"
-date: "2017-03-16"
+date: 2017-03-16
+published: true
+tags: ["Open Source", "Seneca", "OSD600"]
+description: "On Tuesday, the class was told a key fact that I imagine not a single in the room had ever thought before; commit messages, pull requests, and even issue descriptions, are the sole most challenging item for any developer to get right. This was in the context of working in an open source community. I was curious, so I looked into my pull request titles, commit messages and pull request descriptions."
 ---
 
 **An OSD600 Lecture**

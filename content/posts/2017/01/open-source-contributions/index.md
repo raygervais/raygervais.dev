@@ -1,6 +1,9 @@
 ---
 title: "Open Source Contributions"
-date: "2017-01-23"
+date: 2017-01-23
+published: true
+tags: ["Open Source", "Seneca", "OSD600", "Linux"]
+description: "In this class, we learn and work about the complex field of Open Source development, including the vast ways it can be found in our everyday devices."
 ---
 
 OSD600 Week 2 Deliverable

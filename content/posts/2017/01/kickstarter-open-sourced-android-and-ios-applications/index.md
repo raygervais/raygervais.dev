@@ -1,6 +1,9 @@
 ---
 title: "Kickstarter Open Sourced Android and iOS Applications"
-date: "2017-01-12"
+date: 2017-01-12
+published: true
+tags: ["Open Source", "Seneca", "OSD600", "Android"]
+description: "Kickstarter open-sources their Android and iOS Application!"
 ---
 
 ## Kickstarter Android Application

@@ -1,14 +1,17 @@
 ---
 title: "My First Impressions of Udacity's Kotlin for Android Development"
-date: "2019-01-15"
-coverImage: "Android-Logo.jpg"
+date: 2019-01-15
+published: true
+cover_image: "./images/Android-Logo.jpg"
+tags: ["Open Source", "Android", "Udacity", "Software Development", "Overview"]
+description: "For 2019, one of my goals was to complete the Google/Udacity Kotlin for Android Development course. Since starting on the first, I’ve completed the first three `lessons` of ten in the course (sadly, it appears that they are still working on content for lessons five to ten, and have not published the work for them), so I thought I’d give my initial feedback and also thoughts on the course’s primary focus: developing Android applications using Kotlin.  Digging into the unfinished courses does provide the video files, so it’s possible to learn some of Lesson’s 5-10 on my own without the quizzes or sample code."
 ---
 
 **Lessons 1-3**
 
 For 2019, one of my goals was to complete the Google/Udacity Kotlin for Android Development course. I wrote more about why over here [https://raygervais.ca/starting-2019-with-a-retrospective/](https://raygervais.ca/starting-2019-with-a-retrospective/)!
 
-Since starting on the first, I’ve completed the first three \`lessons\` of ten in the course (sadly, it appears that they are still working on content for lessons five to ten, and have not published the work for them), so I thought I’d give my initial feedback and also thoughts on the course’s primary focus: developing Android applications using Kotlin.  Digging into the unfinished courses does provide the video files, so it’s possible to learn some of Lesson’s 5-10 on my own without the quizzes or sample code.
+Since starting on the first, I’ve completed the first three `lessons` of ten in the course (sadly, it appears that they are still working on content for lessons five to ten, and have not published the work for them), so I thought I’d give my initial feedback and also thoughts on the course’s primary focus: developing Android applications using Kotlin.  Digging into the unfinished courses does provide the video files, so it’s possible to learn some of Lesson’s 5-10 on my own without the quizzes or sample code.
 
 _Anyways, for those who want to follow along:_ [_https://github.com/raygervais/kotlin-for-android-course_](https://github.com/raygervais/kotlin-for-android-course)_, and now for some thoughts!_
 
@@ -16,7 +19,7 @@ _Anyways, for those who want to follow along:_ [_https://github.com/raygervais/k
 
 ### Dice Roll (Intro)
 
-![](images/Dice-Roll.png)
+![](./images/Dice-Roll.png)
 
 Dice Roll
 
@@ -28,7 +31,7 @@ This lesson was split into two, as you can see I am quite fond of the first sect
 
 ### Data Binding
 
-![](images/About-Me.png)
+![](./images/About-Me.png)
 
 About Me
 
@@ -38,7 +41,7 @@ The example is simple enough, and still loaded with enough descriptions of how a
 
 ### Constraint Layout
 
-![](images/ColorMyViews.png)
+![](./images/ColorMyViews.png)
 
 This tutorial for constraint layout was more of a chore to go through. Though informative and useful for those learning the layout, the actual lesson pacing and end-product left a lot to be desired. I found the last bits of real code (instead of focusing on XML layouts for the other ninety percent) to be the most useful, since it displayed functional programming logic with UI Element Ids. Still, for those working on pixel-perfect designs and specific UI chaining of elements, this would be a good resource to consult.
 
@@ -48,7 +51,7 @@ This tutorial for constraint layout was more of a chore to go through. Though in
 
 Fragments are hard. I think between all the various high and low level topics that I learnt at Seneca relating to Android, Fragments and View life-cycles were components which completely escaped me so much that I ended up writing my final project using only intents -we were instructed to utilize fragments as much as possible. Yet, with the newly released Navigation Controller and Navigation Graph (ala Google I/O 2018), fragment development seems much less daunting and again, comparable to the experience on iOS with Storyboards. Having no prior experience developing with Fragments, I can assume that this is closer if not better than what some claim third-party libraries have provided in attempts to better handle the Android View components.
 
-![](images/Android-Trivia.png)
+![](./images/Android-Trivia.png)
 
 Having gone through all twenty-nine steps in this lesson, I can say that there is a lot of valuable tutorials here; enough to cover a chapter or few even. It goes through the multiple new API’s released this past year and how to utilize both the native ones alongside developer friendly libraries such as _KTX_ (Kotlin Extensions) which make the already less-verbose language (compared to Java) even more to the point. I love the _NavigationDirections_ API built into _NavigationControllerUI_, and how easily Fragments are now developed and handled.
 

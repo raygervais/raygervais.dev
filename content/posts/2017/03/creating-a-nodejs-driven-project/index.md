@@ -1,27 +1,29 @@
 ---
 title: "Creating a NodeJS Driven Project"
-date: "2017-03-20"
+date: 2017-03-20
+published: true
+tags: ["Open Source", "Seneca", "OSD600", "NodeJS"]
+description: "For this week, we were introduced to a few technologies that though interacted with during our contributions and coding, were never described or explained the ‘why’, ‘how’, or even the ‘where to start’ aspects. The platforms on trial? Node, Travis CL and even ESLint -curse you linter, for making my code uniform."
 ---
 
-OSD600 Week Nine Deliverable
-
-# Introduction
+_OSD600 Week Nine Deliverable_
 
 For this week, we were introduced to a few technologies that though interacted with during our contributions and coding, were never described or explained the ‘why’, ‘how’, or even the ‘where to start’ aspects. The platforms on trial? Node, Travis CL and even ESLint -curse you linter, for making my code uniform.
 
-# Init.(“NodeJS”);
+## Init.(“NodeJS”);
 
-The first process was simply creating a repository on GitHub, cloning it onto our workstations, and then letting the hilarity of initializing a new NodeJS module occur. Why do I cite such humour for the later task? Because I witnessed few forget which directory they were in, thus initializing Node in their Root, Developer, You-Name-It folder; anything but their repository’s cloned folder. Next, was learning of what you could, or could not, input into the initialization commands. Included below is the example script which was taken from Dave’s README.md which showed how the process should look for \*Nix users. Window’s users had a more difficult time, having to use their Command Prompt instead of their typical Git Bash terminal which would fail to type ‘yes’ into the final step.
+The first process was simply creating a repository on GitHub, cloning it onto our workstations, and then letting the hilarity of initializing a new NodeJS module occur. Why do I cite such humour for the later task? Because I witnessed few forget which directory they were in, thus initializing Node in their Root, Developer, You-Name-It folder; anything but their repository’s cloned folder. Next, was learning of what you could, or could not, input into the initialization commands. Included below is the example script which was taken from Dave’s README.md which showed how the process should look for *Nix users. Window’s users had a more difficult time, having to use their Command Prompt instead of their typical Git Bash terminal which would fail to type ‘yes’ into the final step.
 
+```sh
 $ npm init
 
 This utility will walk you through creating a package.json file.
 It only covers the most common items, and tries to guess sensible defaults.
 
-See \`npm help json\` for definitive documentation on these fields
+See `npm help json` for definitive documentation on these fields
 and exactly what they do.
 
-Use \`npm install <pkg> --save\` afterwards to install a package and
+Use `npm install <pkg> --save` afterwards to install a package and
 save it as a dependency in the package.json file.
 
 Press ^C at any time to quit.
@@ -57,38 +59,43 @@ About to write to /Users/dave/Sites/repos/Seneca2017LearningLab/package.json:
 }
 
 Is this ok? (yes)
+```
 
-# Creating The Seneca Module
+## Creating The Seneca Module
 
 The next step was to create the seneca.js module, which would be expanded upon in further labs. For now, we had to write two simple isValidEmail and formatSenecaEmail functions respectively. This task took minutes, thanks to W3 School’s email validation regular expression, which along with my code, is included below. The bigger challenge, was getting ESLint to like my code.
 
-/\*\*
- \* Given a string \`email\`, return \`true\` if the string is in the form
- \* of a valid Seneca College email address, \`false\` othewise.
- \*/
+```js
+/*
+ * Given a string `email`, return `true` if the string is in the form
+ * of a valid Seneca College email address, `false` othewise.
+ */
 exports.isValidEmail = function(email) {
-  if (/^\\w+(\[\\.-\]?\\w+)\*@\\w+(\[\\.-\]?\\w+)\*(\\.\\w{2,3})+$/.test(email)) {
+  if (/^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$/.test(email)) {
   	return (true);
   }
   return (false);
 };
 
-/\*\*
- \* Given a string \`name\`, return a formatted Seneca email address for
- \* this person. NOTE: the email doesn't need to be real/valid/active.
- \*/
+/*
+ * Given a string `name`, return a formatted Seneca email address for
+ * this person. NOTE: the email doesn't need to be real/valid/active.
+ */
 exports.formatSenecaEmail = function(name) {
   name.trim();
   return name.concat('@myseneca.ca');
 };
 
-# Depending On ESLint
+```
+
+## Depending On ESLint
 
 ESLint, up to this point I had only dealt with in small battles, waged on the building process of Brackets where my code was put against its rules. Now, I am tasked with instead of conquering it (in the case of a developer, meaning to write code which complies with the preset rules), but creating the dependency which will build it into my development environment of the project. Installing ESlint requires the following command, followed by the initialization which will allow you to select how you’d like the linter to function along with style guides. The process that we followed is below.
 
+```sh
 $ npm install eslint --save-dev
 
-$ ./node\_modules/.bin/eslint --init
+$ ./node_modules/.bin/eslint --init
 
 ? How would you like to configure ESLint?
   Answer questions about your style
@@ -107,16 +114,18 @@ $ ./node\_modules/.bin/eslint --init
   YAML
 ❯ JSON
 
-Running Eslint manually would involve running $ ./node\_modules/.bin/eslint , which could then be automated by adding the following code to the package.json file.
+Running Eslint manually would involve running $ ./node_modules/.bin/eslint , which could then be automated by adding the following code to the package.json file.
 
 "scripts": {
-  "lint": "node\_modules/.bin/eslint \*.js",
+  "lint": "node_modules/.bin/eslint *.js",
   "test": "npm run -s lint"
 }
 
+```
+
 This would allow for one to call linting at any time, with the npm command followed by “lint” in this case.
 
-# Travis CI Integration
+## Travis CI Integration
 
 When writing the next evolutionary script, program, even website for that matter, you want to ensure that it works, and once it does ‘work’, you double check on a dedicated platform. That’s where the beauty which is Travis CI comes to play, allowing for automated tested (once properly configured) of your projects and repositories. We were instructed to integrate Travis with this exercise with [Dave’s provided instructions](https://github.com/humphd/Seneca2017LearningLab) below.
 

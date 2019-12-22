@@ -1,6 +1,10 @@
 ---
 title: "Assembly Language on x86_64 and aarch64 processors"
-date: "2017-01-26"
+date: 2017-01-26
+published: true
+tags: ["ASM", "Seneca", "SPO600"]
+description: "Assembly language, a low level programming language which enables deeper integration with the supported machine’s architecture."
+
 ---
 
 SPO600 Week 2 Deliverable
@@ -13,4 +17,4 @@ For the first few hours, Assembly seemed less like a comprehensible language and
 
 [aarch64 Files](http://raygervais.ca/wp-content/uploads/2017/01/ARM.tar.gz)
 
-[x86\_64 Files](http://raygervais.ca/wp-content/uploads/2017/01/X64.tar.gz)
+[x86_64 Files](http://raygervais.ca/wp-content/uploads/2017/01/X64.tar.gz)

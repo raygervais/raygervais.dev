@@ -1,9 +1,12 @@
 ---
 title: "Visual Studio Code Plugins I Use for Modern Web Development"
-date: "2017-11-20"
+date: 2017-11-20
+published: true
+tags: ["Open Source", "Software Development", "NodeJS", "Web Development", "Setups"]
+description: "Visual Studio Code has quickly become my go-to text editor for many languages, even replacing XCode for Swift-centric programs or IntelliJ for light-weight Java programming. This article focuses more on the web development plugins which have provided a smoother experience for the past eight months of my internship at SOTI while learning the ways of the full-stack developer. If you have suggestions or alternatives to the listed plugins, I'd love to hear about it in the comments!"
 ---
 
-[![Visual Studio Code Setup](images/Screen-Shot-2017-11-19-at-10.20.14-PM-1024x564.png)](http://raygervais.ca/wp-content/uploads/2017/11/Screen-Shot-2017-11-19-at-10.20.14-PM.png)
+[![Visual Studio Code Setup](./images/Screen-Shot-2017-11-19-at-10.20.14-PM-1024x564.png)](http://raygervais.ca/wp-content/uploads/2017/11/Screen-Shot-2017-11-19-at-10.20.14-PM.png)
 
 Visual Studio Code has quickly become my go-to text editor for many languages, even replacing XCode for Swift-centric programs or IntelliJ for light-weight Java programming. This article focuses more on the web development plugins which have provided a smoother experience for the past eight months of my internship at SOTI while learning the ways of the full-stack developer. If you have suggestions or alternatives to the listed plugins, I'd love to hear about it in the comments!
 

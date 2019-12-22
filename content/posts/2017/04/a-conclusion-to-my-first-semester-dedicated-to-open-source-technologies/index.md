@@ -1,9 +1,12 @@
 ---
 title: "A Conclusion to My First Semester Dedicated to Open Source Technologies"
-date: "2017-04-10"
+date: 2017-04-10
+published: true
+tags: ["Open Source", "Seneca", "OSD600", "Overview", "Opinions"]
+description: "This semester, I dragged mind, body and code through five courses which strengthened, degraded, and tested the absolute limits of how little sleep one can get. Of the courses, two had a central focus on understanding, contributing and leveraging Open Source technologies on a multitude of platforms."
 ---
 
-A Quick Overview as the semester draws to a close.
+_A Quick Overview as the semester draws to a close._
 
 This semester, I dragged mind, body and code through five courses which strengthened, degraded, and tested the absolute limits of how little sleep one can get. Of the courses, two had a central focus on understanding, contributing and leveraging Open Source technologies on a multitude of platforms. These courses were also the main focus of many blog posts, and as we come to a close, I thought I’d reflect. Previously to [OSD600](https://wiki.cdot.senecacollege.ca/wiki/OSD600) and [SPO600](https://wiki.cdot.senecacollege.ca/wiki/SPO600), my dealings with OSS simply derived from learning and playing with various Linux distributions; never contributing or modifying code bases to meet my demands, or even bug fixing for that matter. I’ll expand on this later, but let me start by saying this, I was, am, and forever will be unrefined in the context of programming and technology. No matter how much I attempt to learn, or how far down the rabbit hole I plummet to fix an issue, I, like many, will always be a student. A student, excited for lessons.
 

@@ -1,9 +1,12 @@
 ---
 title: "Introducing Thimble’s Console V1.0"
-date: "2017-04-16"
+date: 2017-04-16
+published: true
+tags: ["Open Source", "Seneca", "OSD600", "Thimble", "Mozilla"]
+description: "This post will be one of my last related to this semester, specifically to OSD600 which has seen the class learning quite a bit about Open Source web technologies; contributing to Mozilla’s Thimble in doing so."
 ---
 
-A OSD600 Contribution Overview
+_A OSD600 Contribution Overview_
 
 This post will be one of my last related to this semester, specifically to OSD600 which has seen the class learning quite a bit about Open Source web technologies; contributing to Mozilla’s Thimble in doing so. More on such topics can be found here and there. Though I’ve mentioned my contributions before, -even sometimes becoming the main focus of an article, I thought this post would show how the console works at the current time. As of this moment, it would appear that a good majority of the first release version is complete, with UX / UI being the last remaining items that are being taken care of by yours truly, or [Luke](https://github.com/flukeout) who’s a fantastic graphic designer working for Mozilla.
 
@@ -19,7 +22,7 @@ I suppose, being honest, there’s not too much reason to be as excited or as pr
 
 Like every good text editor, all elements and windows should be resizable to accommodate a wide variety of screen sizes, user preferences, and workflows. Thimble has been no different, which meant that this console too, had to be resizable. This is handled by a resizing plugin found throughout the project, which has made all the difference it seems when it comes to customizability and accessibility in the various toolings.
 
-[![](images/pasted-image-0-1-e1492317377509-1024x489.png)](http://raygervais.ca/wp-content/uploads/2017/04/pasted-image-0-1-e1492317377509.png)
+[![](./images/pasted-image-0-1-e1492317377509-1024x489.png)](http://raygervais.ca/wp-content/uploads/2017/04/pasted-image-0-1-e1492317377509.png)
 
 # Console.\* Functions
 
@@ -37,7 +40,7 @@ When engulfed in a spontaneous 10-hour coding session, it’s easy for the split
 
 When starting returning to a project, or starting fresh with a blank template, the console does not appear. Instead, you’re presented with a toggle found in the bottom right which displays the console. Likewise, for those unaware of the toggle, the console automatically appears when a console-related function is called; convenient I’d say. If the console is instead unwanted, closing it with the close button will disallow the console to reappear until the user reopens the device.
 
-[![](images/pasted-image-0-e1492317146204-1024x492.png)](http://raygervais.ca/wp-content/uploads/2017/04/pasted-image-0-e1492317146204.png)
+[![](./images/pasted-image-0-e1492317146204-1024x492.png)](http://raygervais.ca/wp-content/uploads/2017/04/pasted-image-0-e1492317146204.png)
 
 # Getting to This Point
 
@@ -49,23 +52,23 @@ This bug made selecting a link on the user’s dropdown menu borderline impossib
 
 The items in the dropdown menus only work if you click the text of the item, and not the entire length and height of the highlighted item when you hover.
 
-![Luke's Issue Picture](images/76a7f2e6-dbf8-11e6-8bd3-173a18f23903.png)
+![Luke's Issue Picture](./images/76a7f2e6-dbf8-11e6-8bd3-173a18f23903.png)
 
 [Issue](https://github.com/mozilla/thimble.mozilla.org/issues/1635)
 
 [Pull Request](https://github.com/mozilla/thimble.mozilla.org/pull/1697)
 
-![Contribution #1 Fix](images/493843c2-e988-11e6-9166-0e0739f47b7b.png)
+![Contribution #1 Fix](./images/493843c2-e988-11e6-9166-0e0739f47b7b.png)
 
-Essentially, this was a CSS fix, which resulted in me adding a few attributes to the \`a\` links which would fill out the list item object. A slight detour, was that when I say CSS, I mean LESS, an extension of CSS which is compiled into standard stylesheets. Having used SASS before, LESS wasn’t overly alien in syntax.
+Essentially, this was a CSS fix, which resulted in me adding a few attributes to the `a` links which would fill out the list item object. A slight detour, was that when I say CSS, I mean LESS, an extension of CSS which is compiled into standard stylesheets. Having used SASS before, LESS wasn’t overly alien in syntax.
 
 ## Contribution 2 & 3: Issue #1675 (Back End)
 
 This was more of an enhancement, which Luke described as:
 
-When writing JS, using console.log() to check in on variable values is really handy. Opening dev tools while using thimble isn't a good solution because the screen gets really crowded. Is there a way to intercept console.log() calls and display them in Thimble? Any other solutions, can we add support for a "thimble.log" method? ![Console Mockup 1](images/d027c93e-e3b1-11e6-8947-15256d9e98f4.png)
+When writing JS, using console.log() to check in on variable values is really handy. Opening dev tools while using thimble isn't a good solution because the screen gets really crowded. Is there a way to intercept console.log() calls and display them in Thimble? Any other solutions, can we add support for a "thimble.log" method? ![Console Mockup 1](./images/d027c93e-e3b1-11e6-8947-15256d9e98f4.png)
 
-![Console Mockup 2](images/dda3d1ac-e3b1-11e6-8fdf-0e3a770893ab.png)
+![Console Mockup 2](./images/dda3d1ac-e3b1-11e6-8fdf-0e3a770893ab.png)
 
 [Issue](https://github.com/mozilla/thimble.mozilla.org/issues/1675)
 
@@ -85,11 +88,11 @@ The final stage of the console implementation was creating the interface, which 
 
 ### Before
 
-![Console Port Before](images/b50ec7a6-13c7-11e7-87c2-8c522c61b739.png)
+![Console Port Before](./images/b50ec7a6-13c7-11e7-87c2-8c522c61b739.png)
 
 ### After
 
-[![](images/media-20170416-e1492316518877.png)](http://raygervais.ca/wp-content/uploads/2017/04/media-20170416-e1492316518877.png)
+[![](./images/media-20170416-e1492316518877.png)](http://raygervais.ca/wp-content/uploads/2017/04/media-20170416-e1492316518877.png)
 
 # Conclusion
 

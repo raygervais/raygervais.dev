@@ -1,11 +1,11 @@
 ---
 title: "Understanding U11YN Concerns Relating to Modern Flat Design and Screen Readers"
-date: "2018-03-19"
+date: 2018-03-19
+published: true
+tags: ["Open Source", "A11Y", "Opinions"]
+description: "Accessibility is one topic which not many take into account when designing and developing an application, website, or printed media even. The concept of visual and interactive accessibility relates to any medium which the user uses to discover and consume content from, and how different impairments hinder the common forms and designs useless and nonconsumable."
+cover_image: https://images.unsplash.com/photo-1449087989455-465ae815dbf2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=feb41f748be134c4783d5fe8bc3a243e&auto=format&fit=crop&w=2694&q=80
 ---
-
-**Part 1**
-
-[![Caterpillar on Human Wrist](https://images.unsplash.com/photo-1449087989455-465ae815dbf2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=feb41f748be134c4783d5fe8bc3a243e&auto=format&fit=crop&w=2694&q=80)](https://unsplash.com/@renatto)
 
 # Introduction & Screen Readers
 

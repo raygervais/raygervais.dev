@@ -1,10 +1,13 @@
 ---
 title: "Approaching Minimalism"
-date: "2019-02-14"
-coverImage: "photo-1520188740392-665a13f453fc.jpg"
+date: 2019-02-14
+published: true
+cover_image: "./images/photo-1520188740392-665a13f453fc.jpg"
+tags: ["Experiments", "Opinions", "Minimalism"]
+description: "If you were to ask anyone who knew me well, they’d claim that I have not exhibited values or mindsets which dance around the same way that a minimalists does. I am so far from such a genre (according to some), that I made the joke of calling myself the ‘failed minimalist’ to which, a chorus agreed. Yet, I don’t think it’s impossible for anyone to swing that direction if their interests focus that way. I’ve been conducting research through both YouTube and also forums on how individuals gradually converted over to minimalism -taking on lifestyles inspired by minimalism, and the common thread is that the once the mindset changes, the rest will follow. There are plenty of YouTubers explaining the concept, some of which I’ve included below (starting to see how big a fan I am of Matt D’Avella?) for anyone interested in learning more."
 ---
 
-An introduction to why I’ve written “Sort through X” on my daily to do lists as of recent!
+_An introduction to why I’ve written “Sort through X” on my daily to do lists as of recent!_
 
 If you were to ask anyone who knew me well, they’d claim that I have not exhibited values or mindsets which dance around the same way that a minimalists does. I am so far from such a genre (according to some), that I made the joke of calling myself the ‘failed minimalist’ to which, a chorus agreed. Yet, I don’t think it’s impossible for anyone to swing that direction if their interests focus that way. I’ve been conducting research through both YouTube and also forums on how individuals gradually converted over to minimalism -taking on lifestyles inspired by minimalism, and the common thread is that the once the mindset changes, the rest will follow. There are plenty of YouTubers explaining the concept, some of which I’ve included below (starting to see how big a fan I am of Matt D’Avella?) for anyone interested in learning more.
 
@@ -14,7 +17,7 @@ It’s funny how easy it is to misunderstand minimalism, I did for years before 
 
 ### Closet, Attire and Shoes
 
-I cannot say that I’m one to subscribe to the daily-attire being the exact same wardrobe (duplicates, not re-worn!), but I can see where limiting the wardrobe options to fewer entries being beneficial. Being honest with myself, I probably have two-times the amount of dress shirts than needed for any standard work week or laundry cycle; observations like these being the first creeping of minimalism thoughts perhaps? In the past few weeks, I’ve slowly made tasks for myself (often completed with eagerness) to sort through various pieces of attire and evaluate if it truly brings value to me now, or in the upcoming year. If not, donate or discard! There is still a lot of work to do, but the progress is very similar to that of spring cleaning; a refreshing walkthrough and clearing, similar to pruning a garden of weeds and crud  
+I cannot say that I’m one to subscribe to the daily-attire being the exact same wardrobe (duplicates, not re-worn!), but I can see where limiting the wardrobe options to fewer entries being beneficial. Being honest with myself, I probably have two-times the amount of dress shirts than needed for any standard work week or laundry cycle; observations like these being the first creeping of minimalism thoughts perhaps? In the past few weeks, I’ve slowly made tasks for myself (often completed with eagerness) to sort through various pieces of attire and evaluate if it truly brings value to me now, or in the upcoming year. If not, donate or discard! There is still a lot of work to do, but the progress is very similar to that of spring cleaning; a refreshing walkthrough and clearing, similar to pruning a garden of weeds and crud
 
 For shoes, I find myself somehow becoming a collector in the past few years, having owned multiple sets of Vans, Pumas, and Aldos even. This one will be a tougher process since each set of shoes have a specific purpose, some better for long days out walking and being active compared to the typical office dress shoes. On top of that, I’ve also started walking the lines of understanding what it is to be a closet-sneaker-head, which of course conflicts with this article’s topic. This in truth, similar to photography may also simply be a phase, a trend which latched on for a specific time. A follow up update may be appropriate if I’ve dove deeper into these mindsets in the coming months.
 
@@ -24,7 +27,7 @@ Source: Unsplash, Henrik Dønnestad
 
 ### Digital Life
 
-I’ve suffered from what I like to call “organized digital clutter” since working with my first Dell desktop over a decade ago; files, organized as best as possible into folders, and then stored into parent folders to provide context and hierarchy. Dozens of useless applications installed which are only open once a year, yet  causing system slowdown and friction with the everyday tasks. I'm still figuring out how to approach some of the file clutter, but for now removing redundant applications is a step in the right direction towards digital clarity. I wonder if that's even possible for a software developer.  
+I’ve suffered from what I like to call “organized digital clutter” since working with my first Dell desktop over a decade ago; files, organized as best as possible into folders, and then stored into parent folders to provide context and hierarchy. Dozens of useless applications installed which are only open once a year, yet  causing system slowdown and friction with the everyday tasks. I'm still figuring out how to approach some of the file clutter, but for now removing redundant applications is a step in the right direction towards digital clarity. I wonder if that's even possible for a software developer.
 
 Likewise, looking at my current daily driver the Google Pixel 2 XL, similar to all I have the standard applications, popular applications, and the obscure and often (or so I hope) unique ones installed. How many do I use daily? Much fewer than the amount available. So much so, that Google’s Files app has even recommended applications which I have never or rarely open to be uninstalled. So I do. I’ve found that if the application is not useful within a week, and does not serve a purpose which I’m directly interested in outside of that week span (such as buying concert tickets, viewing movie listings etc), delete. The fewer options feels relieving, as if hurdles of pointless notifications and digital jank was simply wiped away.
 
@@ -34,9 +37,9 @@ I find that in the past few months (excluding the holidays in which all of our m
 
 ## Moving Forward
 
-So, where do we go from here?  
+So, where do we go from here?
 
-For some, playing the minimalist’s game (linked below) will help transition you further into the concept and lifestyle of a minimalist (take that phrase with a grain of salt), for others such as myself: I simply want to keep working towards decluttering and removing “noise” or “valueless” objects and scenarios from my everyday life at a pace which accommodates the world around. In a year, will I wear one exact wardrobe style? Perhaps, but only if the interests dwell there. We shall see!  
+For some, playing the minimalist’s game (linked below) will help transition you further into the concept and lifestyle of a minimalist (take that phrase with a grain of salt), for others such as myself: I simply want to keep working towards decluttering and removing “noise” or “valueless” objects and scenarios from my everyday life at a pace which accommodates the world around. In a year, will I wear one exact wardrobe style? Perhaps, but only if the interests dwell there. We shall see!
 
 I’m curious, if you made it this far and checkout the resources below, do share your thoughts and experiences!
 
@@ -52,7 +55,7 @@ I’m curious, if you made it this far and checkout the resources below, do shar
 
 [What I Wish I Knew Before starting Minimalism](https://www.youtube.com/watch?v=V-woPcr04DM)
 
-[I tried Minimalism For a Week](https://www.youtube.com/watch?v=6PDlf8mPMh8﻿)
+[I tried Minimalism For a Week](https://www.youtube.com/watch?v=6PDlf8mPMh8)
 
 [We Try CEO Morning Routines](http:// https://www.youtube.com/watch?v=ec-qGLAnReg﻿)
 

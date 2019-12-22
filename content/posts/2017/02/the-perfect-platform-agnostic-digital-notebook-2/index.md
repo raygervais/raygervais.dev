@@ -1,15 +1,18 @@
 ---
 title: "The Perfect Platform Agnostic Digital Notebook - 2"
-date: "2017-02-25"
+date: 2017-02-25
+published: true
+tags: ["Experiments", "Productivity"]
+description: "Using Google Keep as my exclusive note keeping and organizational platform has been a mixed bag, one of which I had learned quite a bit of my own preference and annoyances when it comes to software. For one, Keep does not have a dark theme (this is easily remedied by changing css, or using a web wrapper with custom themes) nor does it encourage any developers to utilize it compared to Drive for example."
 ---
 
-Part 2
+_Part 2_
 
 # Google Keep
 
 Using Google Keep as my exclusive note keeping and organizational platform has been a mixed bag, one of which I had learned quite a bit of my own preference and annoyances when it comes to software. For one, Keep does not have a dark theme (this is easily remedied by changing css, or using a web wrapper with custom themes) nor does it encourage any developers to utilize it compared to Drive for example.
 
-[![Google Keep](images/Screenshot-from-2017-02-25-14-05-18-1024x506.png)](http://raygervais.ca/wp-content/uploads/2017/02/Screenshot-from-2017-02-25-14-05-18.png)
+[![Google Keep](./images/Screenshot-from-2017-02-25-14-05-18-1024x506.png)](http://raygervais.ca/wp-content/uploads/2017/02/Screenshot-from-2017-02-25-14-05-18.png)
 
 A bigger annoyance, one which swayed me away very quickly, is the official fact that there is no native application for MacOS or Linux, or even Windows 10 for that matter. Some third party applications do provide a native application experience, but majority are lacklustre due to the restricted Google API for keep, implying that 90% that I researched were strictly web wrappers. Having used it for all my note taking, todo lists, web clippings, and even typing of this document -which is then exported to Drive for more detail-oriented editing before posting. This inclines me prefer Keep for basic, rough note taking and link saving, before exporting a much more refined version to Drive for further use. This work flow utilizes both platforms nicely, but proves that Keep is not capable of being a bare bones replacement to EverNote.
 
@@ -24,7 +27,7 @@ Drive on the other hand, was a much more pleasant experience which I had already
 
 Google’s Drive platform also is augmented by third party integrations, allowing for collaborative work on different applications including draw.io, stackedit, Gmail and a host of others. My only concern, is the privacy of my notes (even if I do not keep confidential items in my drive account), I still am cautious about using this medium as a primary note storage base.
 
-[![Google Drive](images/Screenshot-from-2017-02-25-14-08-33-1024x282.png)](http://raygervais.ca/wp-content/uploads/2017/02/Screenshot-from-2017-02-25-14-08-33.png)
+[![Google Drive](./images/Screenshot-from-2017-02-25-14-08-33-1024x282.png)](http://raygervais.ca/wp-content/uploads/2017/02/Screenshot-from-2017-02-25-14-08-33.png)
 
 A downside to Drive, simply put is that it functions more as a file system in contrast to a notebook / notes section. Obviously I can emulate this work flow with relative ease, which grants me the most flexibility when it comes to note locations, storage architecture and ease of use, but this comes at the cost of unnecessary complexity to the architecture. Another downside which may be easily overlooked is when syncing with a desktop using Google’s native application, opening files launches a browser instance of the file instead of a local version. Research into utilizing LibreOffice and Extensions to read / write to .gdoc files is being conducted now, which if possible, will improve my work flow tenfold on each machine.
 
