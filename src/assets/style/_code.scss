@@ -11,13 +11,13 @@ pre {
   font-size: .85em;
   background-color: var(--bg-code);
   margin-bottom: 2em;
-  border: 1px solid var(--border-color);
+//   border: 1px solid var(--border-color);
   border-radius: var(--radius);
 }
 
 code {
-  background-color: var(--bg-code);
-  border: 1px solid var(--border-color);
+//   background-color: var(--bg-code);
+//   border: 1px solid var(--border-color);
   font-size: .85em;
   padding: .2em .5em;
 }
@@ -101,7 +101,7 @@ pre[class*="language-"] {
 .language-css .token.string,
 .style .token.string {
 	color: #9a6e3a;
-	background: hsla(0, 0%, 100%, .5);
+	// background: hsla(0, 0%, 100%, .5);
 }
 
 .token.atrule,
