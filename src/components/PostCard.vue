@@ -1,7 +1,15 @@
 <template>
-  <div class="post-card content-box" :class="{'post-card--has-poster' : post.poster}">
+  <div
+    class="post-card content-box"
+    :class="{ 'post-card--has-poster': post.poster }"
+  >
     <div class="post-card__header">
-      <g-image alt="Cover image" v-if="post.cover_image" class="post-card__image" :src="post.cover_image" />
+      <g-image
+        alt="Cover image"
+        v-if="post.cover_image"
+        class="post-card__image"
+        :src="post.cover_image"
+      />
     </div>
     <div class="post-card__content">
       <h2 class="post-card__title" v-html="post.title" />
@@ -16,21 +24,22 @@
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta'
-import PostTags from '~/components/PostTags'
+import PostMeta from "~/components/PostMeta";
+import PostTags from "~/components/PostTags";
 
 export default {
   components: {
     PostMeta,
     PostTags
   },
-  props: ['post'],
-}
+  props: ["post"]
+};
 </script>
 
 <style lang="scss">
 .post-card {
-  margin-bottom: var(--space);
+  margin: 0 1em var(--space);
+
   position: relative;
 
   &__header {
@@ -48,6 +57,7 @@ export default {
 
   &__image {
     min-width: 100%;
+    transition: filter 0.6s linear;
   }
 
   &__title {
@@ -55,8 +65,19 @@ export default {
   }
 
   &:hover {
-    transform: translateY(-5px);
-    box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
+    // transform: translateY(-5px);
+    box-shadow: 1px 10px 30px 0 var(--link-color);
+    -webkit-box-shadow: 10px 10px 44px 0px var(--link-color);
+    -moz-box-shadow: 10px 10px 44px 0px var(--link-color);
+    box-shadow: 10px 10px 44px 0px var(--link-color);
+
+    // border: solid 1px var(--border-color);
+
+    .post-card__image {
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+      // filter: blur(2px);
+    }
   }
 
   &__tags {
@@ -70,7 +91,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.0;
+    opacity: 0;
     overflow: hidden;
     text-indent: -9999px;
     z-index: 0;
