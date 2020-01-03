@@ -1,6 +1,6 @@
 ---
 title: "Extending Traversey Media’s VueJS Crash Course"
-date: "2019-04-03"
+date: 2019-04-03
 published: true
 tags:
   ["Open Source", "VueJS", "NodeJS", "Lessons", "Netlify", "Web Development"]
