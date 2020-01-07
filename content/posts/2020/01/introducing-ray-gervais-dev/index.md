@@ -1,7 +1,7 @@
 ---
-title: Introducing My JAMstack Site!
-date: 2020-01-02
-published: false
+title: Introducing My Jamstack Site!
+date: 2020-01-06
+published: true
 tags:
   [
     "Markdown",
@@ -15,7 +15,7 @@ tags:
 series: false
 cover_image: ./images/takahiro-sakamoto-qW2F8rZGEWw-unsplash.jpg
 canonical_url: false
-description: "Introducing my new site, powered by JAMstack (Gridsome, VueJS, Apollo-GraphQL, Markdown) goodness!"
+description: "I decided to depart from the tried-and-true LAMP stack (powered WordPress of course) for what appears to be the future of websites, the allure of the shiny and new: JavaScript, Apollo, Markdown. In truth, the later is what truly got me interested in committing to such as stack; editing a post like such as this one in Markdown simply feels ten times better, even compared toWordPress' admittedly fantastic modern editor. Throughout my note-taking life cycles, I've always opted for the ones which supported Markdown and allowed for file exports in the same format."
 ---
 
 _Warning: I have no clue what I'm doing, but it seemed pretty enticing after months of playing around._
@@ -30,10 +30,12 @@ Lastly, Netlify's platform offerings have opened up a plethora of hosting option
 
 ## What's New?
 
+![Barney Self-Fiving Himself](https://media.giphy.com/media/rT8d2mle5AK6A/giphy.gif)
+
 - This site is open source! All of the beautiful (and not so beautiful) code can be found [here!](https://github.com/raygervais/raygervais.dev)
-- The site is powered by Gridsome (duh!), and is aimed at maintaining a 100% score on Google Chrome's Lighthouse platform. That being said, I'm not targetting this for as PWA learning experience just yet.
-- So far (I may need to update this, `TODO: ensure this point is still correct`), there are no CSS frameworks in use. My beloved Bulma is sitting in the corner waiting to be used and alas, I'm trying to maintain the template's minimalism for the time being. I know in time I'll replace majority of the template code with my own ideas, but it's a good starting point which allows me to launch the MVP of this site.
-- With the release of this new site on Netlify's platform, HTTPS certificates [free 90-day expiry] from Let's Encrypt are built and deployed with every publish, meaning no longer will I have to worry about out-of-date certificates. This is a major improvement for me since I've neglected updating Let's Encrypt SSL certs for my own site for quite some time.
+- The site is powered by Gridsome (duh!), and is aimed at maintaining a 100% score on Google Chrome's Lighthouse platform. That being said, I'm not targeting this for as PWA learning experience just yet.
+- So far, there are no CSS frameworks in use. My beloved Bulma is sitting in the corner waiting to be used and alas, I'm trying to maintain the template's minimalism for the time being. I know in time I'll replace majority of the template code with my own ideas, but it's a good starting point which allows me to launch the MVP of this site.
+- With the release of this new site on Netlify's platform, HTTPS certificates [free 90-day expiry] from Let's Encrypt are built and deployed with every publish, meaning no longer will I have to worry about out-of-date certificates. This is a major improvement for me since I've neglected updating Let's Encrypt SSL certs for my own site for quite some time. I noticed an interesting issue where my Work's proxy fails to validate the certificate properly, but have not heard of this issue outside of that network from anyone else, so I'm assuming it's a special blend of unique variables being mixed together.
 
 ## What's Broken?
 
@@ -43,5 +45,7 @@ Lastly, Netlify's platform offerings have opened up a plethora of hosting option
 - SEO is going to be interesting, I'm expecting my Google Analytics to report a drop in interest if Gridsome's default crawler settings are too aggressive or restrictive for search engines. We'll fix that in time and laugh about it once all resolved.
 
 ## Follow Up Posts
+
+<!-- #TODO: Write about this learning experience -->
 
 - Porting my WordPress Site to a JAMStack

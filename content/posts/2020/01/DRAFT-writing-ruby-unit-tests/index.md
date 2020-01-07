@@ -1,7 +1,7 @@
 ---
 title: Starting Ruby Software Development With Unit Tests
 date: 2020-01-07
-published: true
+published: false
 tags: ["Open Source", "Ruby", "Testing", "Lessons"]
 series: false
 cover_image: ./images/nihonorway-graphy-nCvi-gS5r88-unsplash.jpg
