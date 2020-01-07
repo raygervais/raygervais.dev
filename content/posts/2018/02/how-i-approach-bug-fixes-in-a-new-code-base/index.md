@@ -2,7 +2,7 @@
 title: "How I Approach Bug Fixes in a new Code Base"
 date: 2018-02-22
 published: true
-tags: ["Open Source", "Seneca", "OSD700", "Visual Studio Code", "Lesson"]
+tags: ["Open Source", "Seneca", "OSD700", "Visual Studio Code", "Lessons"]
 description: "The one thing that Humphrey said which really resonates with me on the topic of bug fixing is summed up as this, '(on bugs) they're easier to understand since the code foundations have already been laid out before you, all you have to do is understand it'. Even at work, I found myself for the past 4 weeks focused on bug fixes to our product prior to the Mobile World Congress (MWC) event, so I was both sick and very well experienced in trial-error approaches towards bug fixing. Here are three concepts / thoughts which I find often result in a step in the right direction when it comes to solving the infamous issue, resolving the ticket, or adding the feature which exists in a different scope."
 ---
 

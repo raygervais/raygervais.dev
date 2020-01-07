@@ -1,6 +1,6 @@
 // Default variables
 html {
-  --base-font-size: 20px;
+  --base-font-size: 18px;
 }
 
 /* HEX */
@@ -28,7 +28,7 @@ body {
 // Make  things smaller for mobile
 @media screen and (max-width: 650px) {
   html {
-    --base-font-size: 17px;
+    --base-font-size: 16px;
   }
   body {
     --space: 1.5rem;
