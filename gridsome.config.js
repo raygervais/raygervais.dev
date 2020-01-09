@@ -10,7 +10,7 @@ module.exports = {
     "Topics of Programming, Techno-babble, Music, and Life through the eyes of a Canadian Software Developer.",
 
   templates: {
-    Post: "/:title",
+    Post: "/article/:title",
     Tag: "/tag/:id"
   },
 
@@ -29,7 +29,29 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      use: "gridsome-plugin-rss",
+      options: {
+        contentTypeName: "Post",
+        feedOptions: {
+          title: "Ray Gervais",
+          feed_url: "https://raygervais.dev/rss.xml",
+          site_url: "https://raygervais.dev"
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.description,
+          url: "https://raygervais.dev" + node.path,
+          author: node.author
+        }),
+        output: {
+          dir: "./static",
+          name: "rss.xml"
+        }
+      }
     }
+
     // {
     //   use: "@gridsome/plugin-google-analytics",
     //   options: {
