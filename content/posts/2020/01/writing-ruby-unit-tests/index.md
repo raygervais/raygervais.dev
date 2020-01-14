@@ -69,15 +69,15 @@ This isn't a topic that I'm well versed in, that I can admit right now as I cont
 
 ### Expected Behavior
 
-This is the easiest, a test which is where we define the expectations of the correct behavior. For example, When I supply the value of "World" to the `greet` function I an anticipating the returned string to be `Hello, World!`. The test implemention would be the defined `test_hello_world` above. Having these scenerio tests allows us to be confident that the logic is following business requirements, and also ensure updates to the code do not break key functionalilty.
+This is the easiest, a test which is where we define the expectations of the correct behavior. For example, When I supply the value of "World" to the `greet` function I an anticipating the returned string to be `Hello, World!`. The test implementation would be the defined `test_hello_world` above. Having these scenario tests allows us to be confident that the logic is following business requirements, and also ensure updates to the code do not break key functionality.
 
 ### Error Handling & Data Integrity
 
-This test is critical for ensuring you're code handles unexpected [_and yet common, quite the interesting paradox_] use-cases. Being aware of your beautifully [_poorly_] written code's error handling can make or break a good night's sleep, especially when it was just deployed into Production. Just remember, regardless of your testing and confidence, never ever ever ever ever ever deploy on a Friday. This is a key reminder posted often by Software Developer, Entrepreneur, and Co-Host of Ladybug Podcast, [Kelly Vaughn](https://kellyvaughn.co):
+This test is critical for ensuring you're code handles unexpected [_and yet common, quite the interesting paradox_] use-cases. Being aware of your beautifully [_poorly_] written code's error handling can make or break a good night's sleep, especially when it was just deployed into Production. Just remember, regardless of your testing and confidence, never ever ever ever ever ever deploy on a Friday. This is a key reminder often posted by Software Developer, Entrepreneur, and Co-Host of Ladybug Podcast, [Kelly Vaughn](https://kellyvaughn.co):
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A development haiku:<br><br>Hooray, it&#39;s Friday!<br>Don&#39;t deploy to production -<br>Wait until Monday!</p>&mdash; Kelly Vaughn 🐞 (@kvlly) <a href="https://twitter.com/kvlly/status/1068608545862619141?ref_src=twsrc%5Etfw">November 30, 2018</a></blockquote> <br /> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-When testing for data integrity, I often like to check for type definition handling (this is more common for non-typed languages such as Ruby, Python and JavaScript) along with `Null/Nil` values for example. For functions which process input, be-it from user, api, or files, I find this critical to always test. The cost of verbosity and extra code ensures that edge cases such as carraige returns from a DOS machine doesn't break your Linux-powered script for example. Below are a few examples of Ruby type checking that I have employed (including a sane default option) playing off of our earlier example.
+When testing for data integrity, I often like to check for type definition handling (this is more common for non-typed languages such as Ruby, Python and JavaScript) along with `Null/Nil` values for example. For functions which process input, be-it from user, api, or files, I find this critical to always test. The cost of verbosity and extra code ensures that edge cases such as carriage returns from a DOS machine doesn't break your Linux-powered script for example. Below are a few examples of Ruby type checking that I have employed (including a sane default option) playing off of our earlier example.
 
 _Because of Ruby's loose-type system, we cannot test passing in NO value to our function, but your milage will vary by language._
 
@@ -131,7 +131,7 @@ end
 
 ### Logging and Reporting
 
-I've had the opportunity to dive heads-deep into 20+ page log files, and my god can that be both a nightmare and blessing. In these logs, standardized formatting and semantics make or break how easily you're able to debug your program, evaluate the runtime executed as expected, or validate business behaviors. Knowing that your application is logging properly is a reassurance that is only truly appreciated in the war room and during developer demos. Here is a simple example that I incorperate into my applications to ensure that after running the unit tests, I am confident that the application will operate and write to the correct directories.
+I've had the opportunity to dive heads-deep into 20+ page log files, and my god can that be both a nightmare and blessing. In these logs, standardized formatting and semantics make or break how easily you're able to debug your program, evaluate the runtime executed as expected, or validate business behaviors. Knowing that your application is logging properly is a reassurance that is only truly appreciated in the war room and during developer demos. Here is a simple example that I incorporate into my applications to ensure that after running the unit tests, I am confident that the application will operate and write to the correct directories.
 
 ```rb
 require "logger"
