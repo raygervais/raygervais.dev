@@ -6,12 +6,15 @@
       </h1>
 
       <PostMeta :post="$page.post" />
-
     </div>
 
     <div class="post content-box">
       <div class="post__header">
-        <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
+        <g-image
+          alt="Cover image"
+          v-if="$page.post.cover_image"
+          :src="$page.post.cover_image"
+        />
       </div>
 
       <div class="post__content" v-html="$page.post.content" />
@@ -30,9 +33,9 @@
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta'
-import PostTags from '~/components/PostTags'
-import Author from '~/components/Author.vue'
+import PostMeta from "~/components/PostMeta";
+import PostTags from "~/components/PostTags";
+import Author from "~/components/Author.vue";
 
 export default {
   components: {
@@ -40,18 +43,54 @@ export default {
     PostMeta,
     PostTags
   },
-  metaInfo () {
+  metaInfo() {
     return {
       title: this.$page.post.title,
       meta: [
         {
-          name: 'description',
+          key: "og:type",
+          name: "og:type",
+          content: "article"
+        },
+        {
+          name: "description",
           content: this.$page.post.description
+        },
+        {
+          key: "og:description",
+          name: "og:description",
+          content: this.$page.post.description
+        },
+
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: this.$page.post.description
+        },
+        {
+          key: "og:image",
+          name: "og:image",
+          content: this.$page.post.cover_image
+        },
+        {
+          key: "twitter:image",
+          name: "twitter:image",
+          content: this.$page.post.cover_image
+        },
+        {
+          key: "og:title",
+          name: "og:title",
+          content: this.$page.post.title
+        },
+        {
+          key: "twitter:title",
+          name: "twitter:title",
+          content: this.$page.post.title
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <page-query>
@@ -80,7 +119,6 @@ query Post ($id: ID!) {
 }
 
 .post {
-
   &__header {
     width: calc(100% + var(--space) * 2);
     margin-left: calc(var(--space) * -1);
