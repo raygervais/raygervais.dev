@@ -49,7 +49,7 @@ node index.js \
   --addcontentimages=true
 ```
 
-The posts themselves downloaded into the output folder without a problem, but I did notice images would rarely download despite the correct arguments being provided. This was a two-stage problem that I was encountering, the first being very simple to remedy: SSL. My SSL Cert had expired on the site (_again, a reason why I'm so excited to move over to a modern platform_) which would cause the `HTTPS` requests to fail by the script's API dependency. Once I had a _then_ new SSL certificate, _some_ images downloaded correctly. Everytime I ran the script, the previous images would be overwritten with blank files (essentially, references waiting for data) and a new set of random images would be downloaded, often 5 or fewer.
+The posts themselves downloaded into the output folder without a problem, but I did notice images would rarely download despite the correct arguments being provided. This was a two-stage problem that I was encountering, the first being very simple to remedy: SSL. My SSL Cert had expired on the site (_again, a reason why I'm so excited to move over to a modern platform_) which would cause the `HTTPS` requests to fail by the script's API dependency. Once I had a _then_ new SSL certificate, _some_ images downloaded correctly. Every time I ran the script, the previous images would be overwritten with blank files (essentially, references waiting for data) and a new set of random images would be downloaded, often 5 or fewer.
 
 Resolving the second issue took me through a few hoops, with me ultimately creating a [bug](https://github.com/lonekorean/wordpress-export-to-markdown/issues/14) on GitHub to get some help and advice from `Lonekorean`. Before creating the ticket, I went through the networking instruments GoDaddy provides to ensure that my IP address wasn't being blacklisted (with the script doing constant API and web scraping calls, I was expecting my server to turn against me and declare my computer a DDOS attack bound to occur), and that WordPress wasn't aggressively blocking the script either. Checking these confirmed that I was on the right track, as the developer's response was:
 
@@ -138,7 +138,7 @@ Running `npm run develop` started the development server, and I opened up the si
 
 ### Correcting Formatting, Article Metadata
 
-Let's play a game and use hindsight as a tool that's avaiible. Let's compare this current article's metadata compared to the exported.
+Let's play a game and use hindsight as a tool that's available. Let's compare this current article's metadata compared to the exported.
 
 **Current Article**
 
@@ -177,7 +177,15 @@ date: "2019-04-03"
 
 ```
 
-Notice anything different? Missing? Having double quotes where it's not needed? _Hint hint_.
+Notice anything different? Missing? Having double quotes where it's not needed? _Hint hint_. Over the winter holidays, I went through all the exported articles and corrected the metadata to reflect the expected format. This included: 
+
+1. Removing title and date quotations
+2. Re-adding the correct tags
+3. Adding `published: true`
+4. Adding a description
+5. For the newer ones, correcting the `cover_image` formatting.
+
+Once the above was corrected for each, the blog posts were appearing in the correct order with all the correct metadata! If the published field was set to false or not set at all, the article would never appear. Take note!
 
 ## Alert("MVP Launch in 3, 2, 1!");
 
