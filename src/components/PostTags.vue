@@ -47,9 +47,22 @@ export default {
     align-items: center;
     justify-content: center;
     // min-width: 100px;
-	flex-grow: 1;
+    flex-grow: 1;
     width: auto;
-    height: 75px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .post-tags {
+    flex-direction: column;
+    width: 100%;
+
+	&__link {
+		width: 100%;
+		height: auto;
+		margin-bottom: 1rem;
+	}
   }
 }
 </style>
