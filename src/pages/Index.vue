@@ -6,7 +6,7 @@
     <!-- List posts -->
     <div class="posts flex-container">
       <PostCard
-      class="flex-item"
+        class="flex-item"
         v-for="edge in $page.posts.edges"
         :key="edge.node.id"
         :post="edge.node"
@@ -47,8 +47,22 @@ export default {
     Author,
     PostCard
   },
-  metaInfo: {
-    title: "Hello, world!"
+  metaInfo() {
+    return {
+      title: "Hello, world!",
+      meta: [
+        {
+          key: "og:title",
+          name: "og:title",
+          content: "raygervais.dev - posts"
+        },
+        {
+          key: "twitter:title",
+          name: "twitter:title",
+          content: "raygervais.dev - posts"
+        }
+      ]
+    };
   }
 };
 </script>
