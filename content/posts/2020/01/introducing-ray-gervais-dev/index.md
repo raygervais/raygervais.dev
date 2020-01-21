@@ -46,6 +46,4 @@ Lastly, Netlify's platform offerings have opened up a plethora of hosting option
 
 ## Follow Up Posts
 
-<!-- #TODO: Write about this learning experience -->
-
-- Porting my WordPress Site to a JAMStack
+- [Porting my WordPress Site to a JAMStack](/article/migrating-a-word-press-site-to-jam-stack/)
