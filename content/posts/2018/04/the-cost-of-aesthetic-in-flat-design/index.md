@@ -3,7 +3,7 @@ title: "The Cost of Aesthetic in Flat Design"
 date: 2018-04-19
 published: true
 tags: ["Open Source", "Seneca", "OSD700", "Angular", "Material Design", "A11Y"]
-cover_image: https://images.unsplash.com/photo-1493462045127-9bf32e5f133a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=265633767be18a2344c604d4b87d1cc8&auto=format&fit=crop&w=3888&q=80
+cover_image: ./images/photo-1493462045127-9bf32e5f133a.jpg
 description: "For the final release, one of the issues I wanted to focus on was [this](https://github.com/angular/material2/issues/10727), which I figured would be an easy contribution toward the project and a check off of my final release requirements. After reviewing the comments on the issue, I was under the impression that I had to learn a new accessibly standard titled aXe. aXe was going to be the driving force behind this post, but to my fortune it's more of a testing engine than a standard; testing instead web applications and pages against the WCAG 2.0 AA rulesets."
 ---
 

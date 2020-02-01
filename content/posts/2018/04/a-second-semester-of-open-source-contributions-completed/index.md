@@ -4,7 +4,7 @@ date: 2018-04-15
 published: true
 tags: ["Open Source", "Seneca", "OSD700", "Opinions"]
 description: "It's hard to believe how quickly this semester has come to a close. Some of us including me even had countdown calendars, and yet the days escaped even quicker than we could count. It feels like just last week I started my second dedicated foray into Open Source technologies, and yet in the next two weeks it'll be the end of such adventure (for now, that is). Similar to what I did when I completed OSD600, I thought I'd recap and share my thoughts as I complete OSD700, and perhaps also allude to the progression and experiences between the two which is only possible through fantastic instructors such as David."
-cover_image: https://images.unsplash.com/photo-1512810730836-1a7cde39c455?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca6597a7de9397ed66d9af53cc659017&dpr=1&auto=format&
+cover_image: ./images/photo-1512810730836-1a7cde39c455.jpg
 ---
 
 It's hard to believe how quickly this semester has come to a close. Some of us including me even had countdown calendars, and yet the days escaped even quicker than we could count. It feels like just last week I started my second dedicated foray into Open Source technologies, and yet in the next two weeks it'll be the end of such adventure (for now, that is). Similar to what I did when I completed OSD600, I thought I'd recap and share my thoughts as I complete OSD700, and perhaps also allude to the progression and experiences between the two which is only possible through fantastic instructors such as David.

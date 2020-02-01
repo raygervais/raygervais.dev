@@ -2,7 +2,7 @@
 title: "Using Docker to Orchestrate and Manage Node Projects"
 date: 2018-09-29
 published: true
-cover_image: https://images.unsplash.com/photo-1510681916233-314f497f3301?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80
+cover_image: ./images/photo-1510681916233-314f497f3301.jpg
 tags: ["Open Source", "Docker", "NodeJS", "Experiments"]
 description: "I found myself frustrated with this constant battle, be-it on ANY system that I was using. Eventually, they all became too cluttered and unlike a USB key which you could pull away and forget about, it was hard to clear out the jank without exposing your rm -rf habits to critical file systems. This is where I came up with the convoluted but totally awesome idea: Can I run NodeJS projects through Docker, and discard the container when I am done?"
 ---

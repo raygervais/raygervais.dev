@@ -5,7 +5,7 @@ published: true
 description: "2020 has been off to quite the unsettling start, between the wildfires that burn through Australia, the recent passing of Neil Peart and Kobe Bryant, World War III concerns being raised in much louder voices than a fearful whisper, etc. Yet, I wanted to touch upon some of the items that I was working with in attempts to better myself in the first month of 2020."
 tags: ["Opinions", "Overview", "Life Updates", "Challenge"]
 series: false
-cover_image: https://images.unsplash.com/photo-1577138043155-7934dd897541
+cover_image: ./images/pawel-czerwinski-pkHrzNAP2ZQ-unsplash.jpg
 canonical_url: false
 ---
 

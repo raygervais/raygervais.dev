@@ -4,7 +4,7 @@ date: 2018-04-01
 published: true
 tags: ["Open Source", "Seneca", "OSD700", "Angular"]
 description: " this day and age, you live in one of two camps, you either love or hate autocomplete. Autocomplete (which differs from autocorrect due to contextual opposites of operation) is the answer to the mundane long dropdown lists, providing a means to both filter and evaluate a value without scrolling through the entire component _(and then some!)_."
-cover_image: https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=3578&q=80
+cover_image: ./images/photo-1484417894907-623942c8ee29.jpg
 ---
 
 _An OSD700 Contribution Update Part 1_

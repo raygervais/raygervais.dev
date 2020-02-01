@@ -4,7 +4,7 @@ date: 2018-03-05
 published: true
 tags: ["Open Source", "Seneca", "OSD700", "Version Control"]
 description: "It was made clear to me that the bug was a regression, and not evident two months or so ago. I knew that the current master branch contained the issue. According to the comment thread, this issue had arrived around a month or two ago."
-cover_image: https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e26194956d8779112415c402b2bc4ec&auto=format&fit=crop&w=2700&q=80
+cover_image: ./images/photo-1431440869543-efaf3388c585.jpg
 ---
 
 _An OSD Contribution Update - Part 1_

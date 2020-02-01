@@ -1,7 +1,7 @@
 ---
 title: "Removing the Excess Years from Angular Material's DatePicker"
 date: 2018-04-23
-cover_image: https://images.unsplash.com/photo-1524261399568-56d8c862aaf8?ixlib=rb-0.3.5&s=7997f1df5136aa78f1d28da2c100ef97&auto=format&fit=crop&w=1701&q=80
+cover_image: ./images/photo-1524261399568-56d8c862aaf8.jpg
 published: true
 tags: ["Open Source", "Seneca", "OSD700", "Angular", "Material Design"]
 description: "So here we are, potentially the last contribution to occur for OSD700 from this developer before the semester ends and marks are finalized. No pressure."
