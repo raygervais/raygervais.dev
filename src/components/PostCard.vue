@@ -66,10 +66,10 @@ export default {
 
   &:hover {
     // transform: translateY(-5px);
-    box-shadow: 1px 10px 30px 0 var(--link-color);
-    -webkit-box-shadow: 10px 10px 44px 0px var(--link-color);
-    -moz-box-shadow: 10px 10px 44px 0px var(--link-color);
-    box-shadow: 10px 10px 44px 0px var(--link-color);
+    box-shadow: -1px 9px 20px var(--link-color);
+    -webkit-box-shadow: -1px 9px 20px var(--link-color);
+    -moz-box-shadow: -1px 9px 20px var(--link-color);
+    box-shadow: -1px 9px 20px var(--link-color);
 
     // border: solid 1px var(--border-color);
 
@@ -96,5 +96,12 @@ export default {
     text-indent: -9999px;
     z-index: 0;
   }
+
+  // &__description {
+  //   overflow: hidden;
+  //   display: -webkit-box;
+  //   -webkit-line-clamp: 3;
+  //   -webkit-box-orient: vertical;
+  // }
 }
 </style>

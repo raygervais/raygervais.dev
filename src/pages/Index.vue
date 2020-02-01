@@ -12,12 +12,24 @@
         :post="edge.node"
       />
     </div>
+    
+    <div class="flex-container">
+      <Pager :info="$page.posts.pageInfo" :linkClass="{ pageNum: true }" />
+    </div>
+    <br />
   </Layout>
 </template>
 
 <page-query>
-query {
-  posts: allPost(filter: { published: { eq: true }}) {
+query ($page: Int) {
+  posts: allPost(perPage: 20, page: $page, filter: { published: { eq: true }}) @paginate {
+    totalCount
+    pageInfo {
+      totalPages
+      currentPage
+      isFirst
+      isLast
+    }
     edges {
       node {
         id
@@ -41,11 +53,13 @@ query {
 <script>
 import Author from "~/components/Author.vue";
 import PostCard from "~/components/PostCard.vue";
+import { Pager } from "gridsome";
 
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
+    Pager
   },
   metaInfo() {
     return {
@@ -99,5 +113,28 @@ export default {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+}
+
+.pageNum {
+  padding: 1rem var(--space);
+  background: var(--bg-content-color);
+  border-radius: var(--radius);
+  color: var(--link-color);
+
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  margin-right: 0.7em;
+}
+
+.active--exact {
+  background: var(--link-color);
+  color: var(--bg-content-color);
 }
 </style>
