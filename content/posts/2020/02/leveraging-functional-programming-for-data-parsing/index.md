@@ -9,11 +9,13 @@ tags:
     "Python",
   ]
 published: true
-date: 2020-02-02
+date: 2020-02-05
 cover_image: ./images/pawel-czerwinski-lt891TUy6iw-unsplash.jpg
 ---
 
-_An Excerpt from the Life of a Software Delivery Team, and Whatever Ray's Doing_
+_An Excerpt from the Life of a Software Delivery Team, and Whatever Ray's Doing..._
+
+> In all seriousness, this is still a learning subject for yours truly. Facts and opinions may be wrong. You've been warned.
 
 ## **\_\_init\_\_**(self, premise):
 
@@ -235,7 +237,7 @@ Pretty simple requirements right? Let's say we now add the following requirement
 
 Well, these are pretty simple too with the way the application was written! You see, one of the key concepts of writing in a functional style that I tried (and hopefully didn't fail miserably) to demonstrate are immutability and single responsibility functions. See, none of the functions alter the state of objects passed in, which allows us to trace the data transformations in a before/after pattern simply by comparing two variables for example. Furthermore, functions are broken down to their utmost highest level of granularity, ensuring that they cover a singular logic requirement and can be tested for said without expecting other behaviors.
 
-An easier, although harder way to predict behaviors implementation of the above would look as the following (bad example, I'm aware as I write this just how simple the function is in contrast to enterprise-level applications, but you have to just go along with it ok):
+An easier, although harder way to predict behaviors implementation of the above would look as the following (_bad example, I'm aware as I write this just how simple the function is in contrast to enterprise-level applications, but you have to just go along with it ok?_):
 
 ```python
 # fx [a] -> [b]
@@ -272,7 +274,7 @@ def filter_companys_for_users(users) -> [User]:
 
 # fx b -> c
 def filter_company_for_user(user) -> Bool:
-  return "Decklow-Crist" in user.company.name
+  return "Decklow-Crist" not in user.company.name
 ```
 
 You may be wondering, what's with the `# fx [a] -> [a]` style comments, to which I say: great question! Though unsure if it's valid, I had saw it in one of the videos included in the references below which explains that, by writing these input / return types, we are able to see the object transformations between input and output. This becomes more important of a programming idea with dynamic languages such as Ruby and Python whose variables can change on a dime if you're not careful.
@@ -281,13 +283,88 @@ Finally, we can rewrite the `create_users_feed` function to reflect below.
 
 ```python
 # fx [a] -> [a]
-
 def create_user_feed(users):
-valid_phone_website_users = filter_invalid_users(users)
-valid_company_users = filer_companys_for_users(valid_phone_website_users)
+  valid_phone_website_users = filter_invalid_users(users)
+  valid_company_users = filer_companys_for_users(valid_phone_website_users)
+
+  return map(format_user, valid_company_users)
+```
+
+The final code appears as:
+
+```python
+class User:
+    id: int
+    name: str
+    username: str
+    email: str
+    address: Address
+    phone: str
+    website: str
+    company: Company
+
+    def __init__(self, id: int, name: str,
+                  username: str, email: str,
+                  address: Address, phone: str,
+                  website: str, company: Company) -> None:
+        self.id = id
+        self.name = name
+        self.username = username
+        self.email = email
+        self.address = address
+        self.phone = phone
+        self.website = website
+        self.company = company
+
+# fx [a] -> [b]
+def create_user_feed(users):
+    valid_phone_website_users = filter_invalid_users(users)
+    valid_company_users = filer_companies_for_users(valid_phone_website_users)
 
     return map(format_user, valid_company_users)
+
+# fx a -> b
+def format_user(user):
+    return {
+      username: user.username,
+      name: user.name,
+      id: format_user_id(user),
+      email: user.email
+      website: user_has_site(user),
+      phone: user_has_phone(user)
+      company: company
+    }
+
+# fx a -> b
+def format_user_id(user) -> String:
+    return user.username + "_" + user.id
+
+# fx a -> b
+def user_has_site(user) -> String:
+    return user.website if user.website != None else "N/A"
+
+# fx a -> b
+def user_has_site(user) -> String:
+    return user.phone if user.phone != None else "N/A"
+
+# fx [a] -> [a]
+def filter_invalid_users(users) -> [User]:
+  return filter(filter_invalid_user, users)
+
+# fx a -> b
+def filter_invalid_user(user) -> Bool:
+  return user.website != None and user.phone != None
+
+# fx [a] -> [a]
+def filter_companies_for_users(users) -> [User]:
+  return filter(filter_company_for_user, users)
+
+# fx b -> c
+def filter_company_for_user(user) -> Bool:
+  return "Decklow-Crist" not in user.company.name
 ```
+
+Doesn't this seem cleaner? In my opinion, the verbosity and reduction of fractions to singular responsibilities enables for a much greater depth of testing and decoupling! It's through this architecture that my recent work was able to have 100% test coverage and still be updated a few days prior to production deployment with confidence. As requirements change, I knew that my tests would make clear if the contracts and scope changed beyond the expected, and thus they'd be updated and corrected based on the new expectations. It's a nice development style that I hope to learn more of and talk about.
 
 ## References
 
