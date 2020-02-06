@@ -61,7 +61,16 @@ export default {
           name: "og:description",
           content: this.$page.post.description
         },
-
+        {
+          key: "twitter:card",
+          name: "twitter:card",
+          content: "summary_large_image"
+        },
+        {
+          key: "twitter:image:alt",
+          name: "twitter:image:alt",
+          content: `${this.$page.post.title} Cover Image`
+        },
         {
           key: "twitter:description",
           name: "twitter:description",
