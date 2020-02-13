@@ -24,6 +24,29 @@ a:not(.button) {
   }
 }
 
+table {
+  padding: 1rem;
+  width: 100%;
+
+  tr {
+    border-bottom: solid 1px var(--link-color);
+    margin: auto;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  td {
+    padding: 1rem;
+    border-left: solid 1px var(--link-color);
+
+    &:first-child {
+      border-left: none;
+    }
+  }
+}
+
 img {
   max-width: 100%;
 }
