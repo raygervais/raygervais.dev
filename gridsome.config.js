@@ -68,10 +68,40 @@ module.exports = {
         enforceTrailingSlashes: false,
         // Optional: a method that accepts a node and returns true (include) or false (exclude)
         // Example: only past-dated nodes: `filterNodes: (node) => node.date <= new Date()`
-        filterNodes: node => true,
-        // Optional: a method that accepts a node and returns an object for `Feed.addItem()`
+        filterNodes: node => node.draft === false,
+
+        nodeToFeedItem: node => ({
+          title: node.title,
+          date: node.date || node.fields.date,
+          content: node.content
+        })
+      }
+    },
+    // For Open Source Feed
+    {
+      use: "gridsome-plugin-feed",
+      options: {
+        // Required: array of `GraphQL` type names you wish to include
+        contentTypes: ["Post"],
+        // Optional: any properties you wish to set for `Feed()` constructor
         // See https://www.npmjs.com/package/feed#example for available properties
-        // NOTE: `date` field MUST be a Javascript `Date` object
+        feedOptions: {
+          title: "Ray Gervais",
+          description:
+            "Topics of Programming, Techno-babble, Music, and Life through the eyes of a Canadian Software Developer."
+        },
+        // === All options after this point show their default values ===
+        // Optional; opt into which feeds you wish to generate, and set their output path
+        rss: {
+          enabled: true,
+          output: "/feed-open-source.xml"
+        },
+
+        // To disable this functionality, set to `null`.
+        htmlFields: ["description", "content"],
+        enforceTrailingSlashes: false,
+        filterNodes: node =>
+          node.draft === false && node.tags.includes("Open Source"),
         nodeToFeedItem: node => ({
           title: node.title,
           date: node.date || node.fields.date,
