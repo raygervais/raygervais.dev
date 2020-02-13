@@ -12,7 +12,7 @@
         :post="edge.node"
       />
     </div>
-    
+
     <div class="flex-container">
       <Pager :info="$page.posts.pageInfo" :linkClass="{ pageNum: true }" />
     </div>
@@ -81,7 +81,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .flex-container {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -113,6 +113,10 @@ export default {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+
+  @media (min-width: 1024px) {
+    min-height: 60rem;
+  }
 }
 
 .pageNum {

@@ -9,14 +9,18 @@
       blur="5"
     />
 
-    <h1 v-if="showTitle" class="author__site-title">{{ $static.metadata.siteName }}</h1>
+    <h1 v-if="showTitle" class="author__site-title">
+      {{ $static.metadata.siteName }}
+    </h1>
 
     <p class="author__intro">{{ $static.metadata.siteDescription }}</p>
 
     <div class="navigation_bar">
       <p class="author__links">
-        <g-link to="/about">About</g-link>
-        <g-link to="/posts">Posts</g-link>
+        <!-- <g-link to="/about">About</g-link> -->
+        <g-link to="/">Articles</g-link>
+        <g-link to="/uses">Uses</g-link>
+
         <a href="//twitter.com/_raygervais">Twitter</a>
         <a href="//github.com/raygervais">GitHub</a>
       </p>

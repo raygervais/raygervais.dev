@@ -24,6 +24,41 @@ a:not(.button) {
   }
 }
 
+table {
+  padding: 1rem;
+  width: 100%;
+
+  tr {
+    border-bottom: solid 1px var(--border-color);
+    margin: auto;
+    transition: linear 250ms all;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:hover {
+      background: var(--link-color);
+      color: var(--bg-color);
+    }
+  }
+
+  td {
+    vertical-align: middle;
+
+    padding: 1rem;
+    border-left: solid 1px var(--border-color);
+
+    &:first-child {
+      border-left: none;
+    }
+  }
+}
+
 img {
   max-width: 100%;
+}
+
+hr {
+  border-color: var(--link-color);
 }
