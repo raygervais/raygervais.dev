@@ -29,17 +29,25 @@ table {
   width: 100%;
 
   tr {
-    border-bottom: solid 1px var(--link-color);
+    border-bottom: solid 1px var(--border-color);
     margin: auto;
+    transition: linear 250ms all;
 
     &:last-child {
       border-bottom: none;
     }
+
+    &:hover {
+      background: var(--link-color);
+      color: var(--bg-color);
+    }
   }
 
   td {
+    vertical-align: middle;
+
     padding: 1rem;
-    border-left: solid 1px var(--link-color);
+    border-left: solid 1px var(--border-color);
 
     &:first-child {
       border-left: none;
@@ -49,4 +57,8 @@ table {
 
 img {
   max-width: 100%;
+}
+
+hr {
+  border-color: var(--link-color);
 }

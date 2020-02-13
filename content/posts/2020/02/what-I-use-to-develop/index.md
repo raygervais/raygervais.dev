@@ -11,6 +11,7 @@ description: "I figured I'd open up this article with explaining a few of the do
 
 I figured I'd open up this article with explaining a few of the domains that I work in, both professionally and as a hobby. My hopes is that it provides a better context into some of the choices of technologies. For work, my current title is _Cloud Engineer_, which falls under the development practices of:
 
+- Public Cloud Tooling (Microsoft Azure, Google Cloud Platform)
 - Docker
 - Continuous Integration / Continuous Delivery
 - Python, Ruby, Groovy scripting
@@ -24,7 +25,7 @@ On the side, I find myself doing hobby programming in the following domains:
 - Web Development
 - Open Source :D
 
-This article was inspired by the ever-persistent question "What do they use?", which [Wes Bos](https://twitter/wesbos) decided to answer in the [Uses.Tech](https://uses.tech/) project. I figured, I should add the same to my own site for those interested (in a much more condensed version) and work my site into the listings too. We can always use more canadian representation.
+This article was inspired by the ever-persistent question "What do they use?", which [Wes Bos](https://twitter/wesbos) decided to answer in the [Uses.Tech](https://uses.tech/) project. I figured, I should add the same to my own site for those interested (in a much more condensed version which can be found [here!](/uses)) and work my site into the listings too. We can always use more canadian representation.
 
 ## Hardware - Generalized
 
