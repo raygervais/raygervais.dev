@@ -68,8 +68,7 @@ module.exports = {
         enforceTrailingSlashes: false,
         // Optional: a method that accepts a node and returns true (include) or false (exclude)
         // Example: only past-dated nodes: `filterNodes: (node) => node.date <= new Date()`
-        filterNodes: node => node.draft === false,
-
+        filterNodes: node => !node.draft,
         nodeToFeedItem: node => ({
           title: node.title,
           date: node.date || node.fields.date,
@@ -96,12 +95,11 @@ module.exports = {
           enabled: true,
           output: "/feed-open-source.xml"
         },
-
         // To disable this functionality, set to `null`.
         htmlFields: ["description", "content"],
         enforceTrailingSlashes: false,
         filterNodes: node =>
-          node.draft === false && node.tags.includes("Open Source"),
+          !node.draft && node.tags.includes("Open Source"),
         nodeToFeedItem: node => ({
           title: node.title,
           date: node.date || node.fields.date,
