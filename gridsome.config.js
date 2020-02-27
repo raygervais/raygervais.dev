@@ -3,6 +3,7 @@
 
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const marked = require('marked')
 
 module.exports = {
   siteName: "Ray Gervais",
@@ -72,7 +73,7 @@ module.exports = {
         nodeToFeedItem: node => ({
           title: node.title,
           date: node.date || node.fields.date,
-          content: node.content
+          content: marked(node.content)
         })
       }
     },
@@ -98,12 +99,11 @@ module.exports = {
         // To disable this functionality, set to `null`.
         htmlFields: ["description", "content"],
         enforceTrailingSlashes: false,
-        filterNodes: node =>
-          !node.draft && node.tags.includes("Open Source"),
+        filterNodes: node => !node.draft && node.tags.includes("Open Source"),
         nodeToFeedItem: node => ({
           title: node.title,
           date: node.date || node.fields.date,
-          content: node.content
+          content: marked(node.content)
         })
       }
     },
