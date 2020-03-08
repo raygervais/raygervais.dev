@@ -175,4 +175,8 @@ query Post ($id: ID!) {
 .post-author {
   margin-top: calc(var(--space) / 2);
 }
+
+code {
+  padding: 0;
+}
 </style>
