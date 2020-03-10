@@ -19,7 +19,8 @@
         >Copyright © {{ new Date().getFullYear() }}.
       </span>
       <span class="footer__links"
-        >Powered by <a href="//gridsome.org"> Gridsome </a></span
+        > Source on
+        <a href="//github.com/raygervais/raygervais.dev">Github</a></span
       >
     </footer>
   </div>
