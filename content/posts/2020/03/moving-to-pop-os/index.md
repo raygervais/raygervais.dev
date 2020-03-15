@@ -72,10 +72,9 @@ Here is a list of the current configuration, which I'm sure will evolve quicker 
 - Social: Telegram, Cawbird, Slack
 - Music: Spotify
 - Email: Geary
-- Terminal: Gnome Terminal 
+- Terminal: Gnome Terminal
 
 ![Pop!OS System Visual Studio Code open and Firefox](./images/desktop-busy.png)
-
 
 ## Resources
 
