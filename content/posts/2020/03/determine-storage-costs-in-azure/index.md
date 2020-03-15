@@ -7,7 +7,7 @@ cover_image: ./images/pawel-czerwinski-M8NGA7njt2w-unsplash.jpg
 description: "About a month ago, a photographer (and filmmaker in the making) friend approached me about hosting in Azure a copy of his media for safekeeping, and wanted to also understand an average cost over time as they'd add more files to the Storage Account. Funnily enough, this is a small application script that I had written before for the green office, along with a script that I had integrated into one of my monthly to-be-automated tasks here in the red office. I figured I's share the Simple Python script, seeing that despite some of the excellent documentation provided by Microsoft, there are multiple ways to approach the solution which can easily be mangled and confused with other solutions and recommendations."
 ---
 
-_Enabling you to say "I Saved us $3,000 per subscription!" with ease._
+_Enabling you to say "I saved us $3,000 per subscription!" with ease._
 
 About a month ago, a photographer (and filmmaker in the making) friend approached me about hosting in Azure a copy of his media for safekeeping, and wanted to also understand an average cost over time as they'd add more files to the Storage Account. Funnily enough, this is a small application script that I had written before for the green office, along with a script that I had integrated into one of my monthly to-be-automated tasks here in the red office. I figured I's share the Simple Python script, seeing that despite some of the excellent documentation provided by Microsoft, there are multiple ways to approach the solution which can easily be mangled and confused with other solutions and recommendations. It took me two days of work to get it all working together nicely, having scoured Stackoverflow and documentation sites all pointing to their _"solutions"_ without specifying SDK version etc. So, let's go over a coherent working method that I provided my friend for them to utilize as they traverse and leverage Azure in their media-creation process.
 
@@ -37,7 +37,7 @@ pip install 'azure-common==1.1.24'
 
 ## The Script:
 
-_So, let's break down what the script is doing to achieve our analytic requirements. I will note now, that I haven't tested this script against a valid subscription since rewriting it to accommodate this post, so it's possible there's a typo-friendo along the way. We'll ignore and fix those as they come up!_
+_So, let's break down what the script is doing to achieve our analytic requirements. I will note now, that I haven't tested this script against a valid subscription since rewriting it to accommodate this post, so there may be a typo-friendo along the way. We'll ignore and fix those as they come up!_
 
 ```python
 # Script AverageCostPerMonth.py
@@ -123,8 +123,8 @@ if __name__ == '__main__':
 
 **Let's go over some of the functional-style helpers that I wrote to help keep the script clean:**
 
-- For this version, I opted for brevity to make all the dynamic variables which would be useful to have as proper commandline arguments as global constant variables. These are used throughout the script and should never be committed to a repository (public or private).
-- The `pretty_size` function was taken from [ccpizza's Stackoverflow answer](https://stackoverflow.com/questions/5194057/better-way-to-convert-file-sizes-in-python), and allows for us to convert bytes to pentabytes, with all the magic in-between.
+- For this version, I opted for brevity to make all the dynamic variables that would be useful to have as proper command-line arguments as global constant variables. These are used throughout the script and should never be committed to a repository (public or private).
+- The `pretty_size` function was taken from [ccpizza's Stackoverflow answer](https://stackoverflow.com/questions/5194057/better-way-to-convert-file-sizes-in-python), and allows for us to convert bytes to petabytes, with all the magic in-between.
 - the `average_cost` function is a simple GB \* cost_average calculation, utilizing the bytes to GB formula to match Azure's \$0.015/GB pricing scheme.
 - the `format_row` function is a neat little trick I learned on Stackoverflow (cannot find the link, will go through work-computer when I have the chance) to print out tables without having to worry about multiple format calls etc. You can see me calling it by the end of the script for final output of the blobs found in the Storage Account.
 
