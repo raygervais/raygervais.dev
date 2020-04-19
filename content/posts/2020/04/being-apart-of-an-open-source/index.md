@@ -1,6 +1,6 @@
 ---
 title: Being Apart of the Telescope Open Source Project
-date: 2020-04-15
+date: 2020-04-19
 published: true
 tags:
   [
@@ -30,7 +30,7 @@ That was then, which doesn't even begin to contrast the experiences that these b
 
 - Regular need for rebasing of branches based on others working in the same area.
 - Identify and debug key performance areas, striving for [optimization!](https://github.com/Seneca-CDOT/telescope/pull/994)
-- [Proper Logging](https://github.com/Seneca-CDOT/telescope/pull/651), [NodeJS Development Patterns](https://github.com/Seneca-CDOT/telescope/pull/897#discussion_r399868410) (Dave, I kno my bias against JavaScript is unwarranted, but I will admit that you're teaching of the best practices allows my unease with some of the language rest easier.)
+- [Proper Logging](https://github.com/Seneca-CDOT/telescope/pull/651), [NodeJS Development Patterns](https://github.com/Seneca-CDOT/telescope/pull/897#discussion_r399868410) (Dave, I know my bias against JavaScript is unwarranted, but I will admit that you're teaching of the best practices allows my unease with some of the language rest easier.)
 - Learning how front-end and back-ends interact via Proxies, Ports, and life cycle requests.
 - Iterating on a platform, following a very robust software development life cycle.
 - Leveraging and integrating modern technologies and platforms ([Redis](https://github.com/Seneca-CDOT/telescope/pull/748), [Elastic Search](https://github.com/Seneca-CDOT/telescope/pull/822), Docker)
