@@ -20,6 +20,7 @@
         <!-- <g-link to="/about">About</g-link> -->
         <g-link to="/">Articles</g-link>
         <g-link to="/uses">Uses</g-link>
+        <g-link to="/uses">Open Source</g-link>
 
         <a href="//twitter.com/_raygervais">Twitter</a>
         <a href="//github.com/raygervais">GitHub</a>
@@ -39,14 +40,14 @@ query {
 
 <script>
 export default {
-  props: ["showTitle"]
+  props: ["showTitle"],
 };
 </script>
 
 <style lang="scss">
 .author {
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 80%;
   text-align: center;
   padding: calc(var(--space) / 2) 0;
 
@@ -83,6 +84,16 @@ export default {
         background: var(--title-color);
         padding: 1rem;
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .author__links a {
+    display: block;
+
+    &:last-child {
+      padding-bottom: 0;
     }
   }
 }

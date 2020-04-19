@@ -65,11 +65,12 @@ export default {
   }
 
   &:hover {
-    // transform: translateY(-5px);
-    box-shadow: -1px 9px 20px var(--link-color);
-    -webkit-box-shadow: -1px 9px 20px var(--link-color);
-    -moz-box-shadow: -1px 9px 20px var(--link-color);
-    box-shadow: -1px 9px 20px var(--link-color);
+    transition: all linear 250ms;
+    transform: translateY(-5px);
+    // box-shadow: -1px 9px 20px var(--border-color);
+    // -webkit-box-shadow: -1px 9px 20px var(--border-color);
+    // -moz-box-shadow: -1px 9px 20px var(--border-color);
+    // box-shadow: -1px 9px 20px var(--border-color);
 
     // border: solid 1px var(--border-color);
 
