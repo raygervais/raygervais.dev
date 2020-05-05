@@ -32,13 +32,15 @@ My current tasks often follow a stop-start pattern, with 5 or minutes of waiting
 
 ## Break for 5 Minutes
 
+![Marge starting a timer](https://media.giphy.com/media/3orieMd0OXjo8YU7GU/giphy.gif)
+
 I found after doing this for a week (pretty consistently, if I may add), the setting aside of these social platforms and forums meant that in small break I had to prioritize what I cared to look into. When time is limited, I opted to check Reddit, Twitter, and Hacker News more than I would glance at Facebook, Instagram, or YouTube even. I'm intrigued if I'll follow the same pattern for week two.
 
 With the bigger breaks, this is where I'd devote time to accomplishing my own tasks such as a short workout / walk, blogging, gaming, reading, etc. Though it's still hard to transition and stay focused on a single lane when changing lanes on the "task highway", I definitely felt I had accomplished more during the work week in comparison.
 
 ## Apps Galore
 
-One of the best attributes about this technique and it's digital following? Pomodoro applications roam freely in various offerings, written in [Vala](https://github.com/codito/gnome-pomodoro), [Node](https://github.com/Splode/pomotroid) and even integrate with [Chrome](https://github.com/schmich/marinara). That's not counting the dozens on [iOS](https://itunes.apple.com/gb/app/focus-keeper-work-study-timer/id830466924?mt=8) and hundreds on [Android](https://play.google.com/store/apps/details?id=com.superelement.pomodoro&hl=en)!
+One of the best attributes about this technique and it's digital following? Pomodoro applications roam freely in various offerings, written in [Vala](https://github.com/codito/gnome-pomodoro), [Node](https://github.com/Splode/pomotroid) and even integrate with [Chrome](https://github.com/schmich/marinara). That's not counting the dozens on [iOS](https://itunes.apple.com/gb/app/focus-keeper-work-study-timer/id830466924?mt=8) and hundreds on [Android](https://play.google.com/store/apps/details?id=com.superelement.pomodoro&hl=en)! I say it doesn't hurt at all to try, and I'm recommending all who have the capacity to attempt a week following the timer and evaluate from there.
 
 
 ## Going Forward
