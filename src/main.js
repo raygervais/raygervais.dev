@@ -1,6 +1,6 @@
 // Import main css
 import "~/assets/style/index.scss";
-import "prism-themes/themes/prism-atom-dark.css";
+import "prism-themes/themes/prism-nord.css";
 
 // Import default layout so we don't need to import it to every page
 import DefaultLayout from "~/layouts/Default.vue";
