@@ -6,7 +6,7 @@
     <br />
 
     <div class="flex-container">
-      <div class="flex-item content-box title-box">
+      <div class="content-box title-box">
         <h1>Stuff I Use for Software Development</h1>
 
         <hr />
@@ -31,6 +31,8 @@
       </div>
     </div>
 
+    <br />
+
     <!-- List posts -->
     <div class="flex-container">
       <div class="flex-item content-box">
@@ -41,10 +43,10 @@
             <th></th>
           </thead>
           <tbody>
-              <tr>
-                  <td>Operating Systems</td>
-                  <td>Linux, Windows, MacOS</td>
-              </tr>
+            <tr>
+              <td>Operating Systems</td>
+              <td>Linux, Windows, MacOS</td>
+            </tr>
             <tr>
               <td>Public Cloud</td>
               <td>Microsoft Azure, Google Cloud Platform</td>
@@ -208,7 +210,7 @@
             </tr>
             <tr>
               <td><strong>Monitor</strong></td>
-              <td>AOC 4K IPS Monitor</td>
+              <td>Dual AOC 4K IPS Monitor</td>
             </tr>
             <tr>
               <td><strong>Mouse</strong></td>
@@ -242,7 +244,7 @@ import Author from "~/components/Author.vue";
 
 export default {
   components: {
-    Author
+    Author,
   },
   metaInfo() {
     return {
@@ -251,16 +253,16 @@ export default {
         {
           key: "og:title",
           name: "og:title",
-          content: "raygervais.dev - uses"
+          content: "raygervais.dev - uses",
         },
         {
           key: "twitter:title",
           name: "twitter:title",
-          content: "raygervais.dev - uses"
-        }
-      ]
+          content: "raygervais.dev - uses",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
@@ -303,6 +305,10 @@ export default {
 
   & h2:first-of-type {
     margin-top: 0;
+  }
+
+  @media (min-width: 1024px) {
+    min-height: 85rem;
   }
 }
 

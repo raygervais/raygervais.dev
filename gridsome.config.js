@@ -34,6 +34,22 @@ module.exports = {
     },
 
     {
+      // Create posts from markdown files
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "Contribution",
+        path: "content/contributions/**/*.md",
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: "Tag",
+            create: true
+          }
+        }
+      }
+    },
+
+    {
       use: "gridsome-plugin-feed",
       options: {
         // Required: array of `GraphQL` type names you wish to include

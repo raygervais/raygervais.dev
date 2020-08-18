@@ -20,8 +20,7 @@
         <!-- <g-link to="/about">About</g-link> -->
         <g-link to="/">Articles</g-link>
         <g-link to="/uses">Uses</g-link>
-        <g-link to="/uses">Open Source</g-link>
-
+        <g-link to="/contributions">Open Source</g-link>
         <a href="//twitter.com/_raygervais">Twitter</a>
         <a href="//github.com/raygervais">GitHub</a>
       </p>
@@ -75,13 +74,13 @@ export default {
       border-bottom: none;
       border-radius: 5px;
 
-      margin: 0 0.5em;
+      margin: 0 0.125em;
 
       padding: 1rem;
 
       &:hover {
-        color: var(--bg-color);
-        background: var(--title-color);
+        color: var(--text-color);
+        background: var(--bg-content-color);
         padding: 1rem;
       }
     }
