@@ -2,7 +2,7 @@
 title: Four Rules for Writing Scripts in Enterprise Environments
 published: true
 date: 2020-10-14
-tags: ["Linux", "Lessons", "BASH", "Microsoft Azure", "Google Cloud Platform"]
+tags: ["Linux", "Lessons", "BASH", "Microsoft Azure", "Google Cloud Platform", "Open Source"]
 cover_image: ./images/robynne-hu-HOrhCnQsxnQ-unsplash.jpg
 description: "Simply put, every environment I've worked in has had it's varied segregation of both MacOS and Windows-based workstations. When writing scripts in BASH, I found out the hard way that opening such a file in Windows (such as Notepad.exe, a classic for many) would automagically convert the line endings which would lead to the script breaking. When an entire team was using Windows 7 laptops and my team on MacOS, I had to explicitly put in both release notes for the script-based utility along with the repository header to not open the files in Windows."
 ---
