@@ -41,7 +41,7 @@ export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
   },
   metaInfo() {
     return {
@@ -50,55 +50,55 @@ export default {
         {
           key: "og:type",
           name: "og:type",
-          content: "article"
+          content: "article",
         },
         {
           name: "description",
-          content: this.$page.post.description
+          content: this.$page.post.description,
         },
         {
           key: "og:description",
           name: "og:description",
-          content: this.$page.post.description
+          content: this.$page.post.description,
         },
         {
           key: "twitter:card",
           name: "twitter:card",
-          content: "summary_large_image"
+          content: "summary_large_image",
         },
         {
           key: "twitter:image:alt",
           name: "twitter:image:alt",
-          content: `${this.$page.post.title} Cover Image`
+          content: `${this.$page.post.title} Cover Image`,
         },
         {
           key: "twitter:description",
           name: "twitter:description",
-          content: this.$page.post.description
+          content: this.$page.post.description,
         },
         {
           key: "og:image",
           name: "og:image",
-          content: this.$page.post.cover_image
+          content: this.$page.post.cover_image,
         },
         {
           key: "twitter:image",
           name: "twitter:image",
-          content: this.$page.post.cover_image
+          content: this.$page.post.cover_image,
         },
         {
           key: "og:title",
           name: "og:title",
-          content: this.$page.post.title
+          content: this.$page.post.title,
         },
         {
           key: "twitter:title",
           name: "twitter:title",
-          content: this.$page.post.title
-        }
-      ]
+          content: this.$page.post.title,
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

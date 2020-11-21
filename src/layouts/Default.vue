@@ -18,8 +18,8 @@
       <span class="footer__copyright"
         >Copyright © {{ new Date().getFullYear() }}.
       </span>
-      <span class="footer__links"
-        > Source on
+      <span class="footer__links">
+        Source on
         <a href="//github.com/raygervais/raygervais.dev">Github</a></span
       >
     </footer>
@@ -32,12 +32,12 @@ import ToggleTheme from "~/components/ToggleTheme.vue";
 
 export default {
   props: {
-    showLogo: { default: true }
+    showLogo: { default: true },
   },
   components: {
     Logo,
-    ToggleTheme
-  }
+    ToggleTheme,
+  },
 };
 </script>
 
@@ -66,7 +66,7 @@ export default {
 
 .main {
   margin: 0 auto;
-  padding: 1.5vw 15px 0;
+  // padding: 1.5vw 15px 0;
 }
 
 .footer {
