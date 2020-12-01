@@ -1,0 +1,24 @@
+baseURL: "https://raygervais.dev"
+languageCode: "en-us"
+title: "Ray Gervais"
+author: "RayGervais"
+theme: "hello-friend-ng"
+paginate: 50
+enableRobotsTXT: true
+
+params:
+  dateform        : "Jan 2, 2006"
+  dateformShort   : "Jan 2"
+  dateformNum     : "2006-01-02"
+  dateformNumTime : "2006-01-02 15:04"
+
+  homeSubtitle: "Topics of Programming, Techno-babble, Music, and Life through the eyes of a Canadian Software Developer."
+  defaultTheme: "dark"
+
+  enableSharingButtons: true
+
+  logo:
+    logoText: $ cd /home/
+    logoHomeLink : "/"
+    logoCursorColor: "#6FC1FF"
+

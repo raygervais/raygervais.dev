@@ -1,0 +1,3 @@
+[submodule "themes/piercer"]
+	path = themes/piercer
+	url = https://github.com/danielkvist/hugo-piercer-theme.git
