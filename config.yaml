@@ -3,7 +3,7 @@ languageCode: "en-us"
 title: "Ray Gervais"
 author: "RayGervais"
 theme: "hello-friend-ng"
-paginate: 50
+paginate: 25
 enableRobotsTXT: true
 
 params:
@@ -13,8 +13,30 @@ params:
   dateformNumTime : "2006-01-02 15:04"
 
   homeSubtitle: "Topics of Programming, Techno-babble, Music, and Life through the eyes of a Canadian Software Developer."
+  
   defaultTheme: "dark"
+  themeColor  : "#1a1d21"
 
+  # Metadata mostly used in document's head
+  description : "My new homepage or blog"
+  keywords    : "homepage, blog, programming, linux, music"
+  images      : ["dp_1600px.png"]
+
+  portrait:
+    path: "/images/dp_1600px.png"
+    alt : "Digital work by Ana Garcia"
+
+  social:
+  - name: "twitter"
+    url : "https://www.twitter.com/_raygervais"
+  - name: "twitch"
+    url : "https://www.twitch.tv/raygervaisdev"
+  - name: "github"
+    url : "https://www.github.com/raygervais"
+  - name: "spotify"
+    url : "https://open.spotify.com/artist/5LODSZD3tC5zbZwdcxnIVE"
+
+    
   enableSharingButtons: true
 
   logo:
