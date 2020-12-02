@@ -2,7 +2,7 @@
 title: "When Tweaking Doesn't Fit Anymore"
 date: 2017-12-01
 draft: false
-images: ["./images/Screenshot_20171130-223756-e1512102616116-1024x998.png"]
+Cover: "images/Screenshot_20171130-223756-e1512102616116-1024x998.png"
 tags: ["Opinions", "Android"]
 description: "When I was in Highschool, I remember spending every moment I could on XDA, Reddit, and various other Android tweak-centric mediums; emulating such tweaks and 'optimizations' on my device during breaks."
 ---

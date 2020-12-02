@@ -2,7 +2,7 @@
 title: "Contributing to Mozilla's Thimble"
 date: 2017-01-27
 draft: false
-images: ["./images/Thimble_Local.png"]
+Cover: "images/Thimble_Local.png"
 tags: ["Open Source", "Seneca", "OSD600", "Thimble", "Mozilla"]
 description: "An OSD600 contributions to Thimble, a web learning tool/editor based off of Adobe's Brackets."
 ---

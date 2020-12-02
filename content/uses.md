@@ -47,31 +47,22 @@ For most of my programming and computer hobbies, I still use the same desktop th
 | **Sound Card**               | Asus - Xonar DGX 24-bit 96 KHz Sound Card                                  |
 | **Sound Card**               | M-Audio Mbox II Mini                                                       |
 | **Wireless Network Adapter** | Gigabyte - GC-WB867D-I PCI-Express x1 802.11a/b/g/n/ac Wi-Fi Adapter       |
-| **Monitor**                  | LG 25 Inch Ultrawide 1080p                                                 |
-| **Mouse**                    | Pictek Wired Mouse                                                         |
-| **Keyboard**                 | Z-88 65% Mechanical Keyboard with Gateron Browns                           |
-| **Speakers**                 | Cheap Logitechs and Audio-Technica ATH-M30x Studio Headphones              |
+| **Monitor**                  | AOC 4K IPS Monitor (x2)                                                    |
+| **Mouse**                    | Logitech MX Master 2S                                                      |
+| **Keyboard**                 | Anne Pro 2 with Kailh Box Whites                                           |
+| **Speakers**                 | Audio-Technica ATH-M30x Studio Headphones, Personus Eris 3.5               |
 | **Microphone**               | Audio-Technica AT2020                                                      |
-| **Operating System**         | Windows 10 _with many Linux Docker Containers_ / Pop!OS                    |
+| **Operating System**         | Fedora 33                                                                  |
 
 <br />
 
-_As of now, I've swapped out and upgraded a few items in the quest for optimizing my workspace:_
-
-|              |                                  |
-| ------------ | -------------------------------- |
-| **Monitor**  | AOC 4K IPS Monitor               |
-| **Speakers** | Personus Eris 3.5                |
-| **Mouse**    | Logitech MX Master 2S            |
-| **Keyboard** | Anne Pro 2 with Kailh Box Whites |
-
 ### Laptops
 
-| Laptop             | Year | OS                  | Purpose                      |
-| ------------------ | ---- | ------------------- | ---------------------------- |
-| **Dell XPS 15**    | 2014 | Pop! OS & Fedora 31 | General Software Development |
-| **Macbook Pro 15** | 2015 | MacOS               | iOS and Android Development  |
-| **Macbook Pro 15** | 2019 | MacOS               | Cloud Engineering            |
+| Laptop             | Year | OS      | Purpose                      |
+| ------------------ | ---- | ------- | ---------------------------- |
+| **Dell XPS 15**    | 2014 | Pop! OS | General Software Development |
+| **Macbook Pro 15** | 2015 | MacOS   | iOS and Android Development  |
+| **Macbook Pro 15** | 2019 | MacOS   | Cloud Engineering            |
 
 ## Software & Tools
 

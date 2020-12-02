@@ -2,7 +2,7 @@
 title: "Taking Boostnote for a Spin"
 date: 2017-05-14
 draft: false
-images: ["./images/Boostnote-Workflow-1024x529.png"]
+Cover: "images/Boostnote-Workflow-1024x529.png"
 tags: ["Open Source", "Experiments", "Overview", "Productivity"]
 description: "Recently, I came across a review conducted by It’s FOSS which described a new open source project aimed at improving the experience of note taking for developers. Titled Boostnote, here’s what I gathered after making the software my default note taking application and snippet manager -replacing SimpleNote in the process."
 ---
