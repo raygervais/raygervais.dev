@@ -1,6 +1,6 @@
 baseURL: "https://raygervais.dev"
 languageCode: "en-us"
-title: "Ray Gervais"
+title: "RayGervais"
 author: "RayGervais"
 theme: "hello-friend-ng"
 paginate: 25
@@ -17,8 +17,7 @@ params:
   defaultTheme: "dark"
   themeColor  : "#1a1d21"
 
-  # Metadata mostly used in document's head
-  description : "My new homepage or blog"
+  description : "Topics of Programming, Techno-babble, Music, and Life through the eyes of a Canadian Software Developer."
   keywords    : "homepage, blog, programming, linux, music"
   images      : ["dp_1600px.png"]
 
