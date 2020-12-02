@@ -3,7 +3,7 @@ title: "Closing Two Weeks Completed of the 100 Days of Code Challenge"
 date: 2018-05-11
 tags: ["Open Source", "100 Days of Code", "Opinions", "Python"]
 draft: false
-image: https://images.unsplash.com/photo-1503449957946-d06ac01cf711?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjI0MX0&s=8a0d06a5d935e17dc1e00b0c09a4388a&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb
+Cover: https://images.unsplash.com/photo-1503449957946-d06ac01cf711?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjI0MX0&s=8a0d06a5d935e17dc1e00b0c09a4388a&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb
 description: "Wow, how quickly two weeks are passing by while you're busy enjoying every hour you can with code, technology, people, and for once, the weather. I'm even more surprised to see that I was able to maintain a small git commit streak (10 days, which was cut yesterday, more on that below) which is damn incredible considering that I spent 90% of my time outside of work away from a keyboard. I told myself that I would try my hardest to still learn and implement what I could while travelling, opting to go deep into the documentation (which I will include from what I can put from the various Git commits and search history below) and learning what it means to write `Pythonic` code."
 ---
 

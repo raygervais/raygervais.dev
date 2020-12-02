@@ -1,7 +1,7 @@
 ---
 title: "Building Visual Studio Code"
 date: 2018-01-26
-images: ["./images/Screen-Shot-2018-01-25-at-8.17.29-PM.png"]
+Cover: "images/Screen-Shot-2018-01-25-at-8.17.29-PM.png"
 draft: false
 tags: ["Open Source", "Seneca", "OSD700", "NodeJS", "Visual Studio Code"]
 description: "Building Visual Studio Code is quite the interesting process, mostly because the dependencies differ in obtainability between operating systems. For this article, I’m going through the process on MacOS High Sierra since it will be primary development machine for upcoming bug fixes, code improvements and contributions to Microsoft’s Visual Studio Code."

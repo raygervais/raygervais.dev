@@ -3,7 +3,7 @@ title: "The Importance of Properly Setting Up Your Linter"
 date: 2018-04-05
 draft: false
 description: "This week, having thought I had climbed and conquered the smallest imaginable version of Everest, I climbed into my favorite chair, put on headphones, and let hours pass by while finishing `Haunted Empire`. My phone went off during this time, but unless it was a call or message, I thought nothing of it. I finished the book, pleased with the epilogue and wondering if had it been updated with the current exploits and affairs of Apple, would the ending remarks differ."
-images: ["./images/photo-1471940393269-df205607fb2a.jpg"]
+Cover: "images/photo-1471940393269-df205607fb2a.jpg"
 tags: ["Open Source", "Seneca", "OSD700", "Lessons", "Software Development"]
 ---
 

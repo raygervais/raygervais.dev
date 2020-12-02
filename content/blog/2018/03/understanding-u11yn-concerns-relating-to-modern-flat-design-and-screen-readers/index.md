@@ -4,7 +4,7 @@ date: 2018-03-19
 draft: false
 tags: ["Open Source", "A11Y", "Opinions"]
 description: "Accessibility is one topic which not many take into account when designing and developing an application, website, or printed media even. The concept of visual and interactive accessibility relates to any medium which the user uses to discover and consume content from, and how different impairments hinder the common forms and designs useless and nonconsumable."
-images: ["./images/photo-1449087989455-465ae815dbf2.jpg"]
+Cover: "images/photo-1449087989455-465ae815dbf2.jpg"
 ---
 
 # Introduction & Screen Readers

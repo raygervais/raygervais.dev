@@ -2,7 +2,7 @@
 title: "Testing out a Flat File CMS: GRAV"
 date: 2018-12-09
 draft: false
-images: ["./images/Admin-Login-1024x538.png"]
+Cover: "images/Admin-Login-1024x538.png"
 tags: ["Opinions", "Overview", "Web Development", "Blogging"]
 description: "As a developer, I find a lot of the ‘magical’ moments occurring from discovering new technology, platforms and applications which challenge the norm, or go beyond the tried and true to carve a path both familiar and unfamiliar to the user. While reading either Reddit or HackerNew (cannot remember origin sorry!), I saw a comment comparing popular CMS platforms to a modern abstract interpretation: Flat-File based CMS; namely, GRAV. I decided that I’d take a look. I wanted this look to be brief, similar to how one may compare this look to a spike in a sprint, where some time is spent identifying the viability of investing further efforts and time into the task."
 ---

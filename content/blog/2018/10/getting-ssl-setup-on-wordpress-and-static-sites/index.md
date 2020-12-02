@@ -2,7 +2,7 @@
 title: "Getting SSL Setup on WordPress and Static Sites"
 date: 2018-10-29
 draft: false
-images: ["./images/DSC5524.jpg"]
+Cover: "images/DSC5524.jpg"
 tags: ["Web Development", "SSL", "Experiments", "Lessons"]
 description: "At the start of 2018, Google made a major push to rank and direct users to HTTPS websites in effort to be more web-safe; a fantastic way to push for such security onto as many websites as possible, aimed at those who care about there search rankings, privacy, and consumers. This also meant that at the time of writing this article, I was already at least eight months behind on this -and GoDaddy was the persistent parent who always reminded me of the HTTPS push, alongside their one-click-install SSL certificates sold on top of their hosting packages. In 2018, who wants to invest hundreds for SSL just to spend as much (if not more) in the next?"
 ---

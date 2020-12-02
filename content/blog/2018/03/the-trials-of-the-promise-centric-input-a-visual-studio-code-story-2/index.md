@@ -4,7 +4,7 @@ date: 2018-03-11
 draft: false
 tags: ["Open Source", "Seneca", "OSD700", "Visual Studio Code"]
 description: "In a previous post, I went through a retelling of anguish, environmental issues and dead ends while trying to evaluate how a bug such as this was possible. Throughout the process, I kept asking myself and even the other developers, what is the scope? Where could this bug be created?"
-images: ["36992001-86e3d98a-2077-11e8-8f7e-a7a1cb828a4f.gif"]
+Cover: "images/36992001-86e3d98a-2077-11e8-8f7e-a7a1cb828a4f.gif"
 ---
 
 _An OSD Contribution Update – Part 2_

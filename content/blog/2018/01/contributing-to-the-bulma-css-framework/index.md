@@ -1,7 +1,7 @@
 ---
 title: "Contributing to the Bulma CSS Framework"
 date: 2018-01-20
-images: ["./images/photo-1432847712612-926caafaa802-1024x683.jpeg"]
+Cover: "images/photo-1432847712612-926caafaa802-1024x683.jpeg"
 draft: false
 tags: ["Open Source", "Seneca", "OSD700", "CSS"]
 description: "I've been a major fan of Bulma ever since discovering it through the weekend project of developer Hassan Djirdeh (@djirdehh), https://www.cryptovue.com. On top of introducing me to the Bulma CSS framework which I instantly fell in love with, it also introduced me to VueJS, a JavaScript framework which, like Bulma, is capturing the attention of developers quicker and quicker each day. It's been at least five months since I had first discovered Bulma, and in that time it's already become my favorite CSS Framework and goto tool for Front-end Web Development. It's replaced Bootstrap, Foundation, and Semantic UI within the span of months; a task which I wouldn't consider easy by any means."

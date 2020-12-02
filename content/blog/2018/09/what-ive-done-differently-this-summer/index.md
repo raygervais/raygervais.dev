@@ -2,7 +2,7 @@
 title: "What I’ve Done Differently This Summer"
 date: 2018-09-03
 draft: false
-images: ["./images/DSC03413-2.jpg"]
+Cover: "images/DSC03413-2.jpg"
 description: "So, this blog post has been long overdue. There is both so many experiences and thoughts I want to share, and yet so few which I personally feel would be of any use to you. Regardless, without any order, here are some of the activities that I’ve enjoyed and also learned from this summer. For the technical, programming centric, let me follow that up with a smaller post since I didn’t commit anything major this summer outside of my work at ManuLife (which has its own lessons including Docker, Kubernetes, Concourse, Chef, … let’s write an article on that soon, okay?)."
 tags: ["Opinions", "Life Update", "Photography", "Music", "Hardware"]
 ---
