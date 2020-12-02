@@ -2,7 +2,7 @@
 title: "My First Impressions of Udacity's Kotlin for Android Development"
 date: 2019-01-15
 draft: false
-image: "./images/Android-Logo.jpg"
+Cover: "images/Android-Logo.jpg"
 tags: ["Open Source", "Android", "Udacity", "Software Development", "Overview"]
 description: "For 2019, one of my goals was to complete the Google/Udacity Kotlin for Android Development course. Since starting on the first, I’ve completed the first three `lessons` of ten in the course (sadly, it appears that they are still working on content for lessons five to ten, and have not published the work for them), so I thought I’d give my initial feedback and also thoughts on the course’s primary focus: developing Android applications using Kotlin.  Digging into the unfinished courses does provide the video files, so it’s possible to learn some of Lesson’s 5-10 on my own without the quizzes or sample code."
 ---

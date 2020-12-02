@@ -2,7 +2,7 @@
 title: "Approaching Minimalism"
 date: 2019-02-14
 draft: false
-image: "./images/photo-1520188740392-665a13f453fc.jpg"
+image: "images/photo-1520188740392-665a13f453fc.jpg"
 tags: ["Experiments", "Opinions", "Minimalism"]
 description: "If you were to ask anyone who knew me well, they’d claim that I have not exhibited values or mindsets which dance around the same way that a minimalists does. I am so far from such a genre (according to some), that I made the joke of calling myself the ‘failed minimalist’ to which, a chorus agreed. Yet, I don’t think it’s impossible for anyone to swing that direction if their interests focus that way. I’ve been conducting research through both YouTube and also forums on how individuals gradually converted over to minimalism -taking on lifestyles inspired by minimalism, and the common thread is that the once the mindset changes, the rest will follow. There are plenty of YouTubers explaining the concept, some of which I’ve included below (starting to see how big a fan I am of Matt D’Avella?) for anyone interested in learning more."
 ---
