@@ -13,7 +13,7 @@ tags:
     "Linux",
   ]
 description: "So on April 3rd, I managed to completely blow up my Pop!OS installation beyond repair. I blame Nvidia drivers and permissions, but it's also a reminder to `never fix what's not broken`. For the past month, I had really enjoyed being on Linux and tweaking about with various aspects of my desktop, yet even in that happiness my friends constantly reminded me of the applications that I used which don't support Linux. This included games, audio software, guitar effects for example. I decided hey, if my install is already borked and backed-up, let's install Windows 10 for the weekend and see how frustrated I can get. Solid plan, don't you think?"
-images: ["nasa-Q1p7bh3SHj8-unsplash.jpg"]
+Cover: "images/nasa-Q1p7bh3SHj8-unsplash.jpg"
 ---
 
 _This is a true story of pain and beating the odds. Not for the faint of heart. TLDR at the bottom for those looking for the exact workflow._
@@ -68,7 +68,7 @@ After much research, and consulting with Windows Guru Rafi, he asked me a questi
 
 Firstly, that option isn't included in the latest stable Docker desktop client which I had installed. Secondly, I started to curse the sparse environment setup documentation for such a scenario. True to the developer nature, any hotfix or workaround is not documented and forgotten about until that special moment where it's needed -often a few hours after it was needed. Time to install the Edge version of Docker Desktop!
 
-![Edge Docker Version](docker-edge-version.png)
+![Edge Docker Version](images/docker-edge-version.png)
 
 Once I had replaced Docker with the bleeding-edge client, I was greeted with another caveat: minimum build required for WSL-2 engine not meet. Damnit. So, enrolling into the Insider's build is what I did, based on others providing their blessing and support on the manner. The latest available on the slow channel was 2004, which would according to the NT-Based Telescope developers, fulfill the requirements. After enrolling, I saw a flurry of updates come down the pipeline, requiring at least 4 separate total-system reboots before 2004 started to download...Quite annoying to spend a Friday night in such a way, but truthfully what else was there to do? I got in quite a bit of reading in while everything ran.
 
@@ -82,11 +82,11 @@ I decided to cut my loses and follow a different method of debugging. The ultima
 
 Once I confirmed that no green (blue) screen of death would surprise me in anything but my sleep, I went about installing WSL 2, VS Code, and Docker. The bare essentials. _Minimalism_ at it's best. Ok, maybe Firefox as well, but that's because who can use Edge (pre-Chromium) willingly? With the sub-layer installed, Ubuntu installed and converted to version 2, and the unstable Docker client finished it's business, I opened Docker settings. For the last time.
 
-![Docker Edge Client Settings](docker-wsl-integration.png)
+![Docker Edge Client Settings](images/docker-wsl-integration.png)
 
 It was beautiful, the options being available for the Linux based engine instead of Hyper-V. This meant many great things, some that I'll go into in the next chapter, and others that I'll specify with as simply: I don't need Hyper-V itself for anything. I can run Android Studio alongside Docker for example without having to route one through Hyper-V and break runtime compatibility with the other. Cindy, you know just how much pain this causes. Having gotten to this point, I opted to start saving links which would become a pull request with updated documentation expanding on using WSL 2 for all Windows 10 editions.
 
-![Cindy Explaining Reboot Pains](Cindy-Docker-Android.png)
+![Cindy Explaining Reboot Pains](images/Cindy-Docker-Android.png)
 
 After opening Ubuntu through WSL, I decided to tempt fate. I ran `docker info`.
 
@@ -151,7 +151,7 @@ I'm not an emotional guy, but I have to admit that I did a fist-pump and small d
 
 ## Illuminating the Dark With a Pocket Lighter
 
-![Boat Of Docker DevOps Hope!](zoltan-tasi-sJGvoX_eVhw-unsplash.jpg"])
+![Boat Of Docker DevOps Hope!](./images/zoltan-tasi-sJGvoX_eVhw-unsplash.jpg)
 
 Now that ordeal is over, I knew that I wanted to contribute some documentation additions based on the experience and streamline how developers ramp-up to hacking on Telescope when on Windows. That documentation became [this pull-request](https://github.com/Seneca-CDOT/telescope/pull/975) which also included an interesting optimization that I had learned while going through the ordeal. At the start of March, I had landed [this update](https://github.com/Seneca-CDOT/telescope/pull/826) which went about adding Docker's multi-build container workflow to allow for caching of the node_modules (one of the most time-consuming concepts built in the recent decade), but one gotcha still existed: the front-end had to compile on each build due to component's reliance on scripts which existed outside of the front-end directory. Still, we dramatically reduced the build times to an average of 6 minutes compared to the ~12 which it used to be, and even before that reduced the final container size from ~1.6GB to ~250mb in [this addition](https://github.com/Seneca-CDOT/telescope/pull/687). The later I talk about [here](/article/reduced-container-sizes-with-multi-stage-docker-builds/) for those interested. I had little concern that time would improve the `Dockerfile` even further.
 

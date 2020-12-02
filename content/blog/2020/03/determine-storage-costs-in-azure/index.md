@@ -3,7 +3,7 @@ title: Determing Average Storage Costs via Azure with Python
 draft: false
 date: 2020-03-09
 tags: ["Open Source", "Python", "Azure", "Microsoft", "Analytics", "DevOps"]
-images: ["./images/pawel-czerwinski-M8NGA7njt2w-unsplash.jpg"]
+Cover: "images/pawel-czerwinski-M8NGA7njt2w-unsplash.jpg"
 description: "About a month ago, a photographer (and filmmaker in the making) friend approached me about hosting in Azure a copy of his media for safekeeping, and wanted to also understand an average cost over time as they'd add more files to the Storage Account. Funnily enough, this is a small application script that I had written before for the green office, along with a script that I had integrated into one of my monthly to-be-automated tasks here in the red office. I figured I's share the Simple Python script, seeing that despite some of the excellent documentation provided by Microsoft, there are multiple ways to approach the solution which can easily be mangled and confused with other solutions and recommendations."
 ---
 

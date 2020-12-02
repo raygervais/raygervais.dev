@@ -4,7 +4,7 @@ date: 2020-01-13
 draft: false
 tags: ["Open Source", "Ruby", "Testing", "Lessons"]
 series: false
-images: ["./images/nihonorway-graphy-nCvi-gS5r88-unsplash.jpg"]
+Cover: "images/nihonorway-graphy-nCvi-gS5r88-unsplash.jpg"
 canonical_url: false
 description: "Since joining my current employer, I've found myself working with Ruby programs more often so than other scripting languages. I can't really say just yet whether or not I enjoy working in the language, but it's syntax is no beauty such as Python. Instead, once getting past syntax which is comparable to a blended mix of multiple 2000s languages, it's built-in idioms draw you into a new level of thinking and designing. With all the recent exposure, including inheriting a legacy Ruby project and it's surrounding components, I decided for 2020 that I wanted to learn proper software testing and enterprise designs."
 ---

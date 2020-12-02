@@ -4,7 +4,7 @@ draft: false
 date: 2020-05-04
 tags: ["Lessons", "Open Source", "Opinions"]
 description: 'I''ve always had terrible luck focusing when not in the office, I believe the cause rooting from the environment itself implying that "work gets done" here vs at home. With that being said, it''s easy to imagine the past eight weeks that I''ve been "attempting" to work from home have been quite difficult. After acknowledging that we may be in this for the long haul, I knew that I''d have to find a better coping / focus strategy; one more rigid-yet-balanced, one which screams "productivity" and forces such. Essentially, I wanted a focus system which prioritized focused work in a single domain vs micro managing various domains between my work and personal tasks. It dawned on me that every phone I''ve ever used always had the same set of applications installed, including one which I used to leverage often in High School: a Pomodoro App.'
-images: ["./images/milkovi-eNLyZaguqC4-unsplash.jpg"]
+Cover: "images/milkovi-eNLyZaguqC4-unsplash.jpg"
 ---
 
 _My experience with Pomodoro, 9-5_

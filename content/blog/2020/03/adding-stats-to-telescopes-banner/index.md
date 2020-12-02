@@ -1,7 +1,7 @@
 ---
 title: "Adding Stats To Telescope's Banner Component in React"
 draft: false
-images: ["./images/pawel-czerwinski-syy3bLQaMNY-unsplash.jpg"]
+Cover: "images/pawel-czerwinski-syy3bLQaMNY-unsplash.jpg"
 date: 2020-03-16
 tags: ["Open Source", "OSD600", "ReactJS", "NodeJS", "Web Development"]
 description: "Initially, I leveraged the Login and Search components mentioned above as examples of how to both write JSX and also how to modify state. Coming from VueJS -where state's modified via `Vuex` (Redux), or via local components without a state or store, React's state management both made more sense out of the box (and this could be attributed to Cindys and A Garcia maintenance and development of the front-end) and more convoluted in comparison. It had the intimidation and challenging factor that I was looking forward to tackling and equally yearning to avoid for as long as possible."

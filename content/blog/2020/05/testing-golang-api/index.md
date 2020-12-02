@@ -11,7 +11,7 @@ tags:
     "Athenaeum",
     "Testing",
   ]
-images: ["./images/tomasz-frankowski-kBUfvkbFIoE-unsplash.jpg"]
+Cover: "images/tomasz-frankowski-kBUfvkbFIoE-unsplash.jpg"
 description: "Continuing on with last week's Athenaeum post, I mentioned that I wanted to explore easily overlooked processes or topics that junior developers don't always have the chance to dive into. The original intent being to allow the project to grow in such a way that it would demonstrate through it's iterative history a step-by-step example of taking a small project all the way to the big world of Public Clouds, Containers, and other infrastructure goodies. Along with that, I also wanted to explore software development patterns and testing practices. In this article, I want to explain what's been done so far: writing back-end unit tests and exploring the world of `code coverage`!"
 ---
 

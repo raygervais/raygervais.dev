@@ -2,7 +2,7 @@
 title: "Starting 2019 with a Retrospective"
 date: 2019-01-05
 draft: false
-images: ["./images/LRM_EXPORT_20180702_145151.jpg"]
+Cover: "images/LRM_EXPORT_20180702_145151.jpg"
 tags: ["Lessons", "Opinions", "Life Update", "Android", "Software Development"]
 description: "This past year has been full of lessons, just as every year before; an expected constant which I think is important to reflect upon just around the end to identify growth, ambitions and also sway between where life is taking you, and which steps you want to take. Instead of mentioning the negative lessons, inner turmoil and emotional demons, I wanted to touch upon some career and personal growth discoveries that I learned this past year - some even being common sense!"
 ---

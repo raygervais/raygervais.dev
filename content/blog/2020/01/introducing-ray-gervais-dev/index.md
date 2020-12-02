@@ -13,7 +13,7 @@ tags:
     "2020",
   ]
 series: false
-images: ["./images/takahiro-sakamoto-qW2F8rZGEWw-unsplash.jpg"]
+Cover: "images/takahiro-sakamoto-qW2F8rZGEWw-unsplash.jpg"
 canonical_url: false
 description: "I decided to depart from the tried-and-true LAMP stack (powered WordPress of course) for what appears to be the future of websites, the allure of the shiny and new: JavaScript, Apollo, Markdown. In truth, the later is what truly got me interested in committing to such as stack; editing a post like such as this one in Markdown simply feels ten times better, even compared toWordPress' admittedly fantastic modern editor. Throughout my note-taking life cycles, I've always opted for the ones which supported Markdown and allowed for file exports in the same format."
 ---

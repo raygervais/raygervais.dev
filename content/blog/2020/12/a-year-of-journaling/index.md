@@ -3,7 +3,7 @@ title: A Year of Journaling and Written Todos
 draft: false
 date: 2020-12-01
 tags: ["Opinions", "Life Updates"]
-images: ["./images/william-daigneault-7c8z4KEvgds-unsplash.jpg"]
+Cover: "images/william-daigneault-7c8z4KEvgds-unsplash.jpg"
 description: "Since January 2020, I've (for the first time) managed to use my preferred notebook as a daily todo list and (small) journal. I thought I'd share my opinions and some of the thoughts I've had on the subject. It should be no surprise to anyone that I _attempt_ to write physical todo lists wherever possible given my relationship with writing and `committing` a task or thought to page, so let's go over how I've been approaching basic bullet journaling."
 ---
 
@@ -29,7 +29,7 @@ So, I've opted to use my Journal for few rather specific usecases: todo lists an
 
 I'd advise to not let this short list limit your options, [OrganizedMom.net](https://www.organizedmom.net/must-pages-need-bullet-journal/) has a fantastic page on popular bullet journal pages, along with common posts in [/r/bulletjournal] and Ryder's book _The Bullet Journal Method_. An interesting note regarding the subreddit, if you search for [`engineer`](https://www.google.com/search?q=engineer+bullet+journal+site:www.reddit.com) in context with bullet journals, you'll see many posting similar methodologies or semantics which work for them in attempts to marry the technical and digital with the art of analog and physical. Commonly, I see also references to `GTD` (or Get Things Done) which is another productivty system which I hope to look into in the new year.
 
-## How I _Attempt_ To Plan My Day
+## How I Attempt To Plan My Day
 
 In same habit of the productive few, I try to plan my day in the morning. I never truly understood the concept of planning your tomorrow the night before because so much could occur between then and now. So, I'll list off major meetings I'm aware of (such as a demo), actionable goals for the day (such as debugging a bug, doing laundry, writing a blog post), and items which consume about two hours or more of my day (events, essentially). I've adapted some of the `Bullet Journal` syntax to one which I find to be more flexible. To better illustrate the syntax (and because I fear my own writing may be far beyond legible given the photo example), I've digitized it below. For some unspeakeable reason, I opt to write 99% of my notes and bullet items in cursive. This is perhaps to fight those who don't subscribe to privacy? Who knows. So, back to the semantics.
 

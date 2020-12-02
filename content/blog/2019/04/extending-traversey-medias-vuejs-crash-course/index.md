@@ -4,7 +4,7 @@ date: 2019-04-03
 draft: false
 tags:
   ["Open Source", "VueJS", "NodeJS", "Lessons", "Netlify", "Web Development"]
-images: ["./images/Full-1024x537.png"]
+Cover: "images/Full-1024x537.png"
 description: "After completing the two hour VueJS crash course, I felt the wanting to extend the functionality to include an edit, and details view. Furthermore, I wanted to integrate a new CSS framework as well to give the project a coherent and modern look -gasp, without using my framework of choice: Bulma? Well I want to learn something new, evaluate a skeleton (minimalist) framework. For this little addition, I was considering using a heavyweight framework such as Formantic UI (a community fork of Semantic UI), but instead landed on the minimalist framework Milligram. For this article, due to work also keeping me incredibly busy on top of other obligations, I opted to split up the two (styling vs functionality) with this article targeting the former. Without further ado, let’s talk about enhancing the experience."
 ---
 

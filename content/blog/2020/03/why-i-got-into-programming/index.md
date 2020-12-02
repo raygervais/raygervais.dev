@@ -3,7 +3,7 @@ title: Why I Got Into Programming
 draft: false
 date: 2020-03-30
 tags: ["Open Source", "Software Development"]
-images: ["./images/tom-parkes-Ns-BIiW_cNU-unsplash.jpg"]
+Cover: "images/tom-parkes-Ns-BIiW_cNU-unsplash.jpg"
 description: "Despite my constant drift to different technologies, operating systems and languages (which, to be fair is rather natural with the given task, ever-changing preferences, etc), I've found the motivation and drive behind has never changed. So I decided to write about it. Let's get the obvious (in my mind at least) out of the way first.
 "
 ---

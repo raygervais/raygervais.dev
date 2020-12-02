@@ -4,7 +4,7 @@ draft: false
 date: 2020-02-25
 tags: ["Open Source", "Docker", "DevOps", "NodeJS", "OSD600", "Optimizations"]
 description: "I had worked on Docker in the past for one of my internships, optimizing our microservice build pipeline to utilize multi-stage containers (at the sake of time complexity) which enabled far smaller artifacts to be stored in the private repository which had the compiled resources and bare minimum node-modules that were needed. For that microservice architecture, we successfully decreased the size from ~1GB (x 7 for the services) to ~140mb (x 7). That's just under 1GB for the entire architecture compared 7GB previously!"
-images: ["./images/pawel-czerwinski-f_sUgtC7lV0-unsplash.jpg"]
+Cover: "images/pawel-czerwinski-f_sUgtC7lV0-unsplash.jpg"
 ---
 
 ## RUN export context="this"

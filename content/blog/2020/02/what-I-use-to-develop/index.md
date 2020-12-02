@@ -3,7 +3,7 @@ title: "What I Use in 2020 For Software Development"
 tags: ["Life Updates", "Overview", "Open Source", "Linux"]
 draft: false
 date: 2020-02-10
-images: ["./images/pawel-czerwinski-e0TFOoOvynU-unsplash.jpg"]
+Cover: "images/pawel-czerwinski-e0TFOoOvynU-unsplash.jpg"
 description: "I figured I'd open up this article with explaining a few of the domains that I work in, both professionally and as a hobby. My hopes is that it provides a better context into some of the choices of technologies. For work, my current title is Cloud Engineer, and on the side, I find myself doing hobby programming in the web, mobile and open source domains."
 ---
 

@@ -11,7 +11,7 @@ tags:
     "CI/CD",
     "Lessons",
   ]
-images: ["./images/andrey-konstantinov-drir5tDCWF4-unsplash.jpg"]
+Cover: "images/andrey-konstantinov-drir5tDCWF4-unsplash.jpg"
 description: "Or at least, that's what we all think at the start of the project. Every code-base has their respective hacks, workarounds, and inconsistencies when not kept in check. I imagine that consistent code quality in each pull request is the goal, but we all know how easy it is for items to slip past our reviews. That's why I wanted to explore adding Code Analysis tooling from the very start to the project for both the front-end and back-end. Enter the first tool, Hound!"
 ---
 

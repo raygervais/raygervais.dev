@@ -2,7 +2,7 @@
 title: Embracing Terminal-Centric Workflows using Alacritty, Tmux, and Vim
 draft: false
 date: 2020-09-25
-images: ["./images/kilyan-sockalingum-8NH2_f5TxAA-unsplash.jpg"] 
+Cover: "images/kilyan-sockalingum-8NH2_f5TxAA-unsplash.jpg" 
 description: "I've long been inspired by the often beautiful -yet vastly nonfunctional- desktop setups found on /r/UnixPorn and other Linux-based forums. Often, starter packs describe a aesthetic and futuristic configuration to comprise of `Arch Linux` , `i3-gaps` , terminal-based interfaces, and `Vim` .
 "
 tags: ["Linux", "Vim", "Tmux", "Terminal", "Experiments", "Open Source"]

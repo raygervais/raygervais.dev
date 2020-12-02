@@ -15,7 +15,7 @@ tags:
     "Web Development",
   ]
 series: false
-images: ["./images/pawel-czerwinski-iXc5Y4wln8E-unsplash.jpg"]
+Cover: "images/pawel-czerwinski-iXc5Y4wln8E-unsplash.jpg"
 canonical_url: false
 description: "I've been working with Gridsome and VueJS for a few hobby projects throughout 2019, and was quite impressed with what JAMstacks offered. It intrigued the systematic side of me; the one which is always looking for efficiency, for the next big thing which bridges upcoming and established platforms and produces a user experience like no other. Having always resented the (truthfully, well developed) WordPress editors (both new and classic), the concept of writing blog posts in Markdown and having them compiled to a static website seemed incredibly modern. Imagine blogging without ever having to leave your editor (assuming you're confident in your spelling of course for this example!), and a commit taking that little markdown file to your published blog in such a way that you can't help but say grin in aw."
 ---
