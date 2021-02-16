@@ -4,42 +4,52 @@ title: "RayGervais"
 author: "RayGervais"
 theme: "hello-friend-ng"
 paginate: 25
+
 enableRobotsTXT: true
+enableGitInfo: false
+enableEmoji: true
+enableMissingTranslationPlaceholders: false
+disableRSS: false
+disableSitemap: false
+disable404: false
+disableHugoGeneratorInject: false
 
 params:
-  dateform        : "Jan 2, 2006"
-  dateformShort   : "Jan 2"
-  dateformNum     : "2006-01-02"
-  dateformNumTime : "2006-01-02 15:04"
+  dateform: "Jan 2, 2006"
+  dateformShort: "Jan 2"
+  dateformNum: "2006-01-02"
+  dateformNumTime: "2006-01-02 15:04"
 
   homeSubtitle: "Topics of Programming, Techno-babble, Music, and Life through the eyes of a Canadian Software Developer."
-  
-  defaultTheme: "dark"
-  themeColor  : "#1a1d21"
 
-  description : "Topics of Programming, Techno-babble, Music, and Life through the eyes of a Canadian Software Developer."
-  keywords    : "homepage, blog, programming, linux, music"
-  images      : ["dp_1600px.png"]
+  defaultTheme: "dark"
+  themeColor: "#1a1d21"
+
+  description: "Topics of Programming, Techno-babble, Music, and Life through the eyes of a Canadian Software Developer."
+  keywords: "homepage, blog, programming, linux, music"
+  images: ["dp_1600px.png"]
 
   portrait:
     path: "/images/dp_1600px.png"
-    alt : "Digital work by Ana Garcia"
+    alt: "Digital work by Ana Garcia"
 
+  disableReadOtherPosts: false
   social:
-  - name: "twitter"
-    url : "https://www.twitter.com/_raygervais"
-  - name: "twitch"
-    url : "https://www.twitch.tv/raygervaisdev"
-  - name: "github"
-    url : "https://www.github.com/raygervais"
-  - name: "spotify"
-    url : "https://open.spotify.com/artist/5LODSZD3tC5zbZwdcxnIVE"
+    - name: "twitter"
+      url: "https://www.twitter.com/_raygervais"
+    - name: "twitch"
+      url: "https://www.twitch.tv/raygervaisdev"
+    - name: "github"
+      url: "https://www.github.com/raygervais"
+    - name: "spotify"
+      url: "https://open.spotify.com/artist/5LODSZD3tC5zbZwdcxnIVE"
 
-    
   enableSharingButtons: true
 
   logo:
     logoText: $ cd /home/
-    logoHomeLink : "/"
+    logoHomeLink: "/"
     logoCursorColor: "#6FC1FF"
 
+  footerLeft: "The website of RayGervais"
+  footerRight: "Powered by <a href='https://gohugo.io/'>Hugo</a>, <a href='https://netlify.com'>Netlify</a>, and <a href='htts://github.com'>GitHub</a>"
