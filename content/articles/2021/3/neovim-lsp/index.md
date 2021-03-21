@@ -106,17 +106,24 @@ From a little research, Python appears to have quite a few Language Server imple
 
 ## Inital Experience
 
+### Bonus Feature, Telescope
+
+Upon digging deeper into the Dotfiles of VIM warriors, I noticed a common plugin which was deemed vital enough (spoiler, I completely agree with how amazing it is upon using it) to have dedicated YouTube video's such as []() to explain it. The neovim plugin [`Telescope`](https://github.com/nvim-telescope/telescope.nvim) is described as,
+
+>telescope.nvim is a highly extendable fuzzy finder over lists. Built on the latest awesome features from neovim core. Telescope is centered around modularity, allowing for easy customization.
+
+In a single phrase, I'd say that the plugin is blazingly fast and intuitive once setup for your preferred shortcuts. Essentially, it's a glorified wrapper around common BASH commands (to overstate it from a high level), and powered via grep. 
+
 ### Keybindings
 
-_Based on popularity, I've opted to make <SPACE> as the leader key_
+With the migration to NeoVim, a few keybindings that I identified as essential are the following. Based on online popularity, I opted to make <SPACE> the leader key for when the keybinding required one.
 
 | Action                | Keybinding         | Notes                                                       |
 | --------              | ------------       | -------                                                     |
 | Jump to definition    | `gd`               | - Ensure your cursor is over the exact field                |
 | Format markdown table | `<leader><Bslash>` | - You need to visually select the table you want to format. |
-|                       |                    |                                                             |
-
-### Comparision to VS Code
+| Fuzzy file search     | `<leader>ff`       | - Will only search for files in current PWD                 |
+| Open VIM buffers      | `<leader>fb`       |                                                             |
 
 ## Resources
 
