@@ -1,59 +1,63 @@
 ---
-title: "Getting Started with Neovim and LSP"
-tags: ["Open Source", "Rust", "Golang", "Ruby", "Python", "Software Development", "Lessons", "Overview", "Linux"]
-date: 2021-03-18
-Cover: "images/startae-team-8RX3W79_UTE-unsplash.jpg"
+title: "Getting Started with Neovim’s LSP" 
+tags: ["Open Source", "Rust", "Golang", "Ruby", "Python", "Software Development", "Lessons", "Overview", "Linux"] 
+date: 2021-03-28 
+Cover: images/startae-team-8RX3W79_UTE-unsplash.jpg
+description: "In my previous exploits around the terminal-based workflow -which, you can read about more here, I had setup a workflow with `tmux`, `alacritty`, and `vim` to great success for my average day tasks. Over the past while, I've wondered how I could further improve the setup and remove the context-switch which often occurred when working with other tooling such as VS Code. Plus, I may have been watching far too many of videos of the awesome ThePrimeagen and become star-struck at the idea of digging deeper into the VIM world. So, I thought why not?"
 ---
 
-_Or how to alienate yourself in the world of VS Code_
+*Or how to alienate yourself in the world of VS Code*
 
-In my previous exploits around the terminal-based workflow -which, you can read about more [here](https://raygervais.dev/articles/2020/09/embracing-terminal-centric-workflows/), I had setup a workflow with `tmux`, `alacritty`, and `vim` to great success for my average day tasks. Over the past while, I've wondered how I could further improve the setup and remove the context-switch which often occured when working with other tooling such as VS Code. Plus, I may have been watching far too many of videos of the awesome (ThePrimeagen)[https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw] and become star-struck at the idea of digging deeper into the VIM world. So, I thought why not? 
+In my previous exploits around the terminal-based workflow -which, you can read about more [here](https://raygervais.dev/articles/2020/09/embracing-terminal-centric-workflows/), I had setup a workflow with `tmux`, `alacritty`, and `vim` to great success for my average day tasks. Over the past while, I've wondered how I could further improve the setup and remove the context-switch which often occurred when working with other tooling such as VS Code. Plus, I may have been watching far too many of videos of the awesome (ThePrimeagen)\[https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw\] and become star-struck at the idea of digging deeper into the VIM world. So, I thought why not?
 
-Part of this could also derive from my lack of appreciation for the IDE-like features which come bundled by VS Code by default, resulting in the features becoming more of a bloat vs convience in my usecase. My everyday tasks often involve text editing more than writing brand new modules, so the natural step in the experiment made sense. Let's go all in on the vim world and try the long-rumored LSP integration which would restore the key feature which I leverage the most in VSCode!Let's get started! 
+Part of this could also derive from my lack of appreciation for the IDE-like features which come bundled by VS Code by default, resulting in the features becoming more of a bloat vs convience in my usecase. My everyday tasks often involve text editing more than writing brand new modules, so the natural step in the experiment made sense. Let's go all in on the vim world and try the long-rumored LSP integration which would restore the key feature which I leverage the most in VSCode!Let's get started!
 
 ## Installing Neovim 0.5
 
-For this experiment, I had opted to use my Macbook(s) so that I could replicate the configuration and workflow for both personal and work environments. Surely if this is successful I will update my [dotfiles repo](https://github.com/raygervais/dotfiles) and update my Fedora 33 setup accordingly! I thought that it would be a slew of build commands to get Neovim 0.5 (_nightly_), but luckily Homebrew rose to the challenge and provided a far easier command to set it all up: `brew install --HEAD neovim`.
+For this experiment, I had opted to use my Macbook(s) so that I could replicate the configuration and workflow for both personal and work environments. Surely if this is successful I will update my [dotfiles repo](https://github.com/raygervais/dotfiles) and update my Fedora 33 setup accordingly! I thought that it would be a slew of build commands to get Neovim 0.5 (*nightly*), but luckily Homebrew rose to the challenge and provided a far easier command to set it all up: `brew install --HEAD neovim`.
 
-From there, it was a matter of setting an `alias` for `nvim` to be `vim` purely so I can _lazily_ save a keystroke and not break muscle memory. In the FISH shell, this can be done with `alias vim nvim`. No scripts breaking on me tonight! 
+From there, it was a matter of setting an `alias` for `nvim` to be `vim` purely so I can *lazily* save a keystroke and not break muscle memory. In the FISH shell, this can be done with `alias vim nvim`. No scripts breaking on me tonight!
 
 ## Setting up LSP
 
-To leverage the LSP(s), we must first install an appropriate LSP per language we want to interact with. For this test, I opted for Golang, Rust, Python and Ruby; all languages I interact with frequently in a given week. Let's explore what's needed to get these setup on MacOS 11, Big Sur. 
+To leverage the LSP(s), we must first install an appropriate LSP per language we want to interact with. For this test, I opted for Golang, Rust, Python and Ruby; all languages I interact with frequently in a given week. Let's explore what's needed to get these setup on MacOS 11, Big Sur.
 
 ### Golang
 
+I found installing on MacOS the `golps` server to be far difficult compared to the other language servers, which is rather intriguing because VS Code makes it look so simple with `go get golang.org/x/tools/gopls@latest`. On Fedora 33, running this command seemed to install the server without any issues so, *shrug*.
+
 ### Rust
 
-For some reason, I kept getting errors when using the `rustup` toolbox (which is recommended by Rust itself) and ended up installing the `rust_analyzer` with `brew install rust_analyzer` which, appeared to be a wrapper around the original `rustup` setup. Once installed and configured in my `init.vim` file, I was greated with this awesome completion and suggestion dialog when working in a rust project! 
+For some reason, I kept getting errors when using the `rustup` toolbox (which is recommended by Rust itself) and ended up installing the `rust_analyzer` with `brew install rust_analyzer` which, appeared to be a wrapper around the original `rustup` setup. Once installed and configured in my `init.vim` file, I was welcomed with this awesome completion and suggestion dialog when working in a rust project!
 
 #### Completion Suggestions
 
-![Completion Suggestions Image](./imges/RustSemantics.png)
+ ![Completion Suggestions Image](./imges/RustSemantics.png)
 
 #### Function Arguments
 
-![Function Arguments Image](./images/RustFunctions.png)
+ ![Function Arguments Image](./images/RustFunctions.png)
 
 ### Python
+
 
 From a little research, Python appears to have quite a few Language Server implementations, I opted for for Microsoft's `pyright`, which can be installed with `npm install -g pyright`. Again, once configured in my `init.vim` -which, I really should split into multiple files, opening any Python file would trigger the language server to initialize, and within a second or two I'd have full access to the same power found inside VS Code.
 
 #### Errors
 
-![Errors Analysis Image](./images/PythonErrorsAnalysis.png)
+ ![Errors Analysis Image](./images/PythonErrorsAnalysis.png)
 
 ### Ruby
 
-`Solargraph` has been the defacto Ruby-based LSP for the past while, and after much endorsement from my team at work, I opted to install and leverage it with `gem install --user-install solargraph`. From there, opening any ruby file provides me with the all-judging eyes of those who know how to write _good_ Ruby code, and I'm reminded at-least a dozen times how much better I can improve my understanding of the language.
+`Solargraph` has been the defacto Ruby-based LSP for the past while, and after much endorsement from my team at work, I opted to install and leverage it with `gem install --user-install solargraph`. From there, opening any ruby file provides me with the all-judging eyes of those who know how to write *good* Ruby code, and I'm reminded at-least a dozen times how much better I can improve my understanding of the language.
 
 #### Analysis
 
-![Code Analysis](./images/RubySemantics.png)
+ ![Code Analysis](./images/RubySemantics.png)
 
 ### Final LSP Configuration
 
-```lua
+```bash
   local nvim_lsp = require('lspconfig')
 
   local on_attach = function(client, bufnr)
@@ -104,31 +108,42 @@ From a little research, Python appears to have quite a few Language Server imple
   }
 ```
 
-## Inital Experience
+## Initial Experience A Week In
 
-### Bonus Feature, Telescope
+*So, this blog post got sidetracked by at least a week due to other obligations coming up. Normally I'd be rather annoyed, but this provided me the chance to test the workflow out more and document my thoughts a week into using it for various use-cases.*
 
-Upon digging deeper into the Dotfiles of VIM warriors, I noticed a common plugin which was deemed vital enough (spoiler, I completely agree with how amazing it is upon using it) to have dedicated YouTube video's such as []() to explain it. The neovim plugin [`Telescope`](https://github.com/nvim-telescope/telescope.nvim) is described as,
+### Leveraging of the Language Servers
 
->telescope.nvim is a highly extendable fuzzy finder over lists. Built on the latest awesome features from neovim core. Telescope is centered around modularity, allowing for easy customization.
+So, let's talk performance. Though I need to conduct more A/B tests, I found neovim itself opens insanely quickly and the languages servers and the appropriate client connect a few seconds (less than 15 maybe?) after that. I need to compare with VS Code because I imagine this performance does not relate at all to the IDE and instead the servers themselves. The Ruby LSP for example (solargraph) takes a few seconds after the file has been loaded, and then I'm reminded once more of my failure to understand Ruby idioms at the time. I found the Rust server equally to be slower to start up in comparison, so I don’t believe the difference between an interpreted and compiled language matters in the case of the servers. Not to show my bias, but it appears we are on the same playing field in this case.
 
-In a single phrase, I'd say that the plugin is blazingly fast and intuitive once setup for your preferred shortcuts. Essentially, it's a glorified wrapper around common BASH commands (to overstate it from a high level), and powered via grep. 
+
+The overall coding experience of course I cannot complain about, on both iTerm and Alacritty scrolling in neovim using the mouse wheel feels fluid as it can be on a 60hz monitor. Editing code is an item I’m familiar with given my use of VI-based editors since the start of my career, but I am curious how the experience will change as I dig deeper into the workflow and also write *new* modules or packages using neovim exclusively. To conclude on this small section, I will remind you kind reader that I am one of those odd individuals who uses a 60% keyboard and thus, may be more attracted to chasing the non-standard purely for the novelty of it vs the value it provides. It’s a fun experiment, but equally detracts from an already established development tool which (rightly so) has become the market standard.
+
+### Bonus Feature, Telescope!
+
+Upon digging deeper into the Dotfiles of VIM warriors, I noticed a common plugin which was deemed vital enough (spoiler, I completely agree with how amazing it is upon using it) to have dedicated YouTube video's such as  to explain it. The neovim plugin `Telescope` is described as,
+
+> telescope.nvim is a highly extendable fuzzy finder over lists. Built on the latest awesome features from neovim core. Telescope is centered around modularity, allowing for easy customization.
+
+In a single phrase, I'd say that the plugin is blazingly fast and intuitive once setup for your preferred shortcuts. Essentially, it's a glorified wrapper around common BASH commands (to overstate it from a high level), and powered via grep. Already I've made great use of it while working in bigger projects and the idea of fuzzy search blows my mind. Why I didn't ever look into it before I'll never understand, but that could be considered a mistake easily. Within a few days, I default to opening a VIM instance in the root directory of a project and navigating between files entirely using Telescope's fuzzy search. Not to shill too much, but I can also confirm that it *feels* faster than leveraging a mouse to navigate directories and trees.
 
 ### Keybindings
 
-With the migration to NeoVim, a few keybindings that I identified as essential are the following. Based on online popularity, I opted to make <SPACE> the leader key for when the keybinding required one.
+With the migration to Neovim, a few keybindings that I identified as essential are the following. Based on online popularity, I opted to make <SPACE> the leader key for when the keybinding required one.
 
-| Action                | Keybinding         | Notes                                                       |
-| --------              | ------------       | -------                                                     |
-| Jump to definition    | `gd`               | - Ensure your cursor is over the exact field                |
+| Action | Keybinding | Notes |
+|----|----|----|
+| Jump to definition | `gd` | - Ensure your cursor is over the exact field |
 | Format markdown table | `<leader><Bslash>` | - You need to visually select the table you want to format. |
-| Fuzzy file search     | `<leader>ff`       | - Will only search for files in current PWD                 |
-| Open VIM buffers      | `<leader>fb`       |                                                             |
+| Fuzzy file search | `<leader>ff` | - Will only search for files in current Project and it’s respective sub directories. |
+| Open VIM buffers | `<leader>fb` | - Damn useful if you have multiple files open |
+| Toggle Line Diagnostics | `<leader>e` | - This will shut the servers up and let me write bad code! |
 
 ## Resources
 
-- [Medium: Neovim LSP, DAP and Fuzzy Finder](https://medium.com/swlh/neovim-lsp-dap-and-fuzzy-finder-60337ef08060)
-- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig#Keybindings-and-completion)
-    - [rust_analyzer](https://github.com/neovim/nvim-lspconfig#Keybindings-and-completion)
-    - [gopls](https://github.com/golang/tools/tree/master/gopls)
-    - [solargraph](https://solargraph.org)
+* [Medium: Neovim LSP, DAP and Fuzzy Finder](https://medium.com/swlh/neovim-lsp-dap-and-fuzzy-finder-60337ef08060)
+* [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig#Keybindings-and-completion)
+  * [rust_analyzer](https://github.com/neovim/nvim-lspconfig#Keybindings-and-completion)
+  * [gopls](https://github.com/golang/tools/tree/master/gopls)
+  * [solargraph](https://solargraph.org)
+
