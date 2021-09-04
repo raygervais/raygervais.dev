@@ -53,3 +53,10 @@ params:
 
   footerLeft: "The website of RayGervais"
   footerRight: "Powered by <a href='https://gohugo.io/'>Hugo</a>, <a href='https://netlify.com'>Netlify</a>, and <a href='htts://github.com'>GitHub</a>"
+
+
+imaging:
+  resampleFilter: "box"
+  quality: 75
+  anchor: "smart"
+  
