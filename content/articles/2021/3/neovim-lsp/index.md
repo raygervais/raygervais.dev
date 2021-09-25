@@ -14,6 +14,8 @@ Part of this could also derive from my lack of appreciation for the IDE-like fea
 
 ## Installing Neovim 0.5
 
+**UPDATE: Neovim 0.5 has been officially released and can be installed via `brew install neovim` or through any Linux package manager**
+
 For this experiment, I had opted to use my Macbook(s) so that I could replicate the configuration and workflow for both personal and work environments. Surely if this is successful I will update my [dotfiles repo](https://github.com/raygervais/dotfiles) and update my Fedora 33 setup accordingly! I thought that it would be a slew of build commands to get Neovim 0.5 (*nightly*), but luckily Homebrew rose to the challenge and provided a far easier command to set it all up: `brew install --HEAD neovim`.
 
 From there, it was a matter of setting an `alias` for `nvim` to be `vim` purely so I can *lazily* save a keystroke and not break muscle memory. In the FISH shell, this can be done with `alias vim nvim`. No scripts breaking on me tonight!
