@@ -1,0 +1,30 @@
+---
+title: "Transcribing a Podcast for Hacktoberfest 2021"
+tags: ["Lessons", "Open Source"]
+date: 2021-10-11
+Cover: images/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg
+description: "While discussing a plan of attack regarding finding and implementing Open Source issues which would count towards Hacktoberfest 2021, I was forwarded an idea which I never thought about from an open source & data perspective: validating the transcription of a Podcast episode."
+---
+
+
+# Transcribing a Podcast for Hacktoberfest 2021
+
+_Or, how to stretch a one-hour Podcast into a multi-hour listening experience_
+
+While discussing a plan of attack regarding finding and implementing Open Source issues which would count towards Hacktoberfest 2021, I was forwarded an idea which I never thought about from an open source & data perspective: validating the transcription of a Podcast episode. The Podcast? [Software Engineering Unlocked](https://www.software-engineering-unlocked.com) hosted by Doctor McKayla, who is described as `Michaela Greiler has a passion for understanding how people develop software. For years, she has been analyzing and improving the software development processes at Microsoft. Now she runs her own training and consultancy business, where she helps engineering teams around the world to make code reviews their superpower.`
+
+So after digging around the show's [Github](https://github.com/mgreiler/se-unlocked) and finding an episode which still needed validation (EP 41), I got to work. But, I had to first ask myself, what is work? How does one transcribe, and more importantly how does one validate something which has already been transcribed by another service? At the start, for the first two hours I was constantly listening, skipping back and forth by 15 seconds and confirming each breath, sentence and so one aligned with what I had just heard. This I'm sure is the most thorough way, but surely there had to be better practices. So, I started thinking of non-linear ways which could improve the transcription, an easy start being to ensure the speaker's names were spelled correctly, capitalized, and correct. 
+
+One easy win, but not enough in my opinion to validate a PR. Next, I had noticed sentences were broken into smaller statements when the speaker paused for a brief second between one thought and another. These broken sentences often start with `And`,  which a quick search can find in any editor of choice, and from there it's a matter of either listening to the audio (which I did at times), or reading the previous sentence for both context and debate on whether or not the thought was completed. Nine times out of ten, my search had proven that the `And` wasn't just a thought buffer, but instead the original transcriber AI breaking the sentence where a pause was believed to be the end. I did similar searches with `Um` and `Ah` and found similar patterns which were easy to correct.
+
+I had noticed the more edits I made, the quicker the formatting and max-column count broke in the article. At first, when I was making edits I'd also correct the formatting as I went along, but that really does waste a lot of time I found which could have been spent listening and validating. So, I thought of one program which I was _sure_ had an extension that would format a block of text based on a  max-column configuration: Visual Studio Code. Within seconds, I managed to install the [Rewrap extension](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) which would allow me to make changes with reckless abandon and commit to formatting in one swift gesture at the end. Would this skew the actually changed lines? Yes. Was I willing to accept this given that it was clear within the first 200 lines the changes I was making were based on logical deduction and relating what was said with the text? Also yes. I think we have a happy medium in this scenario.
+
+With the changes done, I was content to submit a PR that I believe improved the original transcription, but also started to wonder about the careers of transcribers and moreso how they achieve their successes. How does one accept the gap between accuracy and speed, and moreso what thought process occurs as they transcribe to ensure context remains present while also validating (or writing) previous statements? Lastly, how many years of practice does one have to take to leverage a [Stenotype](https://en.wikipedia.org/wiki/Stenotype) fluidly? Had they tried dvorak before?
+
+Finally, it presented my a third party insight into how we speak compared to how we write or read. When speaking, it's known fact that the brain throws in buffer words such as `Um`, `Ah`, `And` for example, but more so it also combines thoughts without a clear distinction. I know I suffer this quite a bit where I'd be mid sentence, realize the answer, better topic etc relating to what I am currently saying and jump immediately to it from my current breath. Often, we get pretty good at doing these "jumps" without breaking the flow or topic itself, but when read back the transition and "jumps" become very much more apparent. When writing, we have all the time to compose, structure and ensure the statements flow in a manner which reflects our intentions; yet when we speak, our brain often becomes a river of thought and statements which all must pass through a single crevice.  
+
+## Resources
+
+- [Cover Photo: Photo by Philipp Katzenberger on Unsplash](https://unsplash.com/photos/iIJrUoeRoCQ)
+- [Github: Improves Episode 41 PR](https://github.com/mgreiler/se-unlocked/pull/114)
+- [Sternotype](https://en.wikipedia.org/wiki/Stenotype)
