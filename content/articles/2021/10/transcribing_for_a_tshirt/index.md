@@ -6,9 +6,6 @@ Cover: images/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg
 description: "While discussing a plan of attack regarding finding and implementing Open Source issues which would count towards Hacktoberfest 2021, I was forwarded an idea which I never thought about from an open source & data perspective: validating the transcription of a Podcast episode."
 ---
 
-
-# Transcribing a Podcast for Hacktoberfest 2021
-
 _Or, how to stretch a one-hour Podcast into a multi-hour listening experience_
 
 While discussing a plan of attack regarding finding and implementing Open Source issues which would count towards Hacktoberfest 2021, I was forwarded an idea which I never thought about from an open source & data perspective: validating the transcription of a Podcast episode. The Podcast? [Software Engineering Unlocked](https://www.software-engineering-unlocked.com) hosted by Doctor McKayla, who is described as `Michaela Greiler has a passion for understanding how people develop software. For years, she has been analyzing and improving the software development processes at Microsoft. Now she runs her own training and consultancy business, where she helps engineering teams around the world to make code reviews their superpower.`
