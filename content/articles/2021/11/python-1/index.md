@@ -1,5 +1,5 @@
 ---
-title: "Learning Python with Doom, Part 1t"
+title: "Learning Python with Doom, Part 1"
 tags: ["Python", "Open Source", "Linux"]
 date: 2021-11-07
 Cover: images/nathan-dumlao-YPfyDFiNfcg-unsplash.jpg
