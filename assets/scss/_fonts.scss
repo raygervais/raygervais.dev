@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "Hasklig";
+  font-family: "Iosevka";
   font-style: monospace;
   font-display: auto;
   font-weight: 400;
-  src: url("../fonts/Hasklig-Regular.otf") format("otf");
+  src: url("https://cdn.jsdelivr.net/npm/@typopro/web-iosevka@3.7.5/TypoPRO-iosevka-term-regular.otf") format("otf"),
+       url("https://cdn.jsdelivr.net/npm/@typopro/web-iosevka@3.7.5/TypoPRO-iosevka-term-regular.ttf") format("truetype");
 }
