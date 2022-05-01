@@ -10,7 +10,7 @@
    color: #f8f8f2;
    background: #1a1d21 !important;
    background: none;
-   font-family: "Hasklig", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+   font-family: "Iosevka", Consolas, Monaco, 'Andale Mono', 'Fira Code', monospace;
    text-align: left;
    white-space: pre;
    word-spacing: normal;
@@ -24,6 +24,7 @@
    -moz-hyphens: none;
    -ms-hyphens: none;
    hyphens: none;
+   font-size: 1.15rem;
  }
  
  /* Code blocks */
@@ -123,4 +124,3 @@
  .token.entity {
    cursor: help;
  }
- 
