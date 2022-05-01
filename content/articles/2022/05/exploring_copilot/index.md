@@ -2,17 +2,61 @@
 title: "Exploring Github Copilot During a Hackathon"
 tags: ["Open Source", "Golang", "Rust", "Php", "Python", "C", "C++", "Dot.NET", "Haskell", "Swift", "Clojure", "Java"]
 date: 2022-05-01
-description: ""
+description: "I can remember it like it was just yesterday, I had a long weekend to myself planned to the brim with music and binging Lego Star Wars: The Skywalker Saga. It was the mental and youthful release that I was looking forward to after doing what felt like two weeks of continous overtime to meet a deadline. Then, out of nowhere while chatting with the now CSS-PRO @JamesInkster, the following exchange occurred which would change the course of said weekend" 
+Cover: images/jan-huber-0xNbk7D_s6U-unsplash.jpg
 ---
 
 _Or, how to distract yourself with technology while trying to build new technology at breakneck speeds_
 
-## Building a Golang-powered Backend
+## Building a Golang-powered Back-end
+
+I can remember it like it was just yesterday, I had a long weekend to myself planned to the brim with music and binging Lego Star Wars: The Skywalker Saga. It was the mental and youthful release that I was looking forward to after doing what felt like two weeks of continous overtime to meet a deadline. Then, out of nowhere while chatting with the now CSS-PRO [@JamesInkster](https://grommers.wordpress.com), the following (_reenactment_) exchange occurred: 
+
+> James: I want to work on a project again
+> Me: Bet. What if we did a hackathon this long weekend?
+> James: Sounds like a plan.
+
+And thus, my dreams of Lego and Music would wait a few more days as we dove into the unknown. Instead, we put together a semantic which would define the project and the requirement that similar to a well done Hackathon project, it would be fully working & presentable by the end of the weekend. 
+
+After much brainstorming, James came up with the idea of `Down 4 Whatever`, which was an application based around the concept of throwaway prompts that could be responded to within an hour of creation. It had potential, and followed the similar REST + Front-end paradigms that we knew where to go when starting. James wanted to focus on the CSS & front-end, which I was happy to avoid, so we decided I'd do the back-end which would serve the front-end similarly to the coming-back-into-style paradigm of server-side rendering. I chose Go for my back-end, and though it's not a new technology for me, it allowed me to experiment with design patterns and concepts that I had not yet had a chance to do so.
+
+It was after I had written the database models that I realized it wasn't just me looking at the code. Upon me going to write the first bit of CRUD functions for the models, I noticed a familiar prompt for the following: `func (db *Database) AddRoom(room *entities.Room) error {`. GitHub Copilot was active! In a moment of both curiosity and laziness, I thought, let's see what Copilot can do with my models if I were to ask it to write the CRUD functions. In a way, I could tell James would be annoyed because from a certain point of view, I was bypassing many of the coding requirements that I was responsible for. Still, that depends on your _point of view_, and mine was more interested in seeing what Copilot would suggest. To summarize, Copilot provided the following CRUD solutions (abridged to just the function headers) with very minimal human interaction: 
+
+```go
+// entities.Room CRUD
+func (db *Database) AddRoom(room *entities.Room) error
+func (db *Database) UpdateRoom(room *entities.Room)
+func (db *Database) GetRoom(id string) *entities.Room
+func (db *Database) RemoveRoom(id string)
+
+// This one took me giving a long-winded comment prompt, but Copilot figured it out
+func (db *Database) ListExpiredRooms() entities.RoomList
+
+// entities.Prompt CRUD
+func (db *Database) AddPrompt(id string, prompt *entities.Prompt) error
+func (db *Database) GetPrompts(id string) entities.PromptList
+func (db *Database) RemovePrompt(id string, promptId string)
+
+// entities.Comment CRUD
+func (db *Database) AddComment(id string, comment *entities.Comment) error
+func (db *Database) GetComments(id string) entities.CommentList
+```
+
+For the full source code, you can find the repository at [github.com/raygervais/dfw](https://github.com/raygervais/dfw). What I found interesting is while implementing the CRUD for the sub-resources (`Prompt`, `Comment`), Copilot took into account always retrieving the room associated with the `Id` provided in the arguments. Each function which interacts with a single room _object_ has the following at the start: 
+
+```go
+room := db.GetRoom(id)
+if room == nil {
+    return errors.New("Room not found")
+}
+```
+
+I find it really interesting that the suggestions also took into account my design, which was to have no true database and instead store the items in memory for their lifetime. 
 
 
 ## Feeding the Copilot Ideas
 
-At one point close to the end of our weekend-hackathon experiment, I wanted to depart from the current project and just mess with something else; the idea being the break would help realign and inspire when we returned to finish the project. James had not really seen or worked with Github Copilot before, so I thought it would be awesome to show him why it was so hyped during it's beta release. Yet, we didn't arrive to messing with it organically. Instead, we were doing leet-code styled questions purely to compare approaches to the solution. Upon proiding my solution in JavaScript below (and not accounting for runtime / space complexity), I wondered if I could use it as a prompt for Copilot. 
+At one point close to the end of our weekend-hackathon experiment, I wanted to depart from the current project and just mess with something else; the idea being the break would help realign and inspire when we returned to finish the project. James had not really seen or worked with GitHub Copilot before, so I thought it would be awesome to show him why it was so hyped during it's beta release. Yet, we didn't arrive to messing with it organically. Instead, we were doing leet-code styled questions purely to compare approaches to the solution. Upon providing my solution in JavaScript below (and not accounting for run-time / space complexity), I wondered if I could use it as a prompt for Copilot. 
 
 ```js
 function rounds_won(scores) {
@@ -81,7 +125,7 @@ def rounds_won(scores):
     return playerOneScore > playerTwoScore and playerOneScore or playerTwoScore
 ```
 
-For Python, `.count(x)` was leveraged instead of a `for` or filter loop. Quite efficent!
+For Python, `.count(x)` was leveraged instead of a `for` or filter loop. Quite efficient!
 
 ### Ruby
 
@@ -95,7 +139,7 @@ def rounds_won(scores)
   return playerOneScore > playerTwoScore ? playerOneScore : playerTwoScore
 ```
 
-Almost indistingusable from the `Python` version, but notice that it's not a direct copy-paste? Here, Copilot has omitted the `:` and instead is using a ternarny `?:` statement.
+Almost indistinguishable from the `Python` version, but notice that it's not a direct copy-paste? Here, Copilot has omitted the `:` and instead is using a ternary `?:` statement.
 
 
 ### Haskell
@@ -243,12 +287,12 @@ function roundsWon($scores) {
 }
 ```
 
-If I had this 6+ years ago, I might have enjoyed my internship writting PHP everyday.
+If I had this 6+ years ago, I might have enjoyed my internship writing PHP everyday.
 
 ### Rust
 
 ```rust
-// Language: Rust
+// Language: Rust using functional paradigms
 fn rounds_won(scores: &[i32]) -> i32 {
     let playerOneScore = scores.iter().filter(|&score| score == 1).count();
     let playerTwoScore = scores.iter().filter(|&score| score == 2).count();
@@ -256,3 +300,16 @@ fn rounds_won(scores: &[i32]) -> i32 {
     return playerOneScore > playerTwoScore ? playerOneScore : playerTwoScore;
 }
 ```
+
+
+### Closing Thoughts
+
+Let me preface first that aside from my original solution, I did not test any of the prompts and solutions provided by Copilot. Instead, I used the overall solutions as a thought experiment to compare what the AI was suggesting for each language vs how I'd do it in each language. 
+
+- The original implementation of the `Rust` solution leveraged for loops, but I found it really interesting that providing the prompt `// rust solution using functional paradigms`provided a vastly different solution which used the `filter()` function.
+- I'm absolutely dumbfounded to think of the amount of training data which went into Github Copilot to the point where it's learned the idioms of specific languages (such as C#'s naming semantics vs the original solution, the use of `:=` in the go solution, etc), but can also see where more training is needed given that each variable per-language still uses the same variable naming-scheme of my original solution.
+- Code reviews between junior and senior developers are going to become quite the gray area, because I can already tell how easily some will use the exact prompts provided by Copilot as their final solution. I understand the appeal, but I fear that it'll incentivize a generation of developers who don't `understand` the codebase they are `writing`. 
+
+## Resources
+
+- [Cover Image: Photo by Jan Huber on Unsplash](https://unsplash.com/photos/0xNbk7D_s6U)
