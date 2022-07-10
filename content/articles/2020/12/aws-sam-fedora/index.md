@@ -2,7 +2,7 @@
 title: Getting AWS SAM Running on Fedora 33
 draft: false
 date: 2020-12-11
-tags: ["Software Development", "AWS", "Golang", "Linux", "Open Source"]
+tags: ["Software Development", "AWS", "go", "Linux", "Open Source"]
 Cover: "images/ismail-enes-ayhan-lVZjvw-u9V8-unsplash.jpg"
 description: "My WSL 2.X setup finally kicked the bucket when Windows was acting far too slow as of recent, so I opted to reset everything and pursue a dual-boot configuration; my logic being that having dedicated systems for games/music and software development being easier to manage. On the Linux side, as the title suggests I decided to install Fedora 33 which I've had great experience with in the past."
 ---
@@ -13,7 +13,7 @@ _Or, how SELinux and Docker can destroy a weekend of ambition_
 
 My WSL 2.X setup finally kicked the bucket when Windows was acting far too slow as of recent, so I opted to reset everything and pursue a dual-boot configuration; my logic being that having dedicated systems for games/music and software development being easier to manage. On the Linux side, as the title suggests I decided to install [Fedora 33](https://getfedora.org/) which I've had great experience with in the past. Originally, I was inclined to return back to [Pop!OS](https://pop.system76.com/), but was curious to see what the state of Nvidia drivers looked like when not preconfigured. Following this [tutorial](https://itsfoss.com/install-nvidia-drivers-fedora/) allowed me to add support for my 1070 with little stress, so I was very content using Fedora going forward (and of course, bringing the Pop Shell tiling extension over to this environment).
 
-Now with my `deployed` environment, I had to configure it for a recent project I've been working on with James: Civitas - a league application with a Golang backend. I've previously written about the application, so I'll save describing the architecture for those posts. Instead, I'll explain the interesting part of the project. In attempts to learn, we've committed to transforming the (basic, at the time) CRUD API to run on serverless computing via AWS Lambda.
+Now with my `deployed` environment, I had to configure it for a recent project I've been working on with James: Civitas - a league application with a Go backend. I've previously written about the application, so I'll save describing the architecture for those posts. Instead, I'll explain the interesting part of the project. In attempts to learn, we've committed to transforming the (basic, at the time) CRUD API to run on serverless computing via AWS Lambda.
 
 ## Installing CLI(s)
 

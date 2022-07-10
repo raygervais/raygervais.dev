@@ -1,6 +1,6 @@
 ---
 title: "Exploring Github Copilot During a Hackathon"
-tags: ["Open Source", "Golang", "Rust", "Php", "Python", "C", "C++", "Dot.NET", "Haskell", "Swift", "Clojure", "Java"]
+tags: ["Open Source", "go", "Rust", "Php", "Python", "C", "C++", "Dot.NET", "Haskell", "Swift", "Clojure", "Java"]
 date: 2022-05-01
 description: "I can remember it like it was just yesterday, I had a long weekend to myself planned to the brim with music and binging Lego Star Wars: The Skywalker Saga. It was the mental and youthful release that I was looking forward to after doing what felt like two weeks of continous overtime to meet a deadline. Then, out of nowhere while chatting with the now CSS-PRO @JamesInkster, the following exchange occurred which would change the course of said weekend" 
 Cover: images/jan-huber-0xNbk7D_s6U-unsplash.jpg

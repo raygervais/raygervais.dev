@@ -14,7 +14,7 @@ I figured I'd open up this article with explaining a few of the domains that I w
 - Public Cloud Tooling (Microsoft Azure, Google Cloud Platform, Amazon Web Services)
 - Docker and Containerization Platforms
 - Continuous Integration / Continuous Delivery Processes
-- Developing Golang CLI and Platforms
+- Developing Go CLI and Platforms
 - Python Scripting
 - Infrastructure as Code
 

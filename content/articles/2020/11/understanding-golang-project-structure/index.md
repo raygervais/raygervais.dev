@@ -1,15 +1,15 @@
 ---
-title: Understanding Golang Project Structures
-tags: ["Open Source", "Golang", "Notes", "Software Development"]
+title: Understanding Go Project Structures
+tags: ["Open Source", "go", "Notes", "Software Development"]
 Cover: "images/anders-jilden-Sc5RKXLBjGg-unsplash.jpg"
 draft: false
 date: 2020-11-21
-description: "So I wanted to publish this in attempt to further my own understanding of proper Golang project file structures, especially after writing side projects with varying inflexible and incoherent file structures. I _will_ not in any form claim to understand what I'm talking about, and instead share this as if it were my own notes in attempts to understand why `/pkg` is found in every damn project."
+description: "So I wanted to publish this in attempt to further my own understanding of proper Go project file structures, especially after writing side projects with varying inflexible and incoherent file structures. I _will_ not in any form claim to understand what I'm talking about, and instead share this as if it were my own notes in attempts to understand why `/pkg` is found in every damn project."
 ---
 
 _A Cheatsheet which I hope to reference until memorized._
 
-So I wanted to publish this in attempt to further my own understanding of proper Golang project file structures, especially after writing side projects with varying inflexible and incoherent file structures. I _will_ not in any form claim to understand what I'm talking about, and instead share this as if it were my own notes in attempts to understand why `/pkg` is found in every damn project.
+So I wanted to publish this in attempt to further my own understanding of proper Go project file structures, especially after writing side projects with varying inflexible and incoherent file structures. I _will_ not in any form claim to understand what I'm talking about, and instead share this as if it were my own notes in attempts to understand why `/pkg` is found in every damn project.
 
 ## Folder Structure
 
@@ -21,7 +21,7 @@ Below, I've listed commonly found folders if you explored popular Go projects su
 - [Argo](https://github.com/argoproj/argo)
 - [micro](https://github.com/zyedidia/micro)
 
-_For a full list, see the *Golang Standards Project Layout* link below which has a far more extensive listing._
+_For a full list, see the *Go Standards Project Layout* link below which has a far more extensive listing._
 
 ### /cmd
 
@@ -56,12 +56,12 @@ _For a full list, see the *Golang Standards Project Layout* link below which has
 
 Go was written as a server language to be used internally at Google, and I believe it inherited much of it's semantics from such an environment. We can see this reflected in the project structure with `/pkg` and `/internal` implying a deep understanding of libraries being shared and used among various services. Furthermore, `/cmd` as the entrypoint and with the "least amount of logic" implies the idea further that applications and services are built upon libraries instead of the typical monolithic bits of logic bound to a single project.
 
-Another reason why I wanted to write this was due to following tutorials for various tasks which all had different structural patterns, leading me to submitting constant PRs which changed the overall folder structure without much explanation as to why. Having wrote this small post, I'm already far more confident (and also really apologetic to James and friends who've had to deal with my constant Golang "let's see if we can improve this by rewriting it....." antics in our projects).
+Another reason why I wanted to write this was due to following tutorials for various tasks which all had different structural patterns, leading me to submitting constant PRs which changed the overall folder structure without much explanation as to why. Having wrote this small post, I'm already far more confident (and also really apologetic to James and friends who've had to deal with my constant Go "let's see if we can improve this by rewriting it....." antics in our projects).
 
 _Will I follow this standard in my next Go project? Hopefully._
 
 # Resources
 
 - [Cover Image: Photo by Anders Jildén on Unsplash](https://unsplash.com/photos/Sc5RKXLBjGg)
-- [Golang Standards Project Layout](https://github.com/golang-standards/project-layout)
+- [Go Standards Project Layout](https://github.com/golang-standards/project-layout)
 - [Using Go Modules](https://blog.golang.org/using-go-modules)

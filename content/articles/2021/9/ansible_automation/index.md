@@ -98,7 +98,7 @@ From there, the next task in this role is to install `Code` directly from Micros
 
 * [Nord theme](https://www.nordtheme.com/)
 * [Dash integration](https://github.com/deerawan/vscode-dash)
-* [Golang support](https://github.com/golang/vscode-go)
+* [Go support](https://github.com/golang/vscode-go)
 * [Rust support](https://github.com/rust-lang/vscode-rustdocker)
 * [Docker support](https://github.com/microsoft/vscode-docker)
 * [TODO highlight](https://github.com/wayou/vscode-todo-highlight)

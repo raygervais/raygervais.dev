@@ -3,7 +3,7 @@ title: Lessons from Developing the GopherNotes 0.1.0 MVP
 date: 2021-01-04
 draft: false
 description: "I've wanted to write a Go-based application for a while now; the problem was always how to approach it without following the suspected purpose of said language: networking. See I've for a while been wanting to develop tooling which doesn't have to rely on API calls to provide value. A local note-jotting application made the most sense since it also fills a need of mine: a cli-centric workflow which is fast and flexible."
-tags: ["Overview", "Life Updates", "Lessons", "Golang", "Software Development"]
+tags: ["Overview", "Life Updates", "Lessons", "go", "Software Development"]
 series: false
 Cover: "images/wesson-wang-y0_vFxOHayg-unsplash.jpg"
 canonical_url: false
@@ -265,7 +265,7 @@ All things considered, I really did like the concept of the minimalistic / funct
 
 I have a certain naivety to how I approach ideas and projects without prior experience, and that is to assume you know best and form the other requirements as you go. It was here that I realized I truly had never written a proper CLI application which had real use-cases. I simply didn't know good/best practices to write such a thing. Instead of using common sense, I had gone with the challenge of writing the program in a specific manner instead of writing it properly. Interestingly, this flaw is incredibly evident when I go about writing synth-y music where I try to approach it from the most "complex, yet listenable" structure I can.
 
-Understanding that I need to properly learn how to write a Golang application, I discovered [Steve Hook's Reminders CLI tutorial](https://www.youtube.com/watch?v=-9CbX2MncZg) when I returned to the application much later in the year. His explanation of custom FlagSets and writing the CLI interface to map to a hashmap ala `cli.commands = map[string]func() func(string) error` was ingenious. It made the sub-command processing cakewalk and immediately revealed how much I could learn from his not-yet-completed-tutorial-series. Even with the tutorial repo already complete, I still await his videos in hopes I can soak up more understanding and nuance from his explanations. With his suggestions and my own newly-formed understanding of standard golang project structures, I was able to devise the following module structure:
+Understanding that I need to properly learn how to write a Go application, I discovered [Steve Hook's Reminders CLI tutorial](https://www.youtube.com/watch?v=-9CbX2MncZg) when I returned to the application much later in the year. His explanation of custom FlagSets and writing the CLI interface to map to a hashmap ala `cli.commands = map[string]func() func(string) error` was ingenious. It made the sub-command processing cakewalk and immediately revealed how much I could learn from his not-yet-completed-tutorial-series. Even with the tutorial repo already complete, I still await his videos in hopes I can soak up more understanding and nuance from his explanations. With his suggestions and my own newly-formed understanding of standard golang project structures, I was able to devise the following module structure:
 
 - /
   - cli

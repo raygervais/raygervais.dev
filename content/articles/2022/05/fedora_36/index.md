@@ -1,6 +1,6 @@
 ---
 title: "Setting up Fedora 36 From Scratch"
-tags: ["Open Source", "Golang", "Rust", "Linux"]
+tags: ["Open Source", "go", "Rust", "Linux"]
 date: 2022-05-22
 description: "For the first time in years, I managed to break my Fedora installation to the point where I thought, “hey, why not install from scratch and start fresh?” So I did." 
 Cover: images/Screenshot%20from%202022-05-22%2013-29-29.png
@@ -51,7 +51,7 @@ Since discovering `fish` I’ve yet to go back. The times where I miss having a 
 
 #### Language Servers
 
-- Golang → [gopls](https://pkg.go.dev/golang.org/x/tools/gopls)
+- Go → [gopls](https://pkg.go.dev/golang.org/x/tools/gopls)
 - Rust → [rls](https://github.com/rust-lang/rls)
 
 #### CLI Replacements
