@@ -19,7 +19,7 @@ For this little overview, we are going to use the built-in `testing/unit` ruby g
 
 ## Writing Your First Test
 
-Just as we do the iconic `Hello, World!` when learning new languages, we are going to do so with the testing example. This lesson is influenced by [Learning Golang with Tests](https://quii.gitbook.io/learn-go-with-tests/) which started off chapter one with the similar example. It's a fantastic resource as well that I'm going through, and may explain further in a different article. Just as below, let's write a class-based version of Hello World in `hello.rb` in the root of our empty project.
+Just as we do the iconic `Hello, World!` when learning new languages, we are going to do so with the testing example. This lesson is influenced by [Learning Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) which started off chapter one with the similar example. It's a fantastic resource as well that I'm going through, and may explain further in a different article. Just as below, let's write a class-based version of Hello World in `hello.rb` in the root of our empty project.
 
 ```rb
 # hello.rb

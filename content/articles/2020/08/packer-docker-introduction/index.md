@@ -5,7 +5,7 @@ date: 2020-08-28
 tags:
   [
     "Open Source",
-    "Golang",
+    "go",
     "Testing",
     "Ruby",
     "Docker",
@@ -63,7 +63,7 @@ HCL 1.0 could be mistaken for straight JSON, appearing as:
 }
 ```
 
-This JSON-esque control language I've seen since entering the Cloud Engineering world, and was rather interested in trying HCL2 for this experiment since it builds off of the experiences of Hashicorp's Terraform configuration language. That being, no more JSON and instead following a more Golang syntax. So, let's get started building a Ubuntu 20.04 Docker image! The final source code can be found [here](https://github.com/raygervais/packer-puppet-inspec-example) for those wanting to follow along. I've included Packer's JSON to HCL2 comments to help provide context where possible.
+This JSON-esque control language I've seen since entering the Cloud Engineering world, and was rather interested in trying HCL2 for this experiment since it builds off of the experiences of Hashicorp's Terraform configuration language. That being, no more JSON and instead following a more Go syntax. So, let's get started building a Ubuntu 20.04 Docker image! The final source code can be found [here](https://github.com/raygervais/packer-puppet-inspec-example) for those wanting to follow along. I've included Packer's JSON to HCL2 comments to help provide context where possible.
 
 ```hcl
 # file: ubuntu.pkr.hcl

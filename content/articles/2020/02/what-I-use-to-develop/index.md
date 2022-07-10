@@ -15,7 +15,7 @@ I figured I'd open up this article with explaining a few of the domains that I w
 - Docker
 - Continuous Integration / Continuous Delivery
 - Python, Ruby, Groovy scripting
-- Golang CLI and Tooling
+- Go CLI and Tooling
 - Infrastructure as Code
 
 On the side, I find myself doing hobby programming in the following domains:

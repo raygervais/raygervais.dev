@@ -2,7 +2,7 @@
 title: "An Introduction to Git Worktrees"
 tags: ["Open Source"]
 date: 2022-06-14
-description: "For the first time in years, I managed to break my Fedora installation to the point where I thought, “hey, why not install from scratch and start fresh?” So I did." 
+description: "Let me give you a scenario, and I’ll let you tell me if it’s one which you’ve encountered before. Simple deal I think, so let’s get on with painting a picture." 
 Cover: images/karsten-wurth-7BjhtdogU3A-unsplash.jpg
 ---
 

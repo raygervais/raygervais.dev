@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Neovim’s LSP" 
-tags: ["Open Source", "Rust", "Golang", "Ruby", "Python", "Software Development", "Lessons", "Overview", "Linux"] 
+tags: ["Open Source", "Rust", "go", "Ruby", "Python", "Software Development", "Lessons", "Overview", "Linux"] 
 date: 2021-03-28 
 Cover: images/startae-team-8RX3W79_UTE-unsplash.jpg
 description: "In my previous exploits around the terminal-based workflow -which, you can read about more here, I had setup a workflow with `tmux`, `alacritty`, and `vim` to great success for my average day tasks. Over the past while, I've wondered how I could further improve the setup and remove the context-switch which often occurred when working with other tooling such as VS Code. Plus, I may have been watching far too many of videos of the awesome ThePrimeagen and become star-struck at the idea of digging deeper into the VIM world. So, I thought why not?"

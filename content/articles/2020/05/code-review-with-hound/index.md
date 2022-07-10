@@ -5,7 +5,7 @@ date: 2020-05-19
 tags:
   [
     "Open Source",
-    "Golang",
+    "go",
     "NodeJS",
     "Software Development",
     "CI/CD",

@@ -1,11 +1,11 @@
 ---
-title: Writing Golang Tests for an Alcoholic REST API
+title: Writing Go Tests for an Alcoholic REST API
 draft: false
 date: 2020-05-25
 tags:
   [
     "Open Source",
-    "Golang",
+    "go",
     "Software Development",
     "Lessons",
     "Athenaeum",
@@ -21,7 +21,7 @@ Continuing on with last week's Athenaeum post, I mentioned that I wanted to expl
 
 ## How To Test Golang
 
-If you follow my Twitter, you'll see that I've been a huge fan of the [Learning Golang with Tests]() online book. The course I'd recommend to anyone who's interested in software development because aside from teaching Go's idioms, it also teaches fantastic Test Driven Development (TDD) semantics and the art of writing DRY (Don't Repeat Yourself) code. I'd argue, that even if you forget about Golang or adapt it the lessons to a different language, the wisdom found in the lessons are invaluable.
+If you follow my Twitter, you'll see that I've been a huge fan of the [Learning Go with Tests]() online book. The course I'd recommend to anyone who's interested in software development because aside from teaching Go's idioms, it also teaches fantastic Test Driven Development (TDD) semantics and the art of writing DRY (Don't Repeat Yourself) code. I'd argue, that even if you forget about Go or adapt it the lessons to a different language, the wisdom found in the lessons are invaluable.
 
 One thing that's explained in the first chapter, the `Hello, World!` of tests if you will, is Go comes with its own testing capabilities in the standard library. Any file with the naming scheme of `*_test.go` is viewed as a test file, not a run-time file (which allows for us to distinctly run a folder structure with `go run .` vs `go test`)! Likewise,
 
@@ -66,13 +66,13 @@ func TestGreet(t *testing.T) {
 
 So, what exactly does this do? Let's break down the process.
 
-1. I'm leveraging the testify (specifically, the assert sub-package) package by Stretchr. This is a common library used in Golang Testing for assert.\* patterns.
+1. I'm leveraging the testify (specifically, the assert sub-package) package by Stretchr. This is a common library used in Go Testing for assert.\* patterns.
 2. All test functions start with `Test`, which most IDEs will allow you to interact with and test on demand.
-3. From all the tutorials that I've seen around Golang testing, we're encouraged to create the `expected` struct/variable that will be referenced and compared later.
+3. From all the tutorials that I've seen around Go testing, we're encouraged to create the `expected` struct/variable that will be referenced and compared later.
 4. Received is the variable that will store the result of our function call.
 5. Let's compare the result compared to what we're expecting to have.
 
-With the above steps, you've written your first Golang Unit Test! The `Greet` function that we wrote is stupidly basic (and also a pure function, which is a nice little hat tip to my functional programming interests!), but allows for a great example of composing testable functions. The next question is, where do we go from here? What else could you test with the same concept? Here's a brief list of scenario's that I'll go into in greater detail later which could be tested in similar patterns:
+With the above steps, you've written your first Go Unit Test! The `Greet` function that we wrote is stupidly basic (and also a pure function, which is a nice little hat tip to my functional programming interests!), but allows for a great example of composing testable functions. The next question is, where do we go from here? What else could you test with the same concept? Here's a brief list of scenario's that I'll go into in greater detail later which could be tested in similar patterns:
 
 - Scenario: Your function parses a JSON response, and returns an error object if there were any issues.
   - Test: When provided a valid JSON response, our function should return `nil`
@@ -153,7 +153,7 @@ func TestBooksCRUD(t *testing.T) {
 ```
 
 1. I skipped the imports, but you can reference the [public version]https://github.com/raygervais/Athenaeum/blob/master/src/backend/main_test.go) for the complete source.
-2. I picked up the `performRequest` function from [Craig Childs' Golang Testing - JSON Responses with Gin](https://medium.com/@craigchilds94/testing-gin-json-responses-1f258ce3b0b1) tutorial. Makes for far cleaning code reuse.
+2. I picked up the `performRequest` function from [Craig Childs' Go Testing - JSON Responses with Gin](https://medium.com/@craigchilds94/testing-gin-json-responses-1f258ce3b0b1) tutorial. Makes for far cleaning code reuse.
 3. `TestBooksCRUD` has the familiar test function signature, so this should be familiar.
 4. `t.Run` allows us to define sub-tests which relate to the parent's context. I'm leveraging this concept to group tests which relate to each other together instead of creating dedicated functions for each.
 5. `w` is the response from our request, which is defined and executed using the helper function `performRequest`.
@@ -421,4 +421,4 @@ For clarity (and DRY principals), the most important piece of code is the `Setup
 - [Cover Image: Photo by Tomasz Frankowski on Unsplash](https://unsplash.com/photos/kBUfvkbFIoE)
 - [Athenaeum](https://github.com/raygervais/Athenaeum)
 - [Testing with Golang](https://quii.gitbook.io/learn-go-with-tests/)
-- [LogRocket's Tutorial: How To Build a REST API with Golang using Gin and Gorm](https://blog.logrocket.com/how-to-build-a-rest-api-with-golang-using-gin-and-gorm/)
+- [LogRocket's Tutorial: How To Build a REST API with Go using Gin and Gorm](https://blog.logrocket.com/how-to-build-a-rest-api-with-golang-using-gin-and-gorm/)
