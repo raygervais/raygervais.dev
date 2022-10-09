@@ -5,7 +5,7 @@ date: 2020-08-28
 tags:
   [
     "Open Source",
-    "go",
+    "Go",
     "Testing",
     "Ruby",
     "Docker",

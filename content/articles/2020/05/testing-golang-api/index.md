@@ -5,7 +5,7 @@ date: 2020-05-25
 tags:
   [
     "Open Source",
-    "go",
+    "Go",
     "Software Development",
     "Lessons",
     "Athenaeum",
