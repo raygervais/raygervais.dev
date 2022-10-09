@@ -1,6 +1,6 @@
 ---
 title: Understanding Go Project Structures
-tags: ["Open Source", "go", "Notes", "Software Development"]
+tags: ["Open Source", "Go", "Notes", "Software Development"]
 Cover: "images/anders-jilden-Sc5RKXLBjGg-unsplash.jpg"
 draft: false
 date: 2020-11-21

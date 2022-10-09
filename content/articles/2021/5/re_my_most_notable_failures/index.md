@@ -4,7 +4,7 @@ tags:
   [
     "Open Source",
     "Rust",
-    "go",
+    "Go",
     "Ruby",
     "Python",
     "Software Development",

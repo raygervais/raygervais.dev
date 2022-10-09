@@ -3,7 +3,7 @@ title: Lessons from Developing the GopherNotes 0.1.0 MVP
 date: 2021-01-04
 draft: false
 description: "I've wanted to write a Go-based application for a while now; the problem was always how to approach it without following the suspected purpose of said language: networking. See I've for a while been wanting to develop tooling which doesn't have to rely on API calls to provide value. A local note-jotting application made the most sense since it also fills a need of mine: a cli-centric workflow which is fast and flexible."
-tags: ["Overview", "Life Updates", "Lessons", "go", "Software Development"]
+tags: ["Overview", "Life Updates", "Lessons", "Go", "Software Development"]
 series: false
 Cover: "images/wesson-wang-y0_vFxOHayg-unsplash.jpg"
 canonical_url: false
