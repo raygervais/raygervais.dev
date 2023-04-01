@@ -8,20 +8,20 @@
 code[class*="language-"],
 pre[class*="language-"] {
   color: #f8f8f2;
-  background: #1a1d21 !important;
-  background: none;
-  font-family: "Jetbrains Mono", Consolas, Monaco, 'Andale Mono', 'Fira Code', monospace;
+  background: none !important;
+  font-family: 'Recursive', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  line-height: 1.45;
+  line-height: 1.55;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
   -webkit-hyphens: none;
   -moz-hyphens: none;
+  font-size: 1rem;
   -ms-hyphens: none;
   hyphens: none;
 }
