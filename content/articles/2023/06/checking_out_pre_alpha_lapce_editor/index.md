@@ -10,19 +10,19 @@ description: "Like any good *nix user, I’ve found enjoyment in following and e
 
 Like any good *nix user, I’ve found enjoyment in following and eventually testing out projects straight from someones basement while avoiding both commitment and technical norms! But on a more serious note, I do enjoy watching the landscape shift and grow around the tools that I use daily such as text editors. Though I am a frequent user of VS Code, those who’ve been part of any pair programming, screen sharing, or debugging sessions with me over the past years have seen me toying with (and, not exclusive to):
 
-- GNU Emacs
-- Doom Emacs
-- Neovim
-- Nano (that was a dark day.)
-- Kate
-- KDevelop (I absolutely have KDE / QT centric phases)
-- Gedit
-- Gnome Builder
-- Micro
-- Tea
-- Helix (still my favorite terminal text editor! I even wrote about some of my Hacktoberfest ramblings over here [https://raygervais.dev/articles/2021/10/color_helix_editor/](https://raygervais.dev/articles/2021/10/color_helix_editor/))
-- CudaText
-- LiteXL
+- [GNU Emacs](https://www.gnu.org/software/emacs/) > MX-love
+- [Doom Emacs](https://github.com/doomemacs/doomemacs) > The OS within an OS
+- [Neovim](https://neovim.io/) > The tried and true
+- [Nano](https://www.nano-editor.org/) > that was a dark day.
+- [Kate](https://kate-editor.org/)  > Mmmm, mininimalistic IDE
+- [KDevelop](https://kdevelop.org/) > I absolutely have KDE / QT centric phases)
+- [Gedit](https://wiki.gnome.org/Apps/Gedit) > One of the first editors I ever used back at Seneca
+- [Gnome Builder](https://wiki.gnome.org/Apps/Builder) > Still a fantastic experience when working within the GTK ecosystem
+- [Micro](https://micro-editor.github.io/) > Can Go be used for writing a text editor? Yes it can!
+- [Tea](https://github.com/psemiletov/tea-qt) > Meh.
+- [Helix](helix.dev) > still my favorite terminal text editor! I even wrote about some of my Hacktoberfest ramblings over [here](https://raygervais.dev/articles/2021/10/color_helix_editor/)
+- [CudaText](https://cudatext.github.io/)  > No overall opinion, wasn't overly a fan
+- [LiteXL](https://lite-xl.com/) > I really wanted to like LiteXL, and the startup times were incredibly promising
 
 Still, when I need to be productive I return to VS Code or Codium for majority of my text editing, unless I need to call upon the superpowers provided by a Jetbrains IDE. [https://github.com/xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) was an editor I dearly looked forward to testing, but [alas not all things work out as a planned](https://raphlinus.github.io/xi/2020/06/27/xi-retrospective.html) sometimes. Still, while following the talks around the XI editor, another interest surfaced from it’s development, the idea of a rust-based editor! Over time, the handle of “written in Rust” and “Blazingly Fast™️”  became quite the neon sign while browsing GitHub, which led me of course to Helix. But, two other editors also started to pop up in various subreddits, online forums, Twitter feeds even: [Zed](https://lapce.dev/), and [Lapce](https://lapce.dev/).
 
@@ -95,18 +95,18 @@ Nord theme on Lapce (left), and VSCodium (right)
 
 Similar to the plugins topic, themes are very limitied within the plugins space, but that can always change with time. Until then, I did find the following popular colorschemes within the marketplace:
 
-- Nord
-- Catppuccin
-- Solarized
-- Gruvbox
-- Monokai
-- Rose Pine
-- Adwaita
-- Tokyo Night
-- Github
-- Dracula
-- Dark+
-- Ayu
+- [Nord](https://www.nordtheme.com/)
+- [Catppuccin](https://github.com/catppuccin)
+- [Solarized](https://ethanschoonover.com/solarized/)
+- [Gruvbox](https://github.com/morhetz/gruvbox)
+- [Monokai](https://monokai.pro/)
+- [Rose Pine](https://rosepinetheme.com/)
+- [Adwaita](https://en.wikipedia.org/wiki/Adwaita_(design_language))
+- [Tokyo Night](https://github.com/enkia/tokyo-night-vscode-theme)
+- [Github](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+- [Dracula](https://draculatheme.com/)
+- [Dark+](https://code.visualstudio.com/)
+- [Ayu](https://github.com/ayu-theme/ayu-colors)
 
 ![Catppucinn Frappe theme showing the Git Diff view](./images/CatGitDiff.png)
 
@@ -146,3 +146,9 @@ In my testing, I was not able to find any means of debugging a running applicati
 ### UI Enhancements
 
 An interesting note, I’m unsure if it’s the theme developers not accounting for, or Lapce simply not supporting, but I could not seem to get italic fonts to render alongside my normal font in any way. A small item, but still worth noting.
+
+## Closing Thoughts
+
+Overall, for a pre-alpha I can't help but be impressed at the work gone into the editor; from the fast launch times to
+the built in language server support day 1, Lapce certainly has the makings of a great editor after further updates;
+perhaps it'll be yours. I know I'll be following along and trying out each release where possible!
