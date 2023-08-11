@@ -4,7 +4,7 @@
   text-decoration: none;
   font-weight: bold;
   font-display: auto;
-  font-family: monospace, monospace;
+  font-family: Space Mono, monospace, monospace;
 
   img {
     height: 44px;
@@ -39,9 +39,11 @@
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
