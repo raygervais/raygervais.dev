@@ -1,13 +1,20 @@
 ---
 title: Rationalizing gopher war-crimes
-description: ""
+description: "With all the recent drama around Rust and Typescript, I thought why not join in
+the fun and share some additional atrocities in another language common to my 
+blog, Go! Specifically, these are super unidiomatic helper functions which can 
+be found over all of my modern projects that I thought you may find humorous. 
+More so, you'll notice that all of my war-crimes here make heavy use of Go 
+generics, which were introduced in 1.18. I'm sure I'm part of the small user 
+group hoping for more to be added in the near future, but after reading a post 
+like this perhaps the community will _strongly_ disagree."
 tags: ["Open Source", "Go", "Cloud Engineering", "Kubernetes", "Cloud Native", "Software Development"]
 Cover: https://images.unsplash.com/photo-1561323578-0b8e6fdc11c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA
 date: 2023-09-09
 ---
 
 
-With all the recent drama around Rust and Typescript, I thought why not join in 
+With all the recent drama around Rust and Typescript, I thought why not join in
 the fun and share some additional atrocities in another language common to my 
 blog, Go! Specifically, these are super unidiomatic helper functions which can 
 be found over all of my modern projects that I thought you may find humorous. 
