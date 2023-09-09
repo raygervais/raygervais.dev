@@ -1,5 +1,5 @@
 ---
-title: Rationalizing gopher war-crimes
+title: Rationalizing Gopher War-crimes
 description: "With all the recent drama around Rust and Typescript, I thought why not join in
 the fun and share some additional atrocities in another language common to my 
 blog, Go! Specifically, these are super unidiomatic helper functions which can 
