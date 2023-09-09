@@ -134,10 +134,10 @@ func Chain[T any](val T, fn ...func(T) T) T {
 func main() {
 	// Ray's idiomatic way
 	var (
-		handle 	      	= "@raygervais@mastodon.social"
+		handle			= "@raygervais@mastodon.social"
 		domain 	  		= strings.Split(email, "@")[3]
-		domainFormatted	= strings.Replace(username, ".", " ", -1)
-		domainTitled	= strings.Title(domainFormatted)
+		domainFormatted		= strings.Replace(username, ".", " ", -1)
+		domainTitled		= strings.Title(domainFormatted)
 	)
 
 	// Ray's Chain way

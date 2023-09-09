@@ -9,7 +9,8 @@ code[class*="language-"],
 pre[class*="language-"] {
   color: #f8f8f2;
   background: none !important;
-  font-family: 'Space Mono', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-family: 'Victor Mono', 'Space Mono', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-weight: 600;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -51,6 +52,7 @@ pre[class*="language-"] {
 .token.doctype,
 .token.cdata {
   color: #636f88;
+  font-style: italic;
 }
 
 .token.punctuation {
