@@ -6,6 +6,9 @@ $light-background-secondary: #eaeaea;
 $light-color: #222;
 $light-color-secondary: #999;
 $light-border-color: #dcdcdc;
+$light-background-header: #f9f9f9;
+$light-color-variant: #6fc1ff;
+$light-table-color: #eaeaea;
 
 /* dark theme colors */
 $dark-background: #1a1d21;
@@ -13,6 +16,9 @@ $dark-background-secondary: #3b3d42;
 $dark-color: #c4cad1;
 $dark-color-secondary: #6fc1ff;
 $dark-border-color: #b084eb;
+$dark-background-header: #1a1d21;
+$dark-color-variant: #6fc1ff;
+$dark-table-color: #3b3d42;
 
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";
@@ -22,3 +28,6 @@ $media-size-tablet: "(max-width: 900px)";
   --phoneWidth: (max-width: 684px);
   --tabletWidth: (max-width: 900px);
 }
+
+/* Content */
+$max-width: 1500px;

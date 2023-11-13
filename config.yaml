@@ -6,13 +6,14 @@ theme: "hello-friend-ng"
 paginate: 25
 
 enableRobotsTXT: true
-enableGitInfo: false
+enableGitInfo: true
 enableEmoji: true
 enableMissingTranslationPlaceholders: false
 disableRSS: false
 disableSitemap: false
 disable404: false
 disableHugoGeneratorInject: false
+canonifyURLs: true
 
 params:
   dateform: "Jan 2, 2006"
@@ -47,6 +48,7 @@ params:
       url: "https://fosstodon.com/@_raygervais"
 
   enableSharingButtons: true
+  enableThemeToggle: true
 
   logo:
     logoText: $ cd /home/
@@ -56,9 +58,7 @@ params:
   footerLeft: "The website of <a rel='me' href='https://fosstodon.org/@raygervais'>RayGervais</a>"
   footerRight: "Powered by <a href='https://gohugo.io/'>Hugo</a>, <a href='https://netlify.com'>Netlify</a>, and <a href='htts://github.com'>GitHub</a>"
 
-
 imaging:
   resampleFilter: "box"
   quality: 75
   anchor: "smart"
-  
