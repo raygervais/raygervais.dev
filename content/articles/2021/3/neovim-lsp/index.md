@@ -2,7 +2,7 @@
 title: "Getting Started with Neovim’s LSP" 
 tags: ["Open Source", "Rust", "Go", "Ruby", "Python", "Software Development", "Lessons", "Overview", "Linux"] 
 date: 2021-03-28 
-Cover: images/startae-team-8RX3W79_UTE-unsplash.jpg
+Cover: https://images.unsplash.com/photo-1529119651565-dc15bd8c75fd?q=80&w=3870&auto=format&fit=crop
 description: "In my previous exploits around the terminal-based workflow -which, you can read about more here, I had setup a workflow with `tmux`, `alacritty`, and `vim` to great success for my average day tasks. Over the past while, I've wondered how I could further improve the setup and remove the context-switch which often occurred when working with other tooling such as VS Code. Plus, I may have been watching far too many of videos of the awesome ThePrimeagen and become star-struck at the idea of digging deeper into the VIM world. So, I thought why not?"
 ---
 
@@ -148,4 +148,4 @@ With the migration to Neovim, a few keybindings that I identified as essential a
   * [rust_analyzer](https://github.com/neovim/nvim-lspconfig#Keybindings-and-completion)
   * [gopls](https://github.com/golang/tools/tree/master/gopls)
   * [solargraph](https://solargraph.org)
-
+* [Cover Image: Photo by Startae Team on Unsplash](https://unsplash.com/photos/yellow-sticky-notes-on-gray-wall-8RX3W79_UTE)

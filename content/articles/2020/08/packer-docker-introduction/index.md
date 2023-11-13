@@ -15,7 +15,7 @@ tags:
     "CI/CD",
     "Lessons",
   ]
-Cover: "images/robert-v-ruggiero-BG-iyXjJiLs-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1543593450-4faaab9a0f6e?q=80&w=3870&auto=format&fit=crop
 description: "Hey friend, it's been a while since I last posted here -soon to be four months had I not started writing this article. It's been quite the past few months, but I thought about this subject quite a bit recently as enterprise lessons on design and iteration have prompted me wanting to explore similar practices. What am I exploring -as the title suggests, building Docker images leveraging infrastructure technologies and tooling such as Packer, Puppet, and InSpec! So, why would I use such technologies when a simple `Dockerfile` might suffice for an example like this? Because whereas a `Dockerfile` works only with Docker, these individual components allow us to create a modularized and portable set of layers which can be leveraged in various contexts, such as building virtual machines in a variety of public cloud providers such as Microsoft Azure, Google Cloud, and Amazon Web Services."
 ---
 

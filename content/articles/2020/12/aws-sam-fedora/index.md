@@ -3,7 +3,7 @@ title: Getting AWS SAM Running on Fedora 33
 draft: false
 date: 2020-12-11
 tags: ["Software Development", "AWS", "Go", "Linux", "Open Source"]
-Cover: "images/ismail-enes-ayhan-lVZjvw-u9V8-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1584169417032-d34e8d805e8b?q=80&w=3818&auto=format&fit=crop
 description: "My WSL 2.X setup finally kicked the bucket when Windows was acting far too slow as of recent, so I opted to reset everything and pursue a dual-boot configuration; my logic being that having dedicated systems for games/music and software development being easier to manage. On the Linux side, as the title suggests I decided to install Fedora 33 which I've had great experience with in the past."
 ---
 

@@ -14,7 +14,7 @@ tags:
     "Linux",
   ]
 date: 2021-05-11
-Cover: images/rene-bohmer-pfuoqnpClno-unsplash.jpg
+Cover: https://images.unsplash.com/photo-1508698308649-689249ec5455?q=80&w=3871&auto=format&fit=crop
 description: "So this week, Mr James Inkster (grommers) himself graced us with the first look into his thoughts for the past year in the form of a blog post titled, My Most Notable Failures. It was a damn good read; full of honesty and admittance not to actually making mistakes, but realizing that there's still so much more learning to do. That's how I interpreted many of the points he had raised, even going so far to say that by Breaking Linux by following random instructions online, he was truly becoming a real software developer by learning both how to break and fix your development environment. I then reminded him of the countless times that I had messed up my systems to the point beyond repair over the years and how it backtracked me less and less each time I was also inspired by the topic, because it contributes to a theme which I believe is long overdue: normalizing failure. In the spirit of sharing my own and continuing the trend, here's my response-esque post with a few of my own."
 ---
 

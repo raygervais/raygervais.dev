@@ -15,7 +15,7 @@ tags:
     "Web Development",
   ]
 series: false
-Cover: "images/pawel-czerwinski-iXc5Y4wln8E-unsplash.jpg"
+Cover: "https://images.unsplash.com/photo-1668162456452-11e6ca7c8608?q=80&w=3870&auto=format&fit=crop"
 canonical_url: false
 description: "I've been working with Gridsome and VueJS for a few hobby projects throughout 2019, and was quite impressed with what JAMstacks offered. It intrigued the systematic side of me; the one which is always looking for efficiency, for the next big thing which bridges upcoming and established platforms and produces a user experience like no other. Having always resented the (truthfully, well developed) WordPress editors (both new and classic), the concept of writing blog posts in Markdown and having them compiled to a static website seemed incredibly modern. Imagine blogging without ever having to leave your editor (assuming you're confident in your spelling of course for this example!), and a commit taking that little markdown file to your published blog in such a way that you can't help but say grin in aw."
 ---
@@ -193,6 +193,7 @@ The final output is what you're looking at right now, so I'll save you the bandw
 
 ## Resources
 
+- [Cover Image: Photo by Pawel Czerwinski on Unsplash](https://unsplash.com/photos/background-pattern-zd50NyMmNVg)
 - [WordPress to Markdown Tool](https://github.com/lonekorean/wordpress-export-to-markdown)
 - [How to Export WordPress Data](https://wpcrib.com/export-import-wordpress-website/)
 - [How to Export WordPress Posts to Gatsby](https://peterakkies.net/export-wordpress-to-gatsby-markdown/)

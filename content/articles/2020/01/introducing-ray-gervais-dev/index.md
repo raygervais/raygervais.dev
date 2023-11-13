@@ -13,7 +13,7 @@ tags:
     "2020",
   ]
 series: false
-Cover: "images/takahiro-sakamoto-qW2F8rZGEWw-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1492554929733-56d94d6b2fc3?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 canonical_url: false
 description: "I decided to depart from the tried-and-true LAMP stack (powered WordPress of course) for what appears to be the future of websites, the allure of the shiny and new: JavaScript, Apollo, Markdown. In truth, the later is what truly got me interested in committing to such as stack; editing a post like such as this one in Markdown simply feels ten times better, even compared toWordPress' admittedly fantastic modern editor. Throughout my note-taking life cycles, I've always opted for the ones which supported Markdown and allowed for file exports in the same format."
 ---
@@ -46,4 +46,5 @@ Lastly, Netlify's platform offerings have opened up a plethora of hosting option
 
 ## Follow Up Posts
 
+- [Cover Image: Photo by Tokahiro Sakamoto on Unsplash](https://unsplash.com/photos/curtain-wall-buildings-qW2F8rZGEWw)
 - [Porting my WordPress Site to a JAMStack](/article/migrating-a-word-press-site-to-jam-stack/)

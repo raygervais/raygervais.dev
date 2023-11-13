@@ -2,7 +2,7 @@
 title: "Bringing Colors to a Rusty Editor"
 tags: ["Rust", "Go", "Open Source"]
 date: 2021-10-23
-Cover: images/kevin-laminto-7PqRZK6rbaE-unsplash.jpg
+Cover: https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=3870&auto=format&fit=crop
 description: "Regardless of which is better (I still love both, so I won't imply a new generation of flame war), one thing which Helix had lacked was a proper `Nord` colorscheme which every other application on my desktop had adopted. So, I thought why not port the official [Nord](http://nordtheme.com) theme to it? Color themes are defined in `toml` files located at `~/.config/helix/themes/`, and appear to be key-value pairs. Easy enough. I fearlessly moved forward bringing the `Polar Night`, `Snow Storm`, `Frost`, and `Aurora` palettes."
 ---
 

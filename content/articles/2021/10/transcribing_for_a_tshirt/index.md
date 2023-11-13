@@ -2,7 +2,7 @@
 title: "Transcribing a Podcast for Hacktoberfest 2021"
 tags: ["Lessons", "Open Source"]
 date: 2021-10-11
-Cover: images/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg
+Cover: https://images.unsplash.com/photo-1548092372-0d1bd40894a3?q=80&w=3870&auto=format&fit=crop
 description: "While discussing a plan of attack regarding finding and implementing Open Source issues which would count towards Hacktoberfest 2021, I was forwarded an idea which I never thought about from an open source & data perspective: validating the transcription of a Podcast episode."
 ---
 

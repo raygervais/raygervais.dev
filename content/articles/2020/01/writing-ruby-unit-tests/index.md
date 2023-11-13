@@ -4,7 +4,7 @@ date: 2020-01-13
 draft: false
 tags: ["Open Source", "Ruby", "Testing", "Lessons"]
 series: false
-Cover: "images/nihonorway-graphy-nCvi-gS5r88-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1560317620-1ba88ae56e7b?q=80&w=3872&auto=format&fit=crop
 canonical_url: false
 description: "Since joining my current employer, I've found myself working with Ruby programs more often so than other scripting languages. I can't really say just yet whether or not I enjoy working in the language, but it's syntax is no beauty such as Python. Instead, once getting past syntax which is comparable to a blended mix of multiple 2000s languages, it's built-in idioms draw you into a new level of thinking and designing. With all the recent exposure, including inheriting a legacy Ruby project and it's surrounding components, I decided for 2020 that I wanted to learn proper software testing and enterprise designs."
 ---
@@ -280,7 +280,7 @@ Finished in 0.012552 seconds.
 
 ## Resources
 
-- [Cover Image](https://unsplash.com/photos/nCvi-gS5r88)
+- [Cover Image: Photo by Nihon Graphy on Unsplash](https://unsplash.com/photos/nCvi-gS5r88)
 - [Ruby Install](https://www.ruby-lang.org/en/documentation/installation/)
 - [Ruby Testing Documentation](https://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing)
 - [Dev.TO Writing Test Code in Ruby](https://dev.to/exampro/testunit-writing-test-code-in-ruby-part-1-of-3-44m2)

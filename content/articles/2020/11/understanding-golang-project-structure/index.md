@@ -1,7 +1,7 @@
 ---
 title: Understanding Go Project Structures
 tags: ["Open Source", "Go", "Notes", "Software Development"]
-Cover: "images/anders-jilden-Sc5RKXLBjGg-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?q=80&w=2400&auto=format&fit=crop
 draft: false
 date: 2020-11-21
 description: "So I wanted to publish this in attempt to further my own understanding of proper Go project file structures, especially after writing side projects with varying inflexible and incoherent file structures. I _will_ not in any form claim to understand what I'm talking about, and instead share this as if it were my own notes in attempts to understand why `/pkg` is found in every damn project."

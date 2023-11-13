@@ -13,7 +13,7 @@ tags:
     "Software Development",
   ]
 description: "David Humphrey's (and Seneca's) open source project, titled Telescope (for those who've been living under a rock) has reached the end of semester milestone goal of 1.0! Along with that, the 1000th issue and pull request was created, marking the classes internal milestone from what I understand. Watching this from an external perspective is quite the thrill. I remember telling Dave recently just how life changing telescope could be for some of the graduates; it truly is a project that unearths and shapes interests, teaches real software development and the combined rush / peril one can feel at any given second, version control when working in a team, and being proud of your work. In my opinion, I believe every single individual who frequents that Slack channel will see the dedication and pride that each contributor exerts into telescope."
-Cover: "images/julian-lozano-7KsEAafSnWk-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1495562091148-2f4efe7301df?q=80&w=3870&auto=format&fit=crop
 ---
 
 _I've probably rewrote aspects of this post three times, let's see how the fourth turns out._

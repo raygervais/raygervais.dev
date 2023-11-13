@@ -2,7 +2,7 @@
 title: "Learning Python with Doom, Part 2"
 tags: ["Python", "Open Source", "Linux"]
 date: 2021-12-19
-Cover: images/kal-visuals-1p_GtkK0SbQ-unsplash.jpg
+Cover: https://images.unsplash.com/photo-1545153996-16c1df09d5ce?q=80&w=2792&auto=format&fit=crop
 description: "In the previous segment, which I can apologetically say was released just over month ago, we started on a death counter terminal application. I thought, let's continue on explaining the application and expand on the following topics:"
 ---
 
