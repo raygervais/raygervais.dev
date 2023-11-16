@@ -3,7 +3,7 @@ title: "Writing an Awesome List using the GitHub API"
 tags: ["Open Source", "Python", "Go", "Rust"]
 date: 2022-06-14
 description: "One morning, I decided that I wanted to highlight the importance of a project claiming to be `blazingly fast`" 
-Cover: images/charlie-egan-_GuZXst-e1c-unsplash.jpg
+Cover: https://images.unsplash.com/photo-1535891519950-1746bb40da66?q=80&w=3870&auto=format&fit=crop
 ---
 
 *One morning, I decided that I wanted to highlight the importance of a project claiming to be `blazingly fast`*

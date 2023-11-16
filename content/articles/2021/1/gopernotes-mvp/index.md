@@ -5,7 +5,7 @@ draft: false
 description: "I've wanted to write a Go-based application for a while now; the problem was always how to approach it without following the suspected purpose of said language: networking. See I've for a while been wanting to develop tooling which doesn't have to rely on API calls to provide value. A local note-jotting application made the most sense since it also fills a need of mine: a cli-centric workflow which is fast and flexible."
 tags: ["Overview", "Life Updates", "Lessons", "Go", "Software Development"]
 series: false
-Cover: "images/wesson-wang-y0_vFxOHayg-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1468436139062-f60a71c5c892?q=80&w=3870&auto=format&fit=crop
 canonical_url: false
 ---
 

@@ -10,7 +10,7 @@ tags:
   ]
 draft: false
 date: 2020-02-05
-Cover: "images/pawel-czerwinski-lt891TUy6iw-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1574281193679-789c4602b15c?q=80&w=3870&auto=format&fit=crop
 description: "For much of January, a key deliverable of the team was to parse and send data between critical systems; a simple enough task really when worded like that. The complexity arose from the included business requirements and edge cases which drove the sprint estimate points from a capable `3` to a concerning `8`, knowing that only a single developer would be focused on this for 100% of their sprint until a POC to be demonstrated came from their efforts. Only then, could the team help carry the torch and make decisions based on the challenges encountered."
 ---
 

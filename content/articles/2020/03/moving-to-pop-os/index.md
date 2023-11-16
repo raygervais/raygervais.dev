@@ -1,6 +1,6 @@
 ---
 title: "Experiment: Moving to Pop!OS For A Month"
-Cover: "images/pawel-czerwinski-RBr5vfWUlec-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1559251621-65d8df899dd0?q=80&w=3870&auto=format&fit=crop
 draft: false
 date: 2020-03-02
 tags:

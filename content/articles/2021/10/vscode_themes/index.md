@@ -2,7 +2,7 @@
 title: "Fonts and Themes for my Linux Environment"
 tags: ["Rust", "Go", "Open Source", "Linux"]
 date: 2021-10-27
-Cover: images/nick-fewings-C2J92BO3qTw-unsplash.jpg
+Cover: https://images.unsplash.com/photo-1618262678184-774a53ba681a?q=80&w=3032&auto=format&fit=crop
 description: "I decided to write this after managing what would be considered a hell of a move: bringing down an entire cluster along with two months of the team's work with a single command. After all the humour, sometimes it's best to learn, document and move on from the experience itself so you and the rest are better prepared for next time. So, I thought I'd extrapolate on the my favorite code editor themes, and monospace fonts which grace my screen through the good and bad commits!"
 ---
 

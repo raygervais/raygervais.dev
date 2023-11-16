@@ -2,7 +2,7 @@
 title: "Leaving the Campsite Cleaner Than You Found It"
 tags: ["Life Update", "Software Development", "Lessons", "Open Source"]
 date: 2021-08-13
-Cover: images/xiaokang-zhang-0iQVFeCfb9Q-unsplash.jpg
+Cover: https://images.unsplash.com/photo-1519704917829-68da6d72c5a4?q=80&w=3884&auto=format&fit=crop
 description: "Today marks my last day working as a Cloud Engineer at Scotiabank, and I thought that in this bittersweet reminiscence, I'd like to share a few lessons and initiatives which the team and I observed as we went about `cleaning the campsite`. See, I've had the chance to work with incredible people here at Scotiabank for the past two years, but incredible is joined hand in hand with opinion and hard lessons along the way; resulting in critical questions being asked, compromises being debated and arguments around the term `friction` occurring."
 ---
 

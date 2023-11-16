@@ -141,9 +141,9 @@ func Chain[T any](val T, fn ...func(T) T) T {
 func main() {
 	// Ray's idiomatic way
 	var (
-		handle			= "@raygervais@mastodon.social"
-		domain 	  		= strings.Split(email, "@")[3]
-		domainFormatted		= strings.Replace(username, ".", " ", -1)
+		handle				= "@raygervais@mastodon.social"
+		domain				= strings.Split(email, "@")[3]
+		domainFormatted	= strings.Replace(username, ".", " ", -1)
 		domainTitled		= strings.Title(domainFormatted)
 	)
 
@@ -151,7 +151,8 @@ func main() {
 	domain := Chain("@raygervis@mastodon.social",
 		func(s string) string { return strings.Split(s, "@")[3] },
 		func(s string) string { return strings.Replace(s, ".", " ", -1) },
-		func(s string) string { return strings.Title(s) })
+		strings.Title,
+	)
 }
 ```
 

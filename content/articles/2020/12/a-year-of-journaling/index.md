@@ -3,7 +3,7 @@ title: A Year of Journaling and Written Todos
 draft: false
 date: 2020-12-01
 tags: ["Opinions", "Life Updates"]
-Cover: "images/william-daigneault-7c8z4KEvgds-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1523885140068-cafbdc242af7?q=80&w=3871&auto=format&fit=crop
 description: "Since January 2020, I've (for the first time) managed to use my preferred notebook as a daily todo list and (small) journal. I thought I'd share my opinions and some of the thoughts I've had on the subject. It should be no surprise to anyone that I _attempt_ to write physical todo lists wherever possible given my relationship with writing and `committing` a task or thought to page, so let's go over how I've been approaching basic bullet journaling."
 ---
 

@@ -2,7 +2,7 @@
 title: "Interesting Go Environment Variables"
 tags: ["Open Source", "Go", "Software Development"]
 date: 2022-01-30
-Cover: images/mariola-grobelska-4hAfwn_b2tw-unsplash.jpg
+Cover: https://images.unsplash.com/photo-1643494636269-30f20264a800?q=80&w=3987&auto=format&fit=crop
 description: "As of December 31st, 2021, Tori V’s latest track, `Let go of Me` was released to all streaming platforms! This track, which does feature my alias `Losing Signals` was both recorded, engineered, mixed and mastered by yours truly over the course of three months and 32+ emails later! Ironically, the work started on my 2015 Macbook Pro and Ableton stock instruments while I was up north tending to Dad, but that didn’t stop us from brainstorming and getting the *vibe* of the song. I thought I’d talk about the experience, and some interesting points learned while working on the track here!"
 ---
 

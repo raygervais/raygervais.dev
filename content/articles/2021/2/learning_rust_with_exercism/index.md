@@ -7,7 +7,7 @@ and being rated the number one developer loved language for the fifth year in a 
 Exercism.io, which is another take on the LeetCode and HackerRank style coding challenges with their own
 rust 'track'. I thought, why not try to learn the language this way? In this article, I want to describe the process and my thoughts
 after trying a few questions with _Exercism.io_ on the passive (vs mentored) mode."
-Cover: "images/startae-team-8RX3W79_UTE-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=3870&auto=format&fit=crop
 ---
 
 _The path to staying sharp means always learning_
@@ -249,7 +249,7 @@ I hope this isn't my last chance to play with Rust. I do intend on learning more
 
 ## Resources
 
-- [Cover Image: Photo by Startaê Team on Unsplash](https://unsplash.com/photos/8RX3W79_UTE)
+- [Cover Image: Photo by Alexandre Debieve on Unsplash](https://unsplash.com/photos/macro-photography-of-black-circuit-board-FO7JIlwjOtU)
 - [Rust.vim](https://github.com/rust-lang/rust.vim)
 - [What is Rust and why is it so popular?](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/)
 - [How Microsoft is adopting Rust](https://medium.com/the-innovation/how-microsoft-is-adopting-rust-e0f8816566ba)

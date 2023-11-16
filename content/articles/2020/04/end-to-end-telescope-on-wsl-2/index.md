@@ -13,7 +13,7 @@ tags:
     "Linux",
   ]
 description: "So on April 3rd, I managed to completely blow up my Pop!OS installation beyond repair. I blame Nvidia drivers and permissions, but it's also a reminder to `never fix what's not broken`. For the past month, I had really enjoyed being on Linux and tweaking about with various aspects of my desktop, yet even in that happiness my friends constantly reminded me of the applications that I used which don't support Linux. This included games, audio software, guitar effects for example. I decided hey, if my install is already borked and backed-up, let's install Windows 10 for the weekend and see how frustrated I can get. Solid plan, don't you think?"
-Cover: "images/nasa-Q1p7bh3SHj8-unsplash.jpg"
+Cover: https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=3872&auto=format&fit=crop
 ---
 
 _This is a true story of pain and beating the odds. Not for the faint of heart. TLDR at the bottom for those looking for the exact workflow._
@@ -150,8 +150,6 @@ WARNING: bridge-nf-call-ip6tables is disabled
 I'm not an emotional guy, but I have to admit that I did a fist-pump and small dance after seeing this output. With telescope cloned, `docker-compose up --build` ran like a long lost friend. My morning (well, my 3am Saturday morning) was made.
 
 ## Illuminating the Dark With a Pocket Lighter
-
-![Boat Of Docker DevOps Hope!](./images/zoltan-tasi-sJGvoX_eVhw-unsplash.jpg)
 
 Now that ordeal is over, I knew that I wanted to contribute some documentation additions based on the experience and streamline how developers ramp-up to hacking on Telescope when on Windows. That documentation became [this pull-request](https://github.com/Seneca-CDOT/telescope/pull/975) which also included an interesting optimization that I had learned while going through the ordeal. At the start of March, I had landed [this update](https://github.com/Seneca-CDOT/telescope/pull/826) which went about adding Docker's multi-build container workflow to allow for caching of the node_modules (one of the most time-consuming concepts built in the recent decade), but one gotcha still existed: the front-end had to compile on each build due to component's reliance on scripts which existed outside of the front-end directory. Still, we dramatically reduced the build times to an average of 6 minutes compared to the ~12 which it used to be, and even before that reduced the final container size from ~1.6GB to ~250mb in [this addition](https://github.com/Seneca-CDOT/telescope/pull/687). The later I talk about [here](/article/reduced-container-sizes-with-multi-stage-docker-builds/) for those interested. I had little concern that time would improve the `Dockerfile` even further.
 

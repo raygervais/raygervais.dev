@@ -2,7 +2,7 @@
 title: "Automating Fedora Developer Desktop Onboarding using Ansible"
 tags: ["Software Development", "Linux", "Open Source"]
 date: 2021-09-23
-cover: images/louis-reed-wSTCaQpiLtc-unsplash.jpg
+cover: https://images.unsplash.com/photo-1532186773960-85649e5cb70b?q=80&w=3871&auto=format&fit=crop
 description: "About once a year, I typically wipe out both my Windows and Linux systems, do a clean install and setup them up again with a fresh outlook on the needs of their uses. I find this to be a sane practice given that in a year, there's a whole bunch of junk one may download, install and forget about that was useful at the time. I have good friends like James who follow similar practices, albiet not by their choosing. Twice now I believe he's had to reset his new Dell XPS (first with the provided Ubuntu, then I moved him to the vastly more interested jokes Fedora), and it got me wondering how we could improve the onboarding and setup process."
 ---
 

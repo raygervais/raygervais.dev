@@ -2,7 +2,7 @@
 title: "Learning Python with Doom, Part 1"
 tags: ["Python", "Open Source", "Linux"]
 date: 2021-11-07
-Cover: images/nathan-dumlao-YPfyDFiNfcg-unsplash.jpg
+Cover: https://images.unsplash.com/photo-1510971875972-936a57163965?q=80&w=3870&auto=format&fit=crop
 description: "For the past month, I've been living at my dad's after a retinal detachment surgery left him both unable to drive or conduct detail sensitive work for a few weeks. In that time, he's been asking me about how the modern technical landscape compared to his previous experience where Visual Basic, Lotus Script and the early builds of .NET dominated the late 90s, Y2K, and early 2000s scenery."
 ---
 
