@@ -269,27 +269,34 @@
    * laying flush against the container's edges.
    */
   justify-content: space-between;
-  margin: 40px 20px;
+  margin: 80px 20px;
   height: 100%;
   width: 300px;
-  border-left: solid 1px #EBCB8B;
+  border-left: solid 1px $light-color-secondary;
   padding: 20px;
   position: -webkit-sticky;
   position: sticky;
   top: 120px;
+  transition: all 0.5s;
+  background-color: $light-table-color;
 
   &-item {
     cursor: pointer;
     padding: 5px 10px;
-    color: #A3BE8C;
+    color: $dark-background-secondary;
     font-size: 15px;
     font-family: "IBM Plex Mono", monospace;
+    transition: all 0.5s;
 
   }
+
+
+
 
   &-title {
     font-family: "IBM Plex Mono", monospace;
     // font-size: 14px;
+    color: $light-color-secondary;
     font-weight: 500;
     font-style: italic;
   }
@@ -315,5 +322,25 @@
       font-size: 18px;
     }
 
+  }
+
+  // For dark mode
+  [data-theme=dark] & {
+    border-left: solid 1px $dark-color-secondary;
+    // transition: all 0.5s;
+    background-color: $dark-table-color;
+
+    &-item {
+      cursor: pointer;
+      padding: 5px 10px;
+      color: $dark-color;
+      font-size: 15px;
+      font-family: "IBM Plex Mono", monospace;
+    }
+
+    &-title {
+      color: $dark-color-secondary;
+
+    }
   }
 }
