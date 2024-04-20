@@ -143,7 +143,7 @@ func main() {
 	var (
 		handle				= "@raygervais@mastodon.social"
 		domain				= strings.Split(email, "@")[3]
-		domainFormatted	= strings.Replace(username, ".", " ", -1)
+		domainFormatted		= strings.Replace(username, ".", " ", -1)
 		domainTitled		= strings.Title(domainFormatted)
 	)
 
