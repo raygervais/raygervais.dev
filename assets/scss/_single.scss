@@ -4,7 +4,7 @@
   text-align: left;
   padding: 20px;
   margin: 20px auto;
-  display: flex;
+  display: flexbox;
   justify-content: space-between;
 
   @media #{$media-size-tablet} {
@@ -269,9 +269,9 @@
    * laying flush against the container's edges.
    */
   justify-content: space-between;
-  margin: 80px 20px;
+  margin: 40px 0px;
   height: 100%;
-  width: 300px;
+  // width: 300px;
   border-left: solid 1px $light-color-secondary;
   padding: 20px;
   position: -webkit-sticky;
@@ -285,7 +285,7 @@
     padding: 5px 10px;
     color: $dark-background-secondary;
     font-size: 15px;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Jetbrains Mono", monospace;
     transition: all 0.5s;
 
   }
@@ -294,7 +294,7 @@
 
 
   &-title {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Jetbrains Mono", monospace;
     // font-size: 14px;
     color: $light-color-secondary;
     font-weight: 500;
@@ -335,7 +335,7 @@
       padding: 5px 10px;
       color: $dark-color;
       font-size: 15px;
-      font-family: "IBM Plex Mono", monospace;
+      font-family: "Jetbrains Mono", monospace;
     }
 
     &-title {
