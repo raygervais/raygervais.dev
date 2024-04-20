@@ -438,3 +438,37 @@ hr {
 .highlight {
   margin: 30px auto;
 }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  // padding: 5px 10px;
+  color: $dark-background-secondary;
+
+  // font-size: 1em;
+  // transition: all 0.5s;
+  &:hover {
+    // text-decoration: underline;
+    color: $light-color-secondary;
+    font-weight: 600;
+  }
+
+  [data-theme=dark] & {
+    //   border-top: solid 1px $dark-color-secondary;
+    //   // transition: all 0.5s;
+    background-color: $dark-background;
+
+    //   border: 0;
+
+    //   text-decoration: none;
+    //   cursor: pointer;
+    //   padding: 5px 10px;
+    color: $dark-color;
+
+    &:hover {
+      // text-decoration: underline;
+      color: $light-color-variant;
+      font-weight: 600;
+    }
+  }
+}

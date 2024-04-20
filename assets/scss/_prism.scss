@@ -6,11 +6,12 @@
  */
 
 code[class*="language-"],
-pre[class*="language-"] {
+pre[class*="language-"],
+pre {
   color: #f8f8f2;
-  background: #1a1d21 !important;
+  background: hsl(220, 13%, 18%) !important;
   font-family: 'Jetbrains Mono', ' Source Code Pro', Menlo, Consolas, ' DejaVu Sans Mono', monospace;
-  font-weight: 500;
+  font-weight: 400;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -22,9 +23,11 @@ pre[class*="language-"] {
   tab-size: 4;
   -webkit-hyphens: none;
   -moz-hyphens: none;
-  font-size: 1rem;
+  // font-size: 1rem;
   -ms-hyphens: none;
   hyphens: none;
+
+
 }
 
 

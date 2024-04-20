@@ -246,101 +246,80 @@
   }
 }
 
-// https://flexboxpatterns.com/side-bar
-.sidebar {
-  transition: all 0.5s;
-  /**
-   * This container orders items according to flexbox
-   * rules. By default, this would arrange its children
-   * horizontally. However, the next property...
-   */
-  flex: 1 0 300px;
+// // https://flexboxpatterns.com/side-bar
+// .sidebar {
+//   transition: all 0.5s;
+//   /**
+//    * This container orders items according to flexbox
+//    * rules. By default, this would arrange its children
+//    * horizontally. However, the next property...
+//    */
+//   flex: 1 0 300px;
 
-  /**
-   * ...sets the main axis to be vertical instead of
-   * horizontal, so now the children are laid out
-   * vertically, from top to bottom.
-   */
-  flex-direction: column;
+//   /**
+//    * ...sets the main axis to be vertical instead of
+//    * horizontal, so now the children are laid out
+//    * vertically, from top to bottom.
+//    */
+//   flex-direction: column;
 
-  /**
-   * It will also put as much space as possible
-   * between its children, with the children at either end
-   * laying flush against the container's edges.
-   */
-  justify-content: space-between;
-  margin: 40px 0px;
-  height: 100%;
-  // width: 300px;
-  border-left: solid 1px $light-color-secondary;
-  padding: 20px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 120px;
-  transition: all 0.5s;
-  background-color: $light-table-color;
-
-  &-item {
-    cursor: pointer;
-    padding: 5px 10px;
-    color: $dark-background-secondary;
-    font-size: 15px;
-    font-family: "Jetbrains Mono", monospace;
-    transition: all 0.5s;
-
-  }
+//   /**
+//    * It will also put as much space as possible
+//    * between its children, with the children at either end
+//    * laying flush against the container's edges.
+//    */
+//   justify-content: space-between;
+//   height: 100%;
+//   margin: 40px 0;
+//   // width: 300px;
+//   position: -webkit-sticky;
+//   position: sticky;
+//   top: 120px;
+//   transition: all 0.5s;
+//   background-color: $light-table-color;
 
 
 
 
-  &-title {
-    font-family: "Jetbrains Mono", monospace;
-    // font-size: 14px;
-    color: $light-color-secondary;
-    font-weight: 500;
-    font-style: italic;
-  }
+//   &-title {
+//     font-family: "Jetbrains Mono", monospace;
+//     // font-size: 14px;
+//     color: $light-color-secondary;
+//     font-weight: 500;
+//     font-style: italic;
+//   }
 
-  @media #{$media-size-tablet},
-  #{$media-size-phone} {
-    border: none;
-    margin: 0;
-    margin-top: 40px;
-    padding: 0;
-    width: 100%;
+//   @media #{$media-size-tablet},
+//   #{$media-size-phone} {
+//     border: none;
+//     margin: 0;
+//     margin-top: 40px;
+//     padding: 0;
+//     width: 100%;
 
-    &-item {
-      font-size: 14px;
-      padding: 0;
-    }
+//     &-item {
+//       font-size: 14px;
+//       padding: 0;
+//     }
 
-    &-item:last-child {
-      margin-bottom: 40px;
-    }
+//     &-item:last-child {
+//       margin-bottom: 40px;
+//     }
 
-    &-title {
-      font-size: 18px;
-    }
+//     &-title {
+//       font-size: 18px;
+//     }
 
-  }
+//   }
 
-  // For dark mode
-  [data-theme=dark] & {
-    border-left: solid 1px $dark-color-secondary;
-    // transition: all 0.5s;
-    background-color: $dark-table-color;
+//   // For dark mode
+//   [data-theme=dark] & {
+//     // transition: all 0.5s;
+//     background-color: $dark-background;
+//     border: 0;
 
-    &-item {
-      cursor: pointer;
-      padding: 5px 10px;
-      color: $dark-color;
-      font-size: 15px;
-      font-family: "Jetbrains Mono", monospace;
-    }
-
-    &-title {
-      color: $dark-color-secondary;
-
-    }
-  }
-}
+//     &-title {
+//       color: $dark-color-secondary;
+//     }
+//   }
+// }
