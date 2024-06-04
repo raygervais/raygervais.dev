@@ -53,7 +53,7 @@ For most of my programming and computer hobbies, I still use the same desktop th
 | **Keyboard**                 | Anne Pro 2 with Kailh Box Whites + QMK                                     |
 | **Speakers**                 | Audio-Technica ATH-M30x Studio Headphones, Personus Eris 3.5               |
 | **Microphone**               | Audio-Technica AT2020                                                      |
-| **Operating System**         | Fedora 36                                                                  |
+| **Operating System**         | Fedora 40                                                                  |
 
 <br />
 
