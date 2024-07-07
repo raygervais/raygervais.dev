@@ -1,13 +1,10 @@
 
 ---
-title: The Anne Pro 2 Replacemenet Project
+title: The Anne Pro 2 Replacement Project
 date: 2024-06-03
 tags: ["Open Source", "Linux"] 
 Cover: https://images.unsplash.com/photo-1630096711968-d118c17a173a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
-
-
-# The 2024 Anne Pro 2 Replacement Project
 
 _Because preferences of a Linux user don't stop at the software
 
