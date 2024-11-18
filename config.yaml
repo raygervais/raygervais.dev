@@ -45,7 +45,7 @@ params:
     - name: "spotify"
       url: "https://open.spotify.com/artist/5LODSZD3tC5zbZwdcxnIVE"
     - name: "mastodon"
-      url: "https://fosstodon.com/@_raygervais"
+      url: "https://mastodon.social/@_raygervais"
 
   enableSharingButtons: true
   enableThemeToggle: true
@@ -55,7 +55,7 @@ params:
     logoHomeLink: "/"
     logoCursorColor: "#6FC1FF"
 
-  footerLeft: "The website of <a rel='me' href='https://fosstodon.org/@raygervais'>RayGervais</a>"
+  footerLeft: "The website of <a rel='me' href='https://mastodon.social/@_raygervais'>RayGervais</a>"
   footerRight: "Powered by <a href='https://gohugo.io/'>Hugo</a>, <a href='https://netlify.com'>Netlify</a>, and <a href='htts://github.com'>GitHub</a>"
 
 imaging:
